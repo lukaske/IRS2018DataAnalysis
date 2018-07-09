@@ -1,0 +1,59 @@
+9.1280 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+9.9172 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1D79B3F0>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType=u'pyglet')
+9.9173 	EXP 	window1: recordFrameIntervals = False
+10.0826 	EXP 	window1: recordFrameIntervals = True
+10.2662 	EXP 	window1: recordFrameIntervals = False
+10.3895 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([   0.,  250.]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units='pix', win=Window(...), wrapWidth=500)
+10.3922 	EXP 	Created image123 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image123', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 400.,  400.]), texRes=128, units='pix', win=Window(...))
+10.4076 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([   0., -250.]), rgb=array([ 255.,  255.,  255.]), text='Press spacebar to continue', units='pix', win=Window(...), wrapWidth=500)
+10.4103 	EXP 	Created Photo = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Photo', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1000.,  1000.]), texRes=128, units='pix', win=Window(...))
+10.4340 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=30, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units='pix', win=Window(...), wrapWidth=500)
+10.4487 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=30, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='Thank you for participation!', units='pix', win=Window(...), wrapWidth=500)
+10.4586 	EXP 	Imported entry.xlsx as conditions, 4 conditions, 2 params
+10.4589 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+10.4591 	EXP 	New trial (rep=0, index=0): OrderedDict([('pix', u'logos/3.jpg'), ('source', u'properties3.xlsx')])
+10.4938 	EXP 	image123: image = u'logos/3.jpg'
+10.4938 	EXP 	text_2: autoDraw = True
+10.4938 	EXP 	image123: autoDraw = True
+10.4938 	EXP 	text_3: autoDraw = True
+24.3419 	DATA 	Keypress: space
+24.4073 	EXP 	Imported properties3.xlsx as conditions, 90 conditions, 5 params
+24.4081 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+24.4086 	EXP 	New trial (rep=0, index=0): OrderedDict([('image1', u'frogs/ab70.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+24.4197 	EXP 	text_2: autoDraw = False
+24.4197 	EXP 	image123: autoDraw = False
+24.4197 	EXP 	text_3: autoDraw = False
+24.4197 	EXP 	Photo: pos = array([ 0.,  0.])
+24.4197 	EXP 	Photo: image = u'frogs/ab70.jpg'
+24.4197 	EXP 	Photo: autoDraw = True
+24.9240 	EXP 	Photo: autoDraw = False
+24.9406 	EXP 	text_4: autoDraw = True
+25.3909 	DATA 	Keypress: a
+25.3943 	EXP 	New trial (rep=0, index=1): OrderedDict([('image1', u'frogs/ab79.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+25.4210 	EXP 	Photo: autoDraw = False
+25.4210 	EXP 	text_4: autoDraw = False
+25.4210 	EXP 	Photo: pos = array([ 0.,  0.])
+25.4210 	EXP 	Photo: image = u'frogs/ab79.jpg'
+25.4210 	EXP 	Photo: autoDraw = True
+25.9068 	EXP 	Photo: autoDraw = False
+25.9235 	EXP 	text_4: autoDraw = True
+26.2407 	DATA 	Keypress: a
+26.2432 	EXP 	New trial (rep=0, index=2): OrderedDict([('image1', u'frogs/ab44.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+26.2629 	EXP 	Photo: autoDraw = False
+26.2629 	EXP 	text_4: autoDraw = False
+26.2629 	EXP 	Photo: pos = array([ 0.,  0.])
+26.2629 	EXP 	Photo: image = u'frogs/ab44.jpg'
+26.2629 	EXP 	Photo: autoDraw = True
+26.7564 	EXP 	Photo: autoDraw = False
+26.7730 	EXP 	text_4: autoDraw = True
+27.0902 	DATA 	Keypress: a
+27.0927 	EXP 	New trial (rep=0, index=3): OrderedDict([('image1', u'frogs/ab73.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+27.1130 	EXP 	Photo: autoDraw = False
+27.1130 	EXP 	text_4: autoDraw = False
+27.1130 	EXP 	Photo: pos = array([ 0.,  0.])
+27.1130 	EXP 	Photo: image = u'frogs/ab73.jpg'
+27.1130 	EXP 	Photo: autoDraw = True
+27.6059 	EXP 	Photo: autoDraw = False
+27.6225 	EXP 	text_4: autoDraw = True
+35.8520 	DATA 	Keypress: escape
+35.9310 	EXP 	window1: mouseVisible = True

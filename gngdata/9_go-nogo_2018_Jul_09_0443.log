@@ -1,0 +1,2598 @@
+18.1308 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+20.3019 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1A7E9FB0>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType=u'pyglet')
+20.3020 	EXP 	window1: recordFrameIntervals = False
+20.4667 	EXP 	window1: recordFrameIntervals = True
+20.6505 	EXP 	window1: recordFrameIntervals = False
+20.9256 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([   0.,  250.]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units='pix', win=Window(...), wrapWidth=500)
+20.9339 	EXP 	Created image123 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image123', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 400.,  400.]), texRes=128, units='pix', win=Window(...))
+20.9925 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([   0., -250.]), rgb=array([ 255.,  255.,  255.]), text='Press spacebar to continue', units='pix', win=Window(...), wrapWidth=500)
+20.9992 	EXP 	Created Photo = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Photo', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1000.,  1000.]), texRes=128, units='pix', win=Window(...))
+21.0791 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='Thank you for participation!', units='pix', win=Window(...), wrapWidth=500)
+21.1250 	EXP 	Imported entry.xlsx as conditions, 4 conditions, 2 params
+21.1262 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+21.1274 	EXP 	New trial (rep=0, index=0): OrderedDict([('pix', u'logos/4.jpg'), ('source', u'properties4.xlsx')])
+21.2012 	EXP 	image123: image = u'logos/4.jpg'
+21.2012 	EXP 	text_2: autoDraw = True
+21.2012 	EXP 	image123: autoDraw = True
+21.2012 	EXP 	text_3: autoDraw = True
+36.7789 	DATA 	Keypress: space
+36.8511 	EXP 	Imported properties4.xlsx as conditions, 90 conditions, 5 params
+36.8518 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+36.8523 	EXP 	New trial (rep=0, index=0): OrderedDict([('image1', u'frogs/ab23.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+36.8996 	EXP 	text_2: autoDraw = False
+36.8996 	EXP 	image123: autoDraw = False
+36.8996 	EXP 	text_3: autoDraw = False
+36.8996 	EXP 	Photo: pos = array([ 0.,  0.])
+36.8996 	EXP 	Photo: image = u'frogs/ab23.jpg'
+36.8996 	EXP 	Photo: autoDraw = True
+37.3608 	EXP 	Photo: autoDraw = False
+38.3447 	DATA 	Keypress: l
+38.3480 	EXP 	New trial (rep=0, index=1): OrderedDict([('image1', u'frogs/ab20.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+38.3916 	EXP 	Photo: autoDraw = False
+38.3916 	EXP 	Photo: pos = array([ 0.,  0.])
+38.3916 	EXP 	Photo: image = u'frogs/ab20.jpg'
+38.3916 	EXP 	Photo: autoDraw = True
+38.8604 	EXP 	Photo: autoDraw = False
+39.0111 	DATA 	Keypress: l
+39.0134 	EXP 	New trial (rep=0, index=2): OrderedDict([('image1', u'frogs/ab38.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+39.0494 	EXP 	Photo: autoDraw = False
+39.0494 	EXP 	Photo: pos = array([ 0.,  0.])
+39.0494 	EXP 	Photo: image = u'frogs/ab38.jpg'
+39.0494 	EXP 	Photo: autoDraw = True
+39.5267 	EXP 	Photo: autoDraw = False
+39.5275 	DATA 	Keypress: l
+43.5262 	DATA 	Keypress: l
+43.5286 	EXP 	New trial (rep=0, index=3): OrderedDict([('image1', u'frogs/ab11.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+43.6219 	EXP 	Photo: autoDraw = False
+43.6219 	EXP 	Photo: pos = array([ 0.,  0.])
+43.6219 	EXP 	Photo: image = u'frogs/ab11.jpg'
+43.6219 	EXP 	Photo: autoDraw = True
+44.0419 	EXP 	Photo: autoDraw = False
+45.0091 	DATA 	Keypress: l
+45.0116 	EXP 	New trial (rep=0, index=4): OrderedDict([('image1', u'frogs/ab62.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+45.2711 	EXP 	Photo: autoDraw = False
+45.2711 	EXP 	Photo: pos = array([ 0.,  0.])
+45.2711 	EXP 	Photo: image = u'frogs/ab62.jpg'
+45.2711 	EXP 	Photo: autoDraw = True
+45.5243 	EXP 	Photo: autoDraw = False
+45.9918 	DATA 	Keypress: l
+45.9944 	EXP 	New trial (rep=0, index=5): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+46.0533 	EXP 	Photo: autoDraw = False
+46.0533 	EXP 	Photo: pos = array([ 0.,  0.])
+46.0533 	EXP 	Photo: image = u'logos/4.jpg'
+46.0533 	EXP 	Photo: autoDraw = True
+46.5072 	EXP 	Photo: autoDraw = False
+46.8916 	DATA 	Keypress: a
+46.8942 	EXP 	New trial (rep=0, index=6): OrderedDict([('image1', u'frogs/ab25.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+46.9740 	EXP 	Photo: autoDraw = False
+46.9740 	EXP 	Photo: pos = array([ 0.,  0.])
+46.9740 	EXP 	Photo: image = u'frogs/ab25.jpg'
+46.9740 	EXP 	Photo: autoDraw = True
+47.4071 	EXP 	Photo: autoDraw = False
+48.3911 	DATA 	Keypress: l
+48.3935 	EXP 	New trial (rep=0, index=7): OrderedDict([('image1', u'frogs/ab28.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+48.4326 	EXP 	Photo: autoDraw = False
+48.4326 	EXP 	Photo: pos = array([ 0.,  0.])
+48.4326 	EXP 	Photo: image = u'frogs/ab28.jpg'
+48.4326 	EXP 	Photo: autoDraw = True
+48.9071 	EXP 	Photo: autoDraw = False
+49.6408 	DATA 	Keypress: l
+49.6432 	EXP 	New trial (rep=0, index=8): OrderedDict([('image1', u'frogs/ab69.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+49.6796 	EXP 	Photo: autoDraw = False
+49.6796 	EXP 	Photo: pos = array([ 0.,  0.])
+49.6796 	EXP 	Photo: image = u'frogs/ab69.jpg'
+49.6796 	EXP 	Photo: autoDraw = True
+50.1566 	EXP 	Photo: autoDraw = False
+50.6738 	DATA 	Keypress: l
+50.6762 	EXP 	New trial (rep=0, index=9): OrderedDict([('image1', u'frogs/ab45.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+50.7012 	EXP 	Photo: autoDraw = False
+50.7012 	EXP 	Photo: pos = array([ 0.,  0.])
+50.7012 	EXP 	Photo: image = u'frogs/ab45.jpg'
+50.7012 	EXP 	Photo: autoDraw = True
+51.1895 	EXP 	Photo: autoDraw = False
+51.9735 	DATA 	Keypress: l
+51.9758 	EXP 	New trial (rep=0, index=10): OrderedDict([('image1', u'frogs/ab39.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+52.0410 	EXP 	Photo: autoDraw = False
+52.0410 	EXP 	Photo: pos = array([ 0.,  0.])
+52.0410 	EXP 	Photo: image = u'frogs/ab39.jpg'
+52.0410 	EXP 	Photo: autoDraw = True
+52.4891 	EXP 	Photo: autoDraw = False
+53.1896 	DATA 	Keypress: l
+53.1920 	EXP 	New trial (rep=0, index=11): OrderedDict([('image1', u'frogs/ab73.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+53.2323 	EXP 	Photo: autoDraw = False
+53.2323 	EXP 	Photo: pos = array([ 0.,  0.])
+53.2323 	EXP 	Photo: image = u'frogs/ab73.jpg'
+53.2323 	EXP 	Photo: autoDraw = True
+53.7054 	EXP 	Photo: autoDraw = False
+54.2726 	DATA 	Keypress: l
+54.2750 	EXP 	New trial (rep=0, index=12): OrderedDict([('image1', u'frogs/ab31.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+54.4149 	EXP 	Photo: autoDraw = False
+54.4149 	EXP 	Photo: pos = array([ 0.,  0.])
+54.4149 	EXP 	Photo: image = u'frogs/ab31.jpg'
+54.4149 	EXP 	Photo: autoDraw = True
+54.7884 	EXP 	Photo: autoDraw = False
+55.2723 	DATA 	Keypress: l
+55.2747 	EXP 	New trial (rep=0, index=13): OrderedDict([('image1', u'frogs/ab66.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+55.3128 	EXP 	Photo: autoDraw = False
+55.3128 	EXP 	Photo: pos = array([ 0.,  0.])
+55.3128 	EXP 	Photo: image = u'frogs/ab66.jpg'
+55.3128 	EXP 	Photo: autoDraw = True
+55.7880 	EXP 	Photo: autoDraw = False
+57.7548 	DATA 	Keypress: l
+57.7572 	EXP 	New trial (rep=0, index=14): OrderedDict([('image1', u'frogs/ab54.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+57.8047 	EXP 	Photo: autoDraw = False
+57.8047 	EXP 	Photo: pos = array([ 0.,  0.])
+57.8047 	EXP 	Photo: image = u'frogs/ab54.jpg'
+57.8047 	EXP 	Photo: autoDraw = True
+58.2705 	EXP 	Photo: autoDraw = False
+58.6711 	DATA 	Keypress: l
+58.6735 	EXP 	New trial (rep=0, index=15): OrderedDict([('image1', u'frogs/ab40.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+58.7181 	EXP 	Photo: autoDraw = False
+58.7181 	EXP 	Photo: pos = array([ 0.,  0.])
+58.7181 	EXP 	Photo: image = u'frogs/ab40.jpg'
+58.7181 	EXP 	Photo: autoDraw = True
+59.1869 	EXP 	Photo: autoDraw = False
+59.6374 	DATA 	Keypress: l
+59.6399 	EXP 	New trial (rep=0, index=16): OrderedDict([('image1', u'frogs/ab48.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+59.7332 	EXP 	Photo: autoDraw = False
+59.7332 	EXP 	Photo: pos = array([ 0.,  0.])
+59.7332 	EXP 	Photo: image = u'frogs/ab48.jpg'
+59.7332 	EXP 	Photo: autoDraw = True
+60.1532 	EXP 	Photo: autoDraw = False
+60.6039 	DATA 	Keypress: l
+60.6063 	EXP 	New trial (rep=0, index=17): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+60.6509 	EXP 	Photo: autoDraw = False
+60.6509 	EXP 	Photo: pos = array([ 0.,  0.])
+60.6509 	EXP 	Photo: image = u'logos/4.jpg'
+60.6509 	EXP 	Photo: autoDraw = True
+61.1196 	EXP 	Photo: autoDraw = False
+61.8201 	DATA 	Keypress: a
+61.8225 	EXP 	New trial (rep=0, index=18): OrderedDict([('image1', u'frogs/ab10.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+61.8607 	EXP 	Photo: autoDraw = False
+61.8607 	EXP 	Photo: pos = array([ 0.,  0.])
+61.8607 	EXP 	Photo: image = u'frogs/ab10.jpg'
+61.8607 	EXP 	Photo: autoDraw = True
+62.3358 	EXP 	Photo: autoDraw = False
+62.6531 	DATA 	Keypress: l
+62.6556 	EXP 	New trial (rep=0, index=19): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+62.7021 	EXP 	Photo: autoDraw = False
+62.7021 	EXP 	Photo: pos = array([ 0.,  0.])
+62.7021 	EXP 	Photo: image = u'logos/4.jpg'
+62.7021 	EXP 	Photo: autoDraw = True
+63.1689 	EXP 	Photo: autoDraw = False
+63.5202 	DATA 	Keypress: a
+63.5233 	EXP 	New trial (rep=0, index=20): OrderedDict([('image1', u'frogs/ab36.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+63.5973 	EXP 	Photo: autoDraw = False
+63.5973 	EXP 	Photo: pos = array([ 0.,  0.])
+63.5973 	EXP 	Photo: image = u'frogs/ab36.jpg'
+63.5973 	EXP 	Photo: autoDraw = True
+64.0352 	EXP 	Photo: autoDraw = False
+64.3860 	DATA 	Keypress: l
+64.3884 	EXP 	New trial (rep=0, index=21): OrderedDict([('image1', u'frogs/ab26.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+64.4128 	EXP 	Photo: autoDraw = False
+64.4128 	EXP 	Photo: pos = array([ 0.,  0.])
+64.4128 	EXP 	Photo: image = u'frogs/ab26.jpg'
+64.4128 	EXP 	Photo: autoDraw = True
+64.9017 	EXP 	Photo: autoDraw = False
+66.1353 	DATA 	Keypress: l
+66.1377 	EXP 	New trial (rep=0, index=22): OrderedDict([('image1', u'frogs/ab42.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+66.2088 	EXP 	Photo: autoDraw = False
+66.2088 	EXP 	Photo: pos = array([ 0.,  0.])
+66.2088 	EXP 	Photo: image = u'frogs/ab42.jpg'
+66.2088 	EXP 	Photo: autoDraw = True
+66.6510 	EXP 	Photo: autoDraw = False
+67.0522 	DATA 	Keypress: l
+67.0701 	EXP 	New trial (rep=0, index=23): OrderedDict([('image1', u'frogs/ab37.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+67.1232 	EXP 	Photo: autoDraw = False
+67.1232 	EXP 	Photo: pos = array([ 0.,  0.])
+67.1232 	EXP 	Photo: image = u'frogs/ab37.jpg'
+67.1232 	EXP 	Photo: autoDraw = True
+67.5841 	EXP 	Photo: autoDraw = False
+67.8854 	DATA 	Keypress: l
+67.8878 	EXP 	New trial (rep=0, index=24): OrderedDict([('image1', u'frogs/ab78.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+67.9427 	EXP 	Photo: autoDraw = False
+67.9427 	EXP 	Photo: pos = array([ 0.,  0.])
+67.9427 	EXP 	Photo: image = u'frogs/ab78.jpg'
+67.9427 	EXP 	Photo: autoDraw = True
+68.4005 	EXP 	Photo: autoDraw = False
+69.4175 	DATA 	Keypress: l
+69.4200 	EXP 	New trial (rep=0, index=25): OrderedDict([('image1', u'frogs/ab27.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+69.5247 	EXP 	Photo: autoDraw = False
+69.5247 	EXP 	Photo: pos = array([ 0.,  0.])
+69.5247 	EXP 	Photo: image = u'frogs/ab27.jpg'
+69.5247 	EXP 	Photo: autoDraw = True
+69.9333 	EXP 	Photo: autoDraw = False
+70.4006 	DATA 	Keypress: l
+70.4030 	EXP 	New trial (rep=0, index=26): OrderedDict([('image1', u'frogs/ab51.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+70.4776 	EXP 	Photo: autoDraw = False
+70.4776 	EXP 	Photo: pos = array([ 0.,  0.])
+70.4776 	EXP 	Photo: image = u'frogs/ab51.jpg'
+70.4776 	EXP 	Photo: autoDraw = True
+70.9163 	EXP 	Photo: autoDraw = False
+71.2336 	DATA 	Keypress: l
+71.2360 	EXP 	New trial (rep=0, index=27): OrderedDict([('image1', u'frogs/ab50.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+71.3283 	EXP 	Photo: autoDraw = False
+71.3283 	EXP 	Photo: pos = array([ 0.,  0.])
+71.3283 	EXP 	Photo: image = u'frogs/ab50.jpg'
+71.3283 	EXP 	Photo: autoDraw = True
+71.7493 	EXP 	Photo: autoDraw = False
+72.0334 	DATA 	Keypress: l
+72.0358 	EXP 	New trial (rep=0, index=28): OrderedDict([('image1', u'frogs/ab75.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+72.0563 	EXP 	Photo: autoDraw = False
+72.0563 	EXP 	Photo: pos = array([ 0.,  0.])
+72.0563 	EXP 	Photo: image = u'frogs/ab75.jpg'
+72.0563 	EXP 	Photo: autoDraw = True
+72.5491 	EXP 	Photo: autoDraw = False
+72.8830 	DATA 	Keypress: l
+72.8856 	EXP 	New trial (rep=0, index=29): OrderedDict([('image1', u'frogs/ab56.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+73.7034 	EXP 	Photo: autoDraw = False
+73.7034 	EXP 	Photo: pos = array([ 0.,  0.])
+73.7034 	EXP 	Photo: image = u'frogs/ab56.jpg'
+73.7034 	EXP 	Photo: autoDraw = True
+73.7034 	EXP 	Photo: autoDraw = False
+74.1493 	DATA 	Keypress: l
+74.1517 	EXP 	New trial (rep=0, index=30): OrderedDict([('image1', u'frogs/ab70.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+74.1897 	EXP 	Photo: autoDraw = False
+74.1897 	EXP 	Photo: pos = array([ 0.,  0.])
+74.1897 	EXP 	Photo: image = u'frogs/ab70.jpg'
+74.1897 	EXP 	Photo: autoDraw = True
+74.6650 	EXP 	Photo: autoDraw = False
+75.0990 	DATA 	Keypress: l
+75.1014 	EXP 	New trial (rep=0, index=31): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+75.1490 	EXP 	Photo: autoDraw = False
+75.1490 	EXP 	Photo: pos = array([ 0.,  0.])
+75.1490 	EXP 	Photo: image = u'logos/4.jpg'
+75.1490 	EXP 	Photo: autoDraw = True
+75.6147 	EXP 	Photo: autoDraw = False
+76.0154 	DATA 	Keypress: a
+76.0178 	EXP 	New trial (rep=0, index=32): OrderedDict([('image1', u'frogs/ab44.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+76.0541 	EXP 	Photo: autoDraw = False
+76.0541 	EXP 	Photo: pos = array([ 0.,  0.])
+76.0541 	EXP 	Photo: image = u'frogs/ab44.jpg'
+76.0541 	EXP 	Photo: autoDraw = True
+76.5311 	EXP 	Photo: autoDraw = False
+77.1482 	DATA 	Keypress: l
+77.1506 	EXP 	New trial (rep=0, index=33): OrderedDict([('image1', u'frogs/ab12.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+77.1861 	EXP 	Photo: autoDraw = False
+77.1861 	EXP 	Photo: pos = array([ 0.,  0.])
+77.1861 	EXP 	Photo: image = u'frogs/ab12.jpg'
+77.1861 	EXP 	Photo: autoDraw = True
+77.6640 	EXP 	Photo: autoDraw = False
+78.1646 	DATA 	Keypress: l
+78.1673 	EXP 	New trial (rep=0, index=34): OrderedDict([('image1', u'frogs/ab53.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+78.2108 	EXP 	Photo: autoDraw = False
+78.2108 	EXP 	Photo: pos = array([ 0.,  0.])
+78.2108 	EXP 	Photo: image = u'frogs/ab53.jpg'
+78.2108 	EXP 	Photo: autoDraw = True
+78.6804 	EXP 	Photo: autoDraw = False
+79.1143 	DATA 	Keypress: l
+79.1167 	EXP 	New trial (rep=0, index=35): OrderedDict([('image1', u'frogs/ab58.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+79.3843 	EXP 	Photo: autoDraw = False
+79.3843 	EXP 	Photo: pos = array([ 0.,  0.])
+79.3843 	EXP 	Photo: image = u'frogs/ab58.jpg'
+79.3843 	EXP 	Photo: autoDraw = True
+79.6270 	EXP 	Photo: autoDraw = False
+79.9970 	DATA 	Keypress: l
+79.9995 	EXP 	New trial (rep=0, index=36): OrderedDict([('image1', u'frogs/ab9.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+80.4767 	EXP 	Photo: autoDraw = False
+80.4767 	EXP 	Photo: pos = array([ 0.,  0.])
+80.4767 	EXP 	Photo: image = u'frogs/ab9.jpg'
+80.4767 	EXP 	Photo: autoDraw = True
+80.5128 	EXP 	Photo: autoDraw = False
+81.3300 	DATA 	Keypress: l
+81.3324 	EXP 	New trial (rep=0, index=37): OrderedDict([('image1', u'frogs/ab57.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+81.5207 	EXP 	Photo: autoDraw = False
+81.5207 	EXP 	Photo: pos = array([ 0.,  0.])
+81.5207 	EXP 	Photo: image = u'frogs/ab57.jpg'
+81.5207 	EXP 	Photo: autoDraw = True
+81.8453 	EXP 	Photo: autoDraw = False
+82.2629 	DATA 	Keypress: l
+82.2654 	EXP 	New trial (rep=0, index=38): OrderedDict([('image1', u'frogs/ab5.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+82.3082 	EXP 	Photo: autoDraw = False
+82.3082 	EXP 	Photo: pos = array([ 0.,  0.])
+82.3082 	EXP 	Photo: image = u'frogs/ab5.jpg'
+82.3082 	EXP 	Photo: autoDraw = True
+82.7784 	EXP 	Photo: autoDraw = False
+83.2629 	DATA 	Keypress: l
+83.2654 	EXP 	New trial (rep=0, index=39): OrderedDict([('image1', u'frogs/ab55.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+83.3303 	EXP 	Photo: autoDraw = False
+83.3303 	EXP 	Photo: pos = array([ 0.,  0.])
+83.3303 	EXP 	Photo: image = u'frogs/ab55.jpg'
+83.3303 	EXP 	Photo: autoDraw = True
+83.7782 	EXP 	Photo: autoDraw = False
+84.1790 	DATA 	Keypress: l
+84.1814 	EXP 	New trial (rep=0, index=40): OrderedDict([('image1', u'frogs/ab29.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+84.2244 	EXP 	Photo: autoDraw = False
+84.2244 	EXP 	Photo: pos = array([ 0.,  0.])
+84.2244 	EXP 	Photo: image = u'frogs/ab29.jpg'
+84.2244 	EXP 	Photo: autoDraw = True
+84.6947 	EXP 	Photo: autoDraw = False
+85.0454 	DATA 	Keypress: l
+85.0479 	EXP 	New trial (rep=0, index=41): OrderedDict([('image1', u'frogs/ab8.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+85.0848 	EXP 	Photo: autoDraw = False
+85.0848 	EXP 	Photo: pos = array([ 0.,  0.])
+85.0848 	EXP 	Photo: image = u'frogs/ab8.jpg'
+85.0848 	EXP 	Photo: autoDraw = True
+85.5611 	EXP 	Photo: autoDraw = False
+85.9287 	DATA 	Keypress: l
+85.9312 	EXP 	New trial (rep=0, index=42): OrderedDict([('image1', u'frogs/ab4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+85.9687 	EXP 	Photo: autoDraw = False
+85.9687 	EXP 	Photo: pos = array([ 0.,  0.])
+85.9687 	EXP 	Photo: image = u'frogs/ab4.jpg'
+85.9687 	EXP 	Photo: autoDraw = True
+86.4441 	EXP 	Photo: autoDraw = False
+86.9947 	DATA 	Keypress: l
+86.9971 	EXP 	New trial (rep=0, index=43): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+87.0436 	EXP 	Photo: autoDraw = False
+87.0436 	EXP 	Photo: pos = array([ 0.,  0.])
+87.0436 	EXP 	Photo: image = u'logos/4.jpg'
+87.0436 	EXP 	Photo: autoDraw = True
+87.5107 	EXP 	Photo: autoDraw = False
+87.8614 	DATA 	Keypress: a
+87.8638 	EXP 	New trial (rep=0, index=44): OrderedDict([('image1', u'frogs/ab71.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+87.9021 	EXP 	Photo: autoDraw = False
+87.9021 	EXP 	Photo: pos = array([ 0.,  0.])
+87.9021 	EXP 	Photo: image = u'frogs/ab71.jpg'
+87.9021 	EXP 	Photo: autoDraw = True
+88.3771 	EXP 	Photo: autoDraw = False
+88.7291 	DATA 	Keypress: l
+88.7320 	EXP 	New trial (rep=0, index=45): OrderedDict([('image1', u'frogs/ab33.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+88.8789 	EXP 	Photo: autoDraw = False
+88.8789 	EXP 	Photo: pos = array([ 0.,  0.])
+88.8789 	EXP 	Photo: image = u'frogs/ab33.jpg'
+88.8789 	EXP 	Photo: autoDraw = True
+89.2435 	EXP 	Photo: autoDraw = False
+89.6941 	DATA 	Keypress: l
+89.6965 	EXP 	New trial (rep=0, index=46): OrderedDict([('image1', u'frogs/ab77.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+89.7622 	EXP 	Photo: autoDraw = False
+89.7622 	EXP 	Photo: pos = array([ 0.,  0.])
+89.7622 	EXP 	Photo: image = u'frogs/ab77.jpg'
+89.7622 	EXP 	Photo: autoDraw = True
+90.2098 	EXP 	Photo: autoDraw = False
+90.6271 	DATA 	Keypress: l
+90.6298 	EXP 	New trial (rep=0, index=47): OrderedDict([('image1', u'frogs/ab76.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+90.6671 	EXP 	Photo: autoDraw = False
+90.6671 	EXP 	Photo: pos = array([ 0.,  0.])
+90.6671 	EXP 	Photo: image = u'frogs/ab76.jpg'
+90.6671 	EXP 	Photo: autoDraw = True
+91.1428 	EXP 	Photo: autoDraw = False
+91.4935 	DATA 	Keypress: l
+91.4959 	EXP 	New trial (rep=0, index=48): OrderedDict([('image1', u'frogs/ab17.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+91.5329 	EXP 	Photo: autoDraw = False
+91.5329 	EXP 	Photo: pos = array([ 0.,  0.])
+91.5329 	EXP 	Photo: image = u'frogs/ab17.jpg'
+91.5329 	EXP 	Photo: autoDraw = True
+92.0092 	EXP 	Photo: autoDraw = False
+92.5599 	DATA 	Keypress: l
+92.5625 	EXP 	New trial (rep=0, index=49): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+92.6105 	EXP 	Photo: autoDraw = False
+92.6105 	EXP 	Photo: pos = array([ 0.,  0.])
+92.6105 	EXP 	Photo: image = u'logos/4.jpg'
+92.6105 	EXP 	Photo: autoDraw = True
+93.0755 	EXP 	Photo: autoDraw = False
+93.4763 	DATA 	Keypress: a
+93.4791 	EXP 	New trial (rep=0, index=50): OrderedDict([('image1', u'frogs/ab80.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+93.5155 	EXP 	Photo: autoDraw = False
+93.5155 	EXP 	Photo: pos = array([ 0.,  0.])
+93.5155 	EXP 	Photo: image = u'frogs/ab80.jpg'
+93.5155 	EXP 	Photo: autoDraw = True
+93.9918 	EXP 	Photo: autoDraw = False
+94.1593 	DATA 	Keypress: l
+94.1617 	EXP 	New trial (rep=0, index=51): OrderedDict([('image1', u'frogs/ab63.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+94.1970 	EXP 	Photo: autoDraw = False
+94.1970 	EXP 	Photo: pos = array([ 0.,  0.])
+94.1970 	EXP 	Photo: image = u'frogs/ab63.jpg'
+94.1970 	EXP 	Photo: autoDraw = True
+94.6749 	EXP 	Photo: autoDraw = False
+95.2089 	DATA 	Keypress: l
+95.2113 	EXP 	New trial (rep=0, index=52): OrderedDict([('image1', u'frogs/ab64.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+95.2345 	EXP 	Photo: autoDraw = False
+95.2345 	EXP 	Photo: pos = array([ 0.,  0.])
+95.2345 	EXP 	Photo: image = u'frogs/ab64.jpg'
+95.2345 	EXP 	Photo: autoDraw = True
+95.7247 	EXP 	Photo: autoDraw = False
+96.2085 	DATA 	Keypress: l
+96.2109 	EXP 	New trial (rep=0, index=53): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+96.2573 	EXP 	Photo: autoDraw = False
+96.2573 	EXP 	Photo: pos = array([ 0.,  0.])
+96.2573 	EXP 	Photo: image = u'logos/4.jpg'
+96.2573 	EXP 	Photo: autoDraw = True
+96.7243 	EXP 	Photo: autoDraw = False
+97.1415 	DATA 	Keypress: a
+97.1440 	EXP 	New trial (rep=0, index=54): OrderedDict([('image1', u'frogs/ab67.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+97.1804 	EXP 	Photo: autoDraw = False
+97.1804 	EXP 	Photo: pos = array([ 0.,  0.])
+97.1804 	EXP 	Photo: image = u'frogs/ab67.jpg'
+97.1804 	EXP 	Photo: autoDraw = True
+97.6574 	EXP 	Photo: autoDraw = False
+98.0414 	DATA 	Keypress: l
+98.0439 	EXP 	New trial (rep=0, index=55): OrderedDict([('image1', u'frogs/ab43.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+98.1218 	EXP 	Photo: autoDraw = False
+98.1218 	EXP 	Photo: pos = array([ 0.,  0.])
+98.1218 	EXP 	Photo: image = u'frogs/ab43.jpg'
+98.1218 	EXP 	Photo: autoDraw = True
+98.5570 	EXP 	Photo: autoDraw = False
+98.9576 	DATA 	Keypress: l
+98.9600 	EXP 	New trial (rep=0, index=56): OrderedDict([('image1', u'frogs/ab24.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+98.9967 	EXP 	Photo: autoDraw = False
+98.9967 	EXP 	Photo: pos = array([ 0.,  0.])
+98.9967 	EXP 	Photo: image = u'frogs/ab24.jpg'
+98.9967 	EXP 	Photo: autoDraw = True
+99.4734 	EXP 	Photo: autoDraw = False
+100.4576 	DATA 	Mouse: Left button down, pos=(777,703)
+100.6073 	DATA 	Mouse:  Left button up, pos=(777,703)
+104.1059 	DATA 	Keypress: l
+104.1084 	EXP 	New trial (rep=0, index=57): OrderedDict([('image1', u'frogs/ab32.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+104.1817 	EXP 	Photo: autoDraw = False
+104.1817 	EXP 	Photo: pos = array([ 0.,  0.])
+104.1817 	EXP 	Photo: image = u'frogs/ab32.jpg'
+104.1817 	EXP 	Photo: autoDraw = True
+104.6216 	EXP 	Photo: autoDraw = False
+104.9393 	DATA 	Keypress: l
+104.9423 	EXP 	New trial (rep=0, index=58): OrderedDict([('image1', u'frogs/ab34.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+105.0445 	EXP 	Photo: autoDraw = False
+105.0445 	EXP 	Photo: pos = array([ 0.,  0.])
+105.0445 	EXP 	Photo: image = u'frogs/ab34.jpg'
+105.0445 	EXP 	Photo: autoDraw = True
+105.4547 	EXP 	Photo: autoDraw = False
+105.7555 	DATA 	Keypress: l
+105.7578 	EXP 	New trial (rep=0, index=59): OrderedDict([('image1', u'frogs/ab13.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+105.7930 	EXP 	Photo: autoDraw = False
+105.7930 	EXP 	Photo: pos = array([ 0.,  0.])
+105.7930 	EXP 	Photo: image = u'frogs/ab13.jpg'
+105.7930 	EXP 	Photo: autoDraw = True
+106.2711 	EXP 	Photo: autoDraw = False
+106.5883 	DATA 	Keypress: l
+106.5908 	EXP 	New trial (rep=0, index=60): OrderedDict([('image1', u'frogs/ab41.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+106.6267 	EXP 	Photo: autoDraw = False
+106.6267 	EXP 	Photo: pos = array([ 0.,  0.])
+106.6267 	EXP 	Photo: image = u'frogs/ab41.jpg'
+106.6267 	EXP 	Photo: autoDraw = True
+107.1042 	EXP 	Photo: autoDraw = False
+107.4881 	DATA 	Keypress: l
+107.4905 	EXP 	New trial (rep=0, index=61): OrderedDict([('image1', u'frogs/ab15.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+107.6096 	EXP 	Photo: autoDraw = False
+107.6096 	EXP 	Photo: pos = array([ 0.,  0.])
+107.6096 	EXP 	Photo: image = u'frogs/ab15.jpg'
+107.6096 	EXP 	Photo: autoDraw = True
+108.0039 	EXP 	Photo: autoDraw = False
+108.2878 	DATA 	Keypress: l
+108.2902 	EXP 	New trial (rep=0, index=62): OrderedDict([('image1', u'frogs/ab72.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+108.3171 	EXP 	Photo: autoDraw = False
+108.3171 	EXP 	Photo: pos = array([ 0.,  0.])
+108.3171 	EXP 	Photo: image = u'frogs/ab72.jpg'
+108.3171 	EXP 	Photo: autoDraw = True
+108.8036 	EXP 	Photo: autoDraw = False
+109.1550 	DATA 	Keypress: l
+109.1584 	EXP 	New trial (rep=0, index=63): OrderedDict([('image1', u'frogs/ab47.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+110.2416 	EXP 	Photo: autoDraw = False
+110.2416 	EXP 	Photo: pos = array([ 0.,  0.])
+110.2416 	EXP 	Photo: image = u'frogs/ab47.jpg'
+110.2416 	EXP 	Photo: autoDraw = True
+110.2416 	EXP 	Photo: autoDraw = False
+111.1701 	DATA 	Keypress: l
+111.1726 	EXP 	New trial (rep=0, index=64): OrderedDict([('image1', u'frogs/ab52.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+111.1975 	EXP 	Photo: autoDraw = False
+111.1975 	EXP 	Photo: pos = array([ 0.,  0.])
+111.1975 	EXP 	Photo: image = u'frogs/ab52.jpg'
+111.1975 	EXP 	Photo: autoDraw = True
+111.6860 	EXP 	Photo: autoDraw = False
+111.9866 	DATA 	Keypress: l
+111.9890 	EXP 	New trial (rep=0, index=65): OrderedDict([('image1', u'frogs/ab1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+112.0250 	EXP 	Photo: autoDraw = False
+112.0250 	EXP 	Photo: pos = array([ 0.,  0.])
+112.0250 	EXP 	Photo: image = u'frogs/ab1.jpg'
+112.0250 	EXP 	Photo: autoDraw = True
+112.5023 	EXP 	Photo: autoDraw = False
+112.7697 	DATA 	Keypress: l
+112.7721 	EXP 	New trial (rep=0, index=66): OrderedDict([('image1', u'frogs/ab79.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+112.8094 	EXP 	Photo: autoDraw = False
+112.8094 	EXP 	Photo: pos = array([ 0.,  0.])
+112.8094 	EXP 	Photo: image = u'frogs/ab79.jpg'
+112.8094 	EXP 	Photo: autoDraw = True
+113.2854 	EXP 	Photo: autoDraw = False
+113.6027 	DATA 	Keypress: l
+113.6052 	EXP 	New trial (rep=0, index=67): OrderedDict([('image1', u'frogs/ab18.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+113.6270 	EXP 	Photo: autoDraw = False
+113.6270 	EXP 	Photo: pos = array([ 0.,  0.])
+113.6270 	EXP 	Photo: image = u'frogs/ab18.jpg'
+113.6270 	EXP 	Photo: autoDraw = True
+114.1185 	EXP 	Photo: autoDraw = False
+114.4358 	DATA 	Keypress: l
+114.4382 	EXP 	New trial (rep=0, index=68): OrderedDict([('image1', u'frogs/ab3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+114.5057 	EXP 	Photo: autoDraw = False
+114.5057 	EXP 	Photo: pos = array([ 0.,  0.])
+114.5057 	EXP 	Photo: image = u'frogs/ab3.jpg'
+114.5057 	EXP 	Photo: autoDraw = True
+114.9515 	EXP 	Photo: autoDraw = False
+115.3023 	DATA 	Keypress: l
+115.3047 	EXP 	New trial (rep=0, index=69): OrderedDict([('image1', u'frogs/ab19.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+115.3979 	EXP 	Photo: autoDraw = False
+115.3979 	EXP 	Photo: pos = array([ 0.,  0.])
+115.3979 	EXP 	Photo: image = u'frogs/ab19.jpg'
+115.3979 	EXP 	Photo: autoDraw = True
+115.8179 	EXP 	Photo: autoDraw = False
+116.0853 	DATA 	Keypress: l
+116.0877 	EXP 	New trial (rep=0, index=70): OrderedDict([('image1', u'frogs/ab7.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+116.1498 	EXP 	Photo: autoDraw = False
+116.1498 	EXP 	Photo: pos = array([ 0.,  0.])
+116.1498 	EXP 	Photo: image = u'frogs/ab7.jpg'
+116.1498 	EXP 	Photo: autoDraw = True
+116.6009 	EXP 	Photo: autoDraw = False
+117.5847 	DATA 	Keypress: l
+117.5872 	EXP 	New trial (rep=0, index=71): OrderedDict([('image1', u'frogs/ab81.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+117.6120 	EXP 	Photo: autoDraw = False
+117.6120 	EXP 	Photo: pos = array([ 0.,  0.])
+117.6120 	EXP 	Photo: image = u'frogs/ab81.jpg'
+117.6120 	EXP 	Photo: autoDraw = True
+118.1005 	EXP 	Photo: autoDraw = False
+118.6177 	DATA 	Keypress: l
+118.6201 	EXP 	New trial (rep=0, index=72): OrderedDict([('image1', u'frogs/ab30.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+118.6432 	EXP 	Photo: autoDraw = False
+118.6432 	EXP 	Photo: pos = array([ 0.,  0.])
+118.6432 	EXP 	Photo: image = u'frogs/ab30.jpg'
+118.6432 	EXP 	Photo: autoDraw = True
+119.1335 	EXP 	Photo: autoDraw = False
+119.5175 	DATA 	Keypress: l
+119.5199 	EXP 	New trial (rep=0, index=73): OrderedDict([('image1', u'frogs/ab46.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+119.6242 	EXP 	Photo: autoDraw = False
+119.6242 	EXP 	Photo: pos = array([ 0.,  0.])
+119.6242 	EXP 	Photo: image = u'frogs/ab46.jpg'
+119.6242 	EXP 	Photo: autoDraw = True
+120.0332 	EXP 	Photo: autoDraw = False
+120.5671 	DATA 	Keypress: l
+120.5695 	EXP 	New trial (rep=0, index=74): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+120.6175 	EXP 	Photo: autoDraw = False
+120.6175 	EXP 	Photo: pos = array([ 0.,  0.])
+120.6175 	EXP 	Photo: image = u'logos/4.jpg'
+120.6175 	EXP 	Photo: autoDraw = True
+121.0828 	EXP 	Photo: autoDraw = False
+121.4501 	DATA 	Keypress: a
+121.4525 	EXP 	New trial (rep=0, index=75): OrderedDict([('image1', u'frogs/ab65.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+121.5352 	EXP 	Photo: autoDraw = False
+121.5352 	EXP 	Photo: pos = array([ 0.,  0.])
+121.5352 	EXP 	Photo: image = u'frogs/ab65.jpg'
+121.5352 	EXP 	Photo: autoDraw = True
+121.9663 	EXP 	Photo: autoDraw = False
+122.2666 	DATA 	Keypress: l
+122.2690 	EXP 	New trial (rep=0, index=76): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+122.3150 	EXP 	Photo: autoDraw = False
+122.3150 	EXP 	Photo: pos = array([ 0.,  0.])
+122.3150 	EXP 	Photo: image = u'logos/4.jpg'
+122.3150 	EXP 	Photo: autoDraw = True
+122.7823 	EXP 	Photo: autoDraw = False
+123.0996 	DATA 	Keypress: a
+123.1023 	EXP 	New trial (rep=0, index=77): OrderedDict([('image1', u'frogs/ab68.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+123.1681 	EXP 	Photo: autoDraw = False
+123.1681 	EXP 	Photo: pos = array([ 0.,  0.])
+123.1681 	EXP 	Photo: image = u'frogs/ab68.jpg'
+123.1681 	EXP 	Photo: autoDraw = True
+123.6153 	EXP 	Photo: autoDraw = False
+123.8826 	DATA 	Keypress: l
+123.8850 	EXP 	New trial (rep=0, index=78): OrderedDict([('image1', u'logos/4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+123.9297 	EXP 	Photo: autoDraw = False
+123.9297 	EXP 	Photo: pos = array([ 0.,  0.])
+123.9297 	EXP 	Photo: image = u'logos/4.jpg'
+123.9297 	EXP 	Photo: autoDraw = True
+124.3978 	EXP 	Photo: autoDraw = False
+124.6986 	DATA 	Keypress: a
+124.7010 	EXP 	New trial (rep=0, index=79): OrderedDict([('image1', u'frogs/ab21.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+124.7397 	EXP 	Photo: autoDraw = False
+124.7397 	EXP 	Photo: pos = array([ 0.,  0.])
+124.7397 	EXP 	Photo: image = u'frogs/ab21.jpg'
+124.7397 	EXP 	Photo: autoDraw = True
+125.2142 	EXP 	Photo: autoDraw = False
+125.5149 	DATA 	Keypress: l
+125.5167 	EXP 	New trial (rep=0, index=80): OrderedDict([('image1', u'frogs/ab6.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+125.6060 	EXP 	Photo: autoDraw = False
+125.6060 	EXP 	Photo: pos = array([ 0.,  0.])
+125.6060 	EXP 	Photo: image = u'frogs/ab6.jpg'
+125.6060 	EXP 	Photo: autoDraw = True
+126.0317 	EXP 	Photo: autoDraw = False
+126.2650 	DATA 	Keypress: l
+126.2674 	EXP 	New trial (rep=0, index=81): OrderedDict([('image1', u'frogs/ab14.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+126.3409 	EXP 	Photo: autoDraw = False
+126.3409 	EXP 	Photo: pos = array([ 0.,  0.])
+126.3409 	EXP 	Photo: image = u'frogs/ab14.jpg'
+126.3409 	EXP 	Photo: autoDraw = True
+126.7809 	EXP 	Photo: autoDraw = False
+127.0315 	DATA 	Keypress: l
+127.0340 	EXP 	New trial (rep=0, index=82): OrderedDict([('image1', u'frogs/ab35.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+127.0983 	EXP 	Photo: autoDraw = False
+127.0983 	EXP 	Photo: pos = array([ 0.,  0.])
+127.0983 	EXP 	Photo: image = u'frogs/ab35.jpg'
+127.0983 	EXP 	Photo: autoDraw = True
+127.5473 	EXP 	Photo: autoDraw = False
+127.8146 	DATA 	Keypress: l
+127.8171 	EXP 	New trial (rep=0, index=83): OrderedDict([('image1', u'frogs/ab61.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+127.8828 	EXP 	Photo: autoDraw = False
+127.8828 	EXP 	Photo: pos = array([ 0.,  0.])
+127.8828 	EXP 	Photo: image = u'frogs/ab61.jpg'
+127.8828 	EXP 	Photo: autoDraw = True
+128.3303 	EXP 	Photo: autoDraw = False
+128.6810 	DATA 	Keypress: l
+128.6834 	EXP 	New trial (rep=0, index=84): OrderedDict([('image1', u'frogs/ab2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+129.6598 	EXP 	Photo: autoDraw = False
+129.6598 	EXP 	Photo: pos = array([ 0.,  0.])
+129.6598 	EXP 	Photo: image = u'frogs/ab2.jpg'
+129.6598 	EXP 	Photo: autoDraw = True
+129.6598 	EXP 	Photo: autoDraw = False
+129.8662 	DATA 	Keypress: l
+129.8707 	EXP 	New trial (rep=0, index=85): OrderedDict([('image1', u'frogs/ab60.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+129.9190 	EXP 	Photo: autoDraw = False
+129.9190 	EXP 	Photo: pos = array([ 0.,  0.])
+129.9190 	EXP 	Photo: image = u'frogs/ab60.jpg'
+129.9190 	EXP 	Photo: autoDraw = True
+130.3974 	EXP 	Photo: autoDraw = False
+130.6672 	DATA 	Keypress: l
+130.6722 	EXP 	New trial (rep=0, index=86): OrderedDict([('image1', u'frogs/ab16.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+130.8272 	EXP 	Photo: autoDraw = False
+130.8272 	EXP 	Photo: pos = array([ 0.,  0.])
+130.8272 	EXP 	Photo: image = u'frogs/ab16.jpg'
+130.8272 	EXP 	Photo: autoDraw = True
+131.1972 	EXP 	Photo: autoDraw = False
+131.4649 	DATA 	Keypress: l
+131.4691 	EXP 	New trial (rep=0, index=87): OrderedDict([('image1', u'frogs/ab22.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+131.8646 	EXP 	Photo: autoDraw = False
+131.8646 	EXP 	Photo: pos = array([ 0.,  0.])
+131.8646 	EXP 	Photo: image = u'frogs/ab22.jpg'
+131.8646 	EXP 	Photo: autoDraw = True
+131.9856 	EXP 	Photo: autoDraw = False
+132.3807 	DATA 	Keypress: l
+132.3839 	EXP 	New trial (rep=0, index=88): OrderedDict([('image1', u'frogs/ab74.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+132.5408 	EXP 	Photo: autoDraw = False
+132.5408 	EXP 	Photo: pos = array([ 0.,  0.])
+132.5408 	EXP 	Photo: image = u'frogs/ab74.jpg'
+132.5408 	EXP 	Photo: autoDraw = True
+132.8979 	EXP 	Photo: autoDraw = False
+133.1795 	DATA 	Keypress: l
+133.1819 	EXP 	New trial (rep=0, index=89): OrderedDict([('image1', u'frogs/ab49.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+133.2179 	EXP 	Photo: autoDraw = False
+133.2179 	EXP 	Photo: pos = array([ 0.,  0.])
+133.2179 	EXP 	Photo: image = u'frogs/ab49.jpg'
+133.2179 	EXP 	Photo: autoDraw = True
+133.6952 	EXP 	Photo: autoDraw = False
+134.6457 	DATA 	Keypress: l
+134.6483 	EXP 	New trial (rep=0, index=1): OrderedDict([('pix', u'logos/1.jpg'), ('source', u'properties1.xlsx')])
+134.9154 	EXP 	Photo: autoDraw = False
+134.9154 	EXP 	image123: image = u'logos/1.jpg'
+134.9154 	EXP 	text_2: autoDraw = True
+134.9154 	EXP 	image123: autoDraw = True
+134.9154 	EXP 	text_3: autoDraw = True
+135.4472 	DATA 	Keypress: l
+146.5096 	DATA 	Keypress: space
+146.5644 	EXP 	Imported properties1.xlsx as conditions, 90 conditions, 5 params
+146.5650 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+146.5655 	EXP 	New trial (rep=0, index=0): OrderedDict([('image1', u'frogs/ab30.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+146.5818 	EXP 	text_2: autoDraw = False
+146.5818 	EXP 	image123: autoDraw = False
+146.5818 	EXP 	text_3: autoDraw = False
+146.5818 	EXP 	Photo: pos = array([ 0.,  0.])
+146.5818 	EXP 	Photo: image = u'frogs/ab30.jpg'
+146.5818 	EXP 	Photo: autoDraw = True
+147.0741 	EXP 	Photo: autoDraw = False
+147.5247 	DATA 	Keypress: l
+147.5279 	EXP 	New trial (rep=0, index=1): OrderedDict([('image1', u'frogs/ab29.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+147.5575 	EXP 	Photo: autoDraw = False
+147.5575 	EXP 	Photo: pos = array([ 0.,  0.])
+147.5575 	EXP 	Photo: image = u'frogs/ab29.jpg'
+147.5575 	EXP 	Photo: autoDraw = True
+148.0405 	EXP 	Photo: autoDraw = False
+148.2578 	DATA 	Keypress: l
+148.2602 	EXP 	New trial (rep=0, index=2): OrderedDict([('image1', u'frogs/ab42.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+148.3285 	EXP 	Photo: autoDraw = False
+148.3285 	EXP 	Photo: pos = array([ 0.,  0.])
+148.3285 	EXP 	Photo: image = u'frogs/ab42.jpg'
+148.3285 	EXP 	Photo: autoDraw = True
+148.7735 	EXP 	Photo: autoDraw = False
+149.0242 	DATA 	Keypress: l
+149.0266 	EXP 	New trial (rep=0, index=3): OrderedDict([('image1', u'frogs/ab16.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+149.0493 	EXP 	Photo: autoDraw = False
+149.0493 	EXP 	Photo: pos = array([ 0.,  0.])
+149.0493 	EXP 	Photo: image = u'frogs/ab16.jpg'
+149.0493 	EXP 	Photo: autoDraw = True
+149.5399 	EXP 	Photo: autoDraw = False
+149.8578 	DATA 	Keypress: l
+149.8756 	EXP 	New trial (rep=0, index=4): OrderedDict([('image1', u'frogs/ab54.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+149.9120 	EXP 	Photo: autoDraw = False
+149.9120 	EXP 	Photo: pos = array([ 0.,  0.])
+149.9120 	EXP 	Photo: image = u'frogs/ab54.jpg'
+149.9120 	EXP 	Photo: autoDraw = True
+150.3899 	EXP 	Photo: autoDraw = False
+151.1901 	DATA 	Keypress: l
+151.1925 	EXP 	New trial (rep=0, index=5): OrderedDict([('image1', u'frogs/ab51.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+151.2733 	EXP 	Photo: autoDraw = False
+151.2733 	EXP 	Photo: pos = array([ 0.,  0.])
+151.2733 	EXP 	Photo: image = u'frogs/ab51.jpg'
+151.2733 	EXP 	Photo: autoDraw = True
+151.7058 	EXP 	Photo: autoDraw = False
+152.0565 	DATA 	Keypress: l
+152.0589 	EXP 	New trial (rep=0, index=6): OrderedDict([('image1', u'frogs/ab70.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+152.0820 	EXP 	Photo: autoDraw = False
+152.0820 	EXP 	Photo: pos = array([ 0.,  0.])
+152.0820 	EXP 	Photo: image = u'frogs/ab70.jpg'
+152.0820 	EXP 	Photo: autoDraw = True
+152.5723 	EXP 	Photo: autoDraw = False
+152.9567 	DATA 	Keypress: l
+152.9746 	EXP 	New trial (rep=0, index=7): OrderedDict([('image1', u'frogs/ab18.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+152.9988 	EXP 	Photo: autoDraw = False
+152.9988 	EXP 	Photo: pos = array([ 0.,  0.])
+152.9988 	EXP 	Photo: image = u'frogs/ab18.jpg'
+152.9988 	EXP 	Photo: autoDraw = True
+153.4891 	EXP 	Photo: autoDraw = False
+153.9059 	DATA 	Keypress: l
+153.9083 	EXP 	New trial (rep=0, index=8): OrderedDict([('image1', u'frogs/ab31.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+154.0401 	EXP 	Photo: autoDraw = False
+154.0401 	EXP 	Photo: pos = array([ 0.,  0.])
+154.0401 	EXP 	Photo: image = u'frogs/ab31.jpg'
+154.0401 	EXP 	Photo: autoDraw = True
+154.4217 	EXP 	Photo: autoDraw = False
+154.7722 	DATA 	Keypress: l
+154.7746 	EXP 	New trial (rep=0, index=9): OrderedDict([('image1', u'frogs/ab36.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+154.8353 	EXP 	Photo: autoDraw = False
+154.8353 	EXP 	Photo: pos = array([ 0.,  0.])
+154.8353 	EXP 	Photo: image = u'frogs/ab36.jpg'
+154.8353 	EXP 	Photo: autoDraw = True
+155.2880 	EXP 	Photo: autoDraw = False
+155.5553 	DATA 	Keypress: l
+155.5578 	EXP 	New trial (rep=0, index=10): OrderedDict([('image1', u'frogs/ab71.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+155.5812 	EXP 	Photo: autoDraw = False
+155.5812 	EXP 	Photo: pos = array([ 0.,  0.])
+155.5812 	EXP 	Photo: image = u'frogs/ab71.jpg'
+155.5812 	EXP 	Photo: autoDraw = True
+156.0711 	EXP 	Photo: autoDraw = False
+156.3218 	DATA 	Keypress: l
+156.3243 	EXP 	New trial (rep=0, index=11): OrderedDict([('image1', u'frogs/ab60.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+156.3475 	EXP 	Photo: autoDraw = False
+156.3475 	EXP 	Photo: pos = array([ 0.,  0.])
+156.3475 	EXP 	Photo: image = u'frogs/ab60.jpg'
+156.3475 	EXP 	Photo: autoDraw = True
+156.8375 	EXP 	Photo: autoDraw = False
+157.3381 	DATA 	Keypress: l
+157.3405 	EXP 	New trial (rep=0, index=12): OrderedDict([('image1', u'frogs/ab32.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+157.4103 	EXP 	Photo: autoDraw = False
+157.4103 	EXP 	Photo: pos = array([ 0.,  0.])
+157.4103 	EXP 	Photo: image = u'frogs/ab32.jpg'
+157.4103 	EXP 	Photo: autoDraw = True
+157.8538 	EXP 	Photo: autoDraw = False
+158.1546 	DATA 	Keypress: l
+158.1570 	EXP 	New trial (rep=0, index=13): OrderedDict([('image1', u'frogs/ab22.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+158.3360 	EXP 	Photo: autoDraw = False
+158.3360 	EXP 	Photo: pos = array([ 0.,  0.])
+158.3360 	EXP 	Photo: image = u'frogs/ab22.jpg'
+158.3360 	EXP 	Photo: autoDraw = True
+158.6702 	EXP 	Photo: autoDraw = False
+158.9209 	DATA 	Keypress: l
+158.9234 	EXP 	New trial (rep=0, index=14): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+159.2185 	EXP 	Photo: autoDraw = False
+159.2185 	EXP 	Photo: pos = array([ 0.,  0.])
+159.2185 	EXP 	Photo: image = u'logos/1.jpg'
+159.2185 	EXP 	Photo: autoDraw = True
+159.4366 	EXP 	Photo: autoDraw = False
+159.8706 	DATA 	Keypress: a
+159.8730 	EXP 	New trial (rep=0, index=15): OrderedDict([('image1', u'frogs/ab45.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+159.8949 	EXP 	Photo: autoDraw = False
+159.8949 	EXP 	Photo: pos = array([ 0.,  0.])
+159.8949 	EXP 	Photo: image = u'frogs/ab45.jpg'
+159.8949 	EXP 	Photo: autoDraw = True
+160.3863 	EXP 	Photo: autoDraw = False
+160.7874 	DATA 	Keypress: l
+160.7899 	EXP 	New trial (rep=0, index=16): OrderedDict([('image1', u'frogs/ab72.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+160.8113 	EXP 	Photo: autoDraw = False
+160.8113 	EXP 	Photo: pos = array([ 0.,  0.])
+160.8113 	EXP 	Photo: image = u'frogs/ab72.jpg'
+160.8113 	EXP 	Photo: autoDraw = True
+161.3026 	EXP 	Photo: autoDraw = False
+161.5866 	DATA 	Keypress: l
+161.5891 	EXP 	New trial (rep=0, index=17): OrderedDict([('image1', u'frogs/ab28.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+161.6121 	EXP 	Photo: autoDraw = False
+161.6121 	EXP 	Photo: pos = array([ 0.,  0.])
+161.6121 	EXP 	Photo: image = u'frogs/ab28.jpg'
+161.6121 	EXP 	Photo: autoDraw = True
+162.1024 	EXP 	Photo: autoDraw = False
+162.5363 	DATA 	Keypress: l
+162.5387 	EXP 	New trial (rep=0, index=18): OrderedDict([('image1', u'frogs/ab8.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+162.5622 	EXP 	Photo: autoDraw = False
+162.5622 	EXP 	Photo: pos = array([ 0.,  0.])
+162.5622 	EXP 	Photo: image = u'frogs/ab8.jpg'
+162.5622 	EXP 	Photo: autoDraw = True
+163.0520 	EXP 	Photo: autoDraw = False
+163.7530 	DATA 	Keypress: l
+163.7549 	EXP 	New trial (rep=0, index=19): OrderedDict([('image1', u'frogs/ab74.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+163.8015 	EXP 	Photo: autoDraw = False
+163.8015 	EXP 	Photo: pos = array([ 0.,  0.])
+163.8015 	EXP 	Photo: image = u'frogs/ab74.jpg'
+163.8015 	EXP 	Photo: autoDraw = True
+164.2683 	EXP 	Photo: autoDraw = False
+164.5689 	DATA 	Keypress: l
+164.5713 	EXP 	New trial (rep=0, index=20): OrderedDict([('image1', u'frogs/ab57.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+164.7105 	EXP 	Photo: autoDraw = False
+164.7105 	EXP 	Photo: pos = array([ 0.,  0.])
+164.7105 	EXP 	Photo: image = u'frogs/ab57.jpg'
+164.7105 	EXP 	Photo: autoDraw = True
+165.0847 	EXP 	Photo: autoDraw = False
+165.4192 	DATA 	Keypress: l
+165.4219 	EXP 	New trial (rep=0, index=21): OrderedDict([('image1', u'frogs/ab69.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+165.4452 	EXP 	Photo: autoDraw = False
+165.4452 	EXP 	Photo: pos = array([ 0.,  0.])
+165.4452 	EXP 	Photo: image = u'frogs/ab69.jpg'
+165.4452 	EXP 	Photo: autoDraw = True
+165.9344 	EXP 	Photo: autoDraw = False
+166.2184 	DATA 	Keypress: l
+166.2208 	EXP 	New trial (rep=0, index=22): OrderedDict([('image1', u'frogs/ab61.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+166.2771 	EXP 	Photo: autoDraw = False
+166.2771 	EXP 	Photo: pos = array([ 0.,  0.])
+166.2771 	EXP 	Photo: image = u'frogs/ab61.jpg'
+166.2771 	EXP 	Photo: autoDraw = True
+166.7342 	EXP 	Photo: autoDraw = False
+167.0015 	DATA 	Keypress: l
+167.0040 	EXP 	New trial (rep=0, index=23): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+167.2582 	EXP 	Photo: autoDraw = False
+167.2582 	EXP 	Photo: pos = array([ 0.,  0.])
+167.2582 	EXP 	Photo: image = u'logos/1.jpg'
+167.2582 	EXP 	Photo: autoDraw = True
+167.5139 	EXP 	Photo: autoDraw = False
+167.9185 	DATA 	Keypress: a
+167.9210 	EXP 	New trial (rep=0, index=24): OrderedDict([('image1', u'frogs/ab73.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+167.9449 	EXP 	Photo: autoDraw = False
+167.9449 	EXP 	Photo: pos = array([ 0.,  0.])
+167.9449 	EXP 	Photo: image = u'frogs/ab73.jpg'
+167.9449 	EXP 	Photo: autoDraw = True
+168.4335 	EXP 	Photo: autoDraw = False
+168.5839 	DATA 	Keypress: l
+168.5863 	EXP 	New trial (rep=0, index=25): OrderedDict([('image1', u'frogs/ab39.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+168.6378 	EXP 	Photo: autoDraw = False
+168.6378 	EXP 	Photo: pos = array([ 0.,  0.])
+168.6378 	EXP 	Photo: image = u'frogs/ab39.jpg'
+168.6378 	EXP 	Photo: autoDraw = True
+169.0995 	EXP 	Photo: autoDraw = False
+169.3673 	DATA 	Keypress: l
+169.3698 	EXP 	New trial (rep=0, index=26): OrderedDict([('image1', u'frogs/ab67.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+169.3936 	EXP 	Photo: autoDraw = False
+169.3936 	EXP 	Photo: pos = array([ 0.,  0.])
+169.3936 	EXP 	Photo: image = u'frogs/ab67.jpg'
+169.3936 	EXP 	Photo: autoDraw = True
+169.8826 	EXP 	Photo: autoDraw = False
+170.1503 	DATA 	Keypress: l
+170.1528 	EXP 	New trial (rep=0, index=27): OrderedDict([('image1', u'frogs/ab50.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+170.2339 	EXP 	Photo: autoDraw = False
+170.2339 	EXP 	Photo: pos = array([ 0.,  0.])
+170.2339 	EXP 	Photo: image = u'frogs/ab50.jpg'
+170.2339 	EXP 	Photo: autoDraw = True
+170.6657 	EXP 	Photo: autoDraw = False
+170.9998 	DATA 	Keypress: l
+171.0022 	EXP 	New trial (rep=0, index=28): OrderedDict([('image1', u'frogs/ab66.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+171.0257 	EXP 	Photo: autoDraw = False
+171.0257 	EXP 	Photo: pos = array([ 0.,  0.])
+171.0257 	EXP 	Photo: image = u'frogs/ab66.jpg'
+171.0257 	EXP 	Photo: autoDraw = True
+171.5154 	EXP 	Photo: autoDraw = False
+171.8166 	DATA 	Keypress: l
+171.8190 	EXP 	New trial (rep=0, index=29): OrderedDict([('image1', u'frogs/ab11.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+171.8793 	EXP 	Photo: autoDraw = False
+171.8793 	EXP 	Photo: pos = array([ 0.,  0.])
+171.8793 	EXP 	Photo: image = u'frogs/ab11.jpg'
+171.8793 	EXP 	Photo: autoDraw = True
+172.3320 	EXP 	Photo: autoDraw = False
+172.6328 	DATA 	Keypress: l
+172.6352 	EXP 	New trial (rep=0, index=30): OrderedDict([('image1', u'frogs/ab20.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+172.6581 	EXP 	Photo: autoDraw = False
+172.6581 	EXP 	Photo: pos = array([ 0.,  0.])
+172.6581 	EXP 	Photo: image = u'frogs/ab20.jpg'
+172.6581 	EXP 	Photo: autoDraw = True
+173.1484 	EXP 	Photo: autoDraw = False
+173.7823 	DATA 	Keypress: l
+173.7848 	EXP 	New trial (rep=0, index=31): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+174.0367 	EXP 	Photo: autoDraw = False
+174.0367 	EXP 	Photo: pos = array([ 0.,  0.])
+174.0367 	EXP 	Photo: image = u'logos/1.jpg'
+174.0367 	EXP 	Photo: autoDraw = True
+174.3121 	EXP 	Photo: autoDraw = False
+174.6485 	DATA 	Keypress: a
+174.6509 	EXP 	New trial (rep=0, index=32): OrderedDict([('image1', u'frogs/ab40.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+174.6791 	EXP 	Photo: autoDraw = False
+174.6791 	EXP 	Photo: pos = array([ 0.,  0.])
+174.6791 	EXP 	Photo: image = u'frogs/ab40.jpg'
+174.6791 	EXP 	Photo: autoDraw = True
+175.1640 	EXP 	Photo: autoDraw = False
+175.3150 	DATA 	Keypress: l
+175.3174 	EXP 	New trial (rep=0, index=33): OrderedDict([('image1', u'frogs/ab65.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+175.3860 	EXP 	Photo: autoDraw = False
+175.3860 	EXP 	Photo: pos = array([ 0.,  0.])
+175.3860 	EXP 	Photo: image = u'frogs/ab65.jpg'
+175.3860 	EXP 	Photo: autoDraw = True
+175.8306 	EXP 	Photo: autoDraw = False
+176.0648 	DATA 	Keypress: l
+176.0672 	EXP 	New trial (rep=0, index=34): OrderedDict([('image1', u'frogs/ab78.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+176.1269 	EXP 	Photo: autoDraw = False
+176.1269 	EXP 	Photo: pos = array([ 0.,  0.])
+176.1269 	EXP 	Photo: image = u'frogs/ab78.jpg'
+176.1269 	EXP 	Photo: autoDraw = True
+176.5803 	EXP 	Photo: autoDraw = False
+176.6480 	DATA 	Keypress: l
+176.6504 	EXP 	New trial (rep=0, index=35): OrderedDict([('image1', u'frogs/ab17.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+176.6742 	EXP 	Photo: autoDraw = False
+176.6742 	EXP 	Photo: pos = array([ 0.,  0.])
+176.6742 	EXP 	Photo: image = u'frogs/ab17.jpg'
+176.6742 	EXP 	Photo: autoDraw = True
+177.1635 	EXP 	Photo: autoDraw = False
+177.7642 	DATA 	Keypress: l
+177.7667 	EXP 	New trial (rep=0, index=36): OrderedDict([('image1', u'frogs/ab62.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+178.0107 	EXP 	Photo: autoDraw = False
+178.0107 	EXP 	Photo: pos = array([ 0.,  0.])
+178.0107 	EXP 	Photo: image = u'frogs/ab62.jpg'
+178.0107 	EXP 	Photo: autoDraw = True
+178.2799 	EXP 	Photo: autoDraw = False
+178.4142 	DATA 	Keypress: l
+178.4166 	EXP 	New trial (rep=0, index=37): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+178.6650 	EXP 	Photo: autoDraw = False
+178.6650 	EXP 	Photo: pos = array([ 0.,  0.])
+178.6650 	EXP 	Photo: image = u'logos/1.jpg'
+178.6650 	EXP 	Photo: autoDraw = True
+178.9273 	EXP 	Photo: autoDraw = False
+179.2305 	DATA 	Keypress: a
+179.2331 	EXP 	New trial (rep=0, index=38): OrderedDict([('image1', u'frogs/ab46.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+179.3064 	EXP 	Photo: autoDraw = False
+179.3064 	EXP 	Photo: pos = array([ 0.,  0.])
+179.3064 	EXP 	Photo: image = u'frogs/ab46.jpg'
+179.3064 	EXP 	Photo: autoDraw = True
+179.7134 	DATA 	Keypress: l
+179.7460 	EXP 	Photo: autoDraw = False
+181.2132 	DATA 	Keypress: l
+181.2157 	EXP 	New trial (rep=0, index=39): OrderedDict([('image1', u'frogs/ab1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+181.2390 	EXP 	Photo: autoDraw = False
+181.2390 	EXP 	Photo: pos = array([ 0.,  0.])
+181.2390 	EXP 	Photo: image = u'frogs/ab1.jpg'
+181.2390 	EXP 	Photo: autoDraw = True
+181.7289 	EXP 	Photo: autoDraw = False
+181.9469 	DATA 	Keypress: l
+181.9494 	EXP 	New trial (rep=0, index=40): OrderedDict([('image1', u'frogs/ab68.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+181.9999 	EXP 	Photo: autoDraw = False
+181.9999 	EXP 	Photo: pos = array([ 0.,  0.])
+181.9999 	EXP 	Photo: image = u'frogs/ab68.jpg'
+181.9999 	EXP 	Photo: autoDraw = True
+182.4619 	EXP 	Photo: autoDraw = False
+182.4961 	DATA 	Keypress: l
+182.4985 	EXP 	New trial (rep=0, index=41): OrderedDict([('image1', u'frogs/ab58.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+182.8633 	EXP 	Photo: autoDraw = False
+182.8633 	EXP 	Photo: pos = array([ 0.,  0.])
+182.8633 	EXP 	Photo: image = u'frogs/ab58.jpg'
+182.8633 	EXP 	Photo: autoDraw = True
+183.0259 	EXP 	Photo: autoDraw = False
+183.6793 	DATA 	Keypress: l
+183.6817 	EXP 	New trial (rep=0, index=42): OrderedDict([('image1', u'frogs/ab41.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+183.7046 	EXP 	Photo: autoDraw = False
+183.7046 	EXP 	Photo: pos = array([ 0.,  0.])
+183.7046 	EXP 	Photo: image = u'frogs/ab41.jpg'
+183.7046 	EXP 	Photo: autoDraw = True
+184.1950 	EXP 	Photo: autoDraw = False
+184.3957 	DATA 	Keypress: l
+184.3981 	EXP 	New trial (rep=0, index=43): OrderedDict([('image1', u'frogs/ab10.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+184.4208 	EXP 	Photo: autoDraw = False
+184.4208 	EXP 	Photo: pos = array([ 0.,  0.])
+184.4208 	EXP 	Photo: image = u'frogs/ab10.jpg'
+184.4208 	EXP 	Photo: autoDraw = True
+184.9114 	EXP 	Photo: autoDraw = False
+184.9288 	DATA 	Keypress: l
+184.9315 	EXP 	New trial (rep=0, index=44): OrderedDict([('image1', u'frogs/ab64.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+184.9575 	EXP 	Photo: autoDraw = False
+184.9575 	EXP 	Photo: pos = array([ 0.,  0.])
+184.9575 	EXP 	Photo: image = u'frogs/ab64.jpg'
+184.9575 	EXP 	Photo: autoDraw = True
+185.4124 	DATA 	Keypress: l
+185.4447 	EXP 	Photo: autoDraw = False
+186.0118 	DATA 	Keypress: l
+186.0142 	EXP 	New trial (rep=0, index=45): OrderedDict([('image1', u'frogs/ab3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+186.0658 	EXP 	Photo: autoDraw = False
+186.0658 	EXP 	Photo: pos = array([ 0.,  0.])
+186.0658 	EXP 	Photo: image = u'frogs/ab3.jpg'
+186.0658 	EXP 	Photo: autoDraw = True
+186.4794 	DATA 	Keypress: l
+186.5275 	EXP 	Photo: autoDraw = False
+186.9948 	DATA 	Keypress: l
+186.9972 	EXP 	New trial (rep=0, index=46): OrderedDict([('image1', u'frogs/ab33.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+187.1304 	EXP 	Photo: autoDraw = False
+187.1304 	EXP 	Photo: pos = array([ 0.,  0.])
+187.1304 	EXP 	Photo: image = u'frogs/ab33.jpg'
+187.1304 	EXP 	Photo: autoDraw = True
+187.5099 	EXP 	Photo: autoDraw = False
+187.5441 	DATA 	Keypress: l
+187.5466 	EXP 	New trial (rep=0, index=47): OrderedDict([('image1', u'frogs/ab47.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+188.6168 	DATA 	Keypress: l
+188.6295 	EXP 	Photo: autoDraw = False
+188.6295 	EXP 	Photo: pos = array([ 0.,  0.])
+188.6295 	EXP 	Photo: image = u'frogs/ab47.jpg'
+188.6295 	EXP 	Photo: autoDraw = True
+188.6295 	EXP 	Photo: autoDraw = False
+189.2440 	DATA 	Keypress: l
+189.2467 	EXP 	New trial (rep=0, index=48): OrderedDict([('image1', u'frogs/ab23.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+189.3211 	EXP 	Photo: autoDraw = False
+189.3211 	EXP 	Photo: pos = array([ 0.,  0.])
+189.3211 	EXP 	Photo: image = u'frogs/ab23.jpg'
+189.3211 	EXP 	Photo: autoDraw = True
+189.7452 	DATA 	Keypress: l
+189.7599 	EXP 	Photo: autoDraw = False
+190.2936 	DATA 	Keypress: l
+190.2961 	EXP 	New trial (rep=0, index=49): OrderedDict([('image1', u'frogs/ab38.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+190.3194 	EXP 	Photo: autoDraw = False
+190.3194 	EXP 	Photo: pos = array([ 0.,  0.])
+190.3194 	EXP 	Photo: image = u'frogs/ab38.jpg'
+190.3194 	EXP 	Photo: autoDraw = True
+190.7774 	DATA 	Keypress: l
+190.8096 	EXP 	Photo: autoDraw = False
+191.1101 	DATA 	Keypress: l
+191.1125 	EXP 	New trial (rep=0, index=50): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+191.4542 	EXP 	Photo: autoDraw = False
+191.4542 	EXP 	Photo: pos = array([ 0.,  0.])
+191.4542 	EXP 	Photo: image = u'logos/1.jpg'
+191.4542 	EXP 	Photo: autoDraw = True
+191.6262 	EXP 	Photo: autoDraw = False
+192.0435 	DATA 	Keypress: a
+192.0459 	EXP 	New trial (rep=0, index=51): OrderedDict([('image1', u'frogs/ab12.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+192.0672 	EXP 	Photo: autoDraw = False
+192.0672 	EXP 	Photo: pos = array([ 0.,  0.])
+192.0672 	EXP 	Photo: image = u'frogs/ab12.jpg'
+192.0672 	EXP 	Photo: autoDraw = True
+192.5588 	EXP 	Photo: autoDraw = False
+192.7761 	DATA 	Keypress: l
+192.7785 	EXP 	New trial (rep=0, index=52): OrderedDict([('image1', u'frogs/ab81.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+192.8002 	EXP 	Photo: autoDraw = False
+192.8002 	EXP 	Photo: pos = array([ 0.,  0.])
+192.8002 	EXP 	Photo: image = u'frogs/ab81.jpg'
+192.8002 	EXP 	Photo: autoDraw = True
+193.2765 	DATA 	Keypress: l
+193.2919 	EXP 	Photo: autoDraw = False
+193.8425 	DATA 	Keypress: l
+193.8449 	EXP 	New trial (rep=0, index=53): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+194.0945 	EXP 	Photo: autoDraw = False
+194.0945 	EXP 	Photo: pos = array([ 0.,  0.])
+194.0945 	EXP 	Photo: image = u'logos/1.jpg'
+194.0945 	EXP 	Photo: autoDraw = True
+194.3585 	EXP 	Photo: autoDraw = False
+194.6590 	DATA 	Keypress: a
+194.6615 	EXP 	New trial (rep=0, index=54): OrderedDict([('image1', u'frogs/ab48.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+194.7417 	EXP 	Photo: autoDraw = False
+194.7417 	EXP 	Photo: pos = array([ 0.,  0.])
+194.7417 	EXP 	Photo: image = u'frogs/ab48.jpg'
+194.7417 	EXP 	Photo: autoDraw = True
+195.0925 	DATA 	Keypress: l
+195.1747 	EXP 	Photo: autoDraw = False
+195.9419 	DATA 	Keypress: l
+195.9443 	EXP 	New trial (rep=0, index=55): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+196.1935 	EXP 	Photo: autoDraw = False
+196.1935 	EXP 	Photo: pos = array([ 0.,  0.])
+196.1935 	EXP 	Photo: image = u'logos/1.jpg'
+196.1935 	EXP 	Photo: autoDraw = True
+196.4575 	EXP 	Photo: autoDraw = False
+197.8579 	DATA 	Keypress: a
+197.8603 	EXP 	New trial (rep=0, index=56): OrderedDict([('image1', u'frogs/ab52.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+197.8815 	EXP 	Photo: autoDraw = False
+197.8815 	EXP 	Photo: pos = array([ 0.,  0.])
+197.8815 	EXP 	Photo: image = u'frogs/ab52.jpg'
+197.8815 	EXP 	Photo: autoDraw = True
+198.3736 	EXP 	Photo: autoDraw = False
+198.4410 	DATA 	Keypress: l
+198.4433 	EXP 	New trial (rep=0, index=57): OrderedDict([('image1', u'frogs/ab7.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+198.4969 	EXP 	Photo: autoDraw = False
+198.4969 	EXP 	Photo: pos = array([ 0.,  0.])
+198.4969 	EXP 	Photo: image = u'frogs/ab7.jpg'
+198.4969 	EXP 	Photo: autoDraw = True
+198.9568 	EXP 	Photo: autoDraw = False
+199.7239 	DATA 	Keypress: l
+199.7263 	EXP 	New trial (rep=0, index=58): OrderedDict([('image1', u'frogs/ab49.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+199.7493 	EXP 	Photo: autoDraw = False
+199.7493 	EXP 	Photo: pos = array([ 0.,  0.])
+199.7493 	EXP 	Photo: image = u'frogs/ab49.jpg'
+199.7493 	EXP 	Photo: autoDraw = True
+200.2395 	EXP 	Photo: autoDraw = False
+200.7235 	DATA 	Keypress: l
+200.7259 	EXP 	New trial (rep=0, index=59): OrderedDict([('image1', u'frogs/ab5.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+200.7507 	EXP 	Photo: autoDraw = False
+200.7507 	EXP 	Photo: pos = array([ 0.,  0.])
+200.7507 	EXP 	Photo: image = u'frogs/ab5.jpg'
+200.7507 	EXP 	Photo: autoDraw = True
+201.2393 	EXP 	Photo: autoDraw = False
+201.4899 	DATA 	Keypress: l
+201.4924 	EXP 	New trial (rep=0, index=60): OrderedDict([('image1', u'frogs/ab19.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+201.5473 	EXP 	Photo: autoDraw = False
+201.5473 	EXP 	Photo: pos = array([ 0.,  0.])
+201.5473 	EXP 	Photo: image = u'frogs/ab19.jpg'
+201.5473 	EXP 	Photo: autoDraw = True
+202.0057 	EXP 	Photo: autoDraw = False
+202.1730 	DATA 	Keypress: l
+202.1754 	EXP 	New trial (rep=0, index=61): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+202.4211 	EXP 	Photo: autoDraw = False
+202.4211 	EXP 	Photo: pos = array([ 0.,  0.])
+202.4211 	EXP 	Photo: image = u'logos/1.jpg'
+202.4211 	EXP 	Photo: autoDraw = True
+202.7028 	EXP 	Photo: autoDraw = False
+203.0728 	DATA 	Keypress: a
+203.0752 	EXP 	New trial (rep=0, index=62): OrderedDict([('image1', u'frogs/ab24.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+203.0979 	EXP 	Photo: autoDraw = False
+203.0979 	EXP 	Photo: pos = array([ 0.,  0.])
+203.0979 	EXP 	Photo: image = u'frogs/ab24.jpg'
+203.0979 	EXP 	Photo: autoDraw = True
+203.5892 	EXP 	Photo: autoDraw = False
+203.7062 	DATA 	Keypress: l
+203.7242 	EXP 	New trial (rep=0, index=63): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+203.9727 	EXP 	Photo: autoDraw = False
+203.9727 	EXP 	Photo: pos = array([ 0.,  0.])
+203.9727 	EXP 	Photo: image = u'logos/1.jpg'
+203.9727 	EXP 	Photo: autoDraw = True
+204.2516 	EXP 	Photo: autoDraw = False
+204.7053 	DATA 	Keypress: l
+204.7078 	EXP 	New trial (rep=0, index=64): OrderedDict([('image1', u'frogs/ab79.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+204.7329 	EXP 	Photo: autoDraw = False
+204.7329 	EXP 	Photo: pos = array([ 0.,  0.])
+204.7329 	EXP 	Photo: image = u'frogs/ab79.jpg'
+204.7329 	EXP 	Photo: autoDraw = True
+205.2211 	EXP 	Photo: autoDraw = False
+205.8382 	DATA 	Keypress: l
+205.8406 	EXP 	New trial (rep=0, index=65): OrderedDict([('image1', u'frogs/ab14.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+205.8975 	EXP 	Photo: autoDraw = False
+205.8975 	EXP 	Photo: pos = array([ 0.,  0.])
+205.8975 	EXP 	Photo: image = u'frogs/ab14.jpg'
+205.8975 	EXP 	Photo: autoDraw = True
+206.3542 	EXP 	Photo: autoDraw = False
+206.6882 	DATA 	Keypress: l
+206.6906 	EXP 	New trial (rep=0, index=66): OrderedDict([('image1', u'frogs/ab44.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+206.7139 	EXP 	Photo: autoDraw = False
+206.7139 	EXP 	Photo: pos = array([ 0.,  0.])
+206.7139 	EXP 	Photo: image = u'frogs/ab44.jpg'
+206.7139 	EXP 	Photo: autoDraw = True
+207.2206 	EXP 	Photo: autoDraw = False
+207.8711 	DATA 	Keypress: l
+207.8736 	EXP 	New trial (rep=0, index=67): OrderedDict([('image1', u'frogs/ab34.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+207.9561 	EXP 	Photo: autoDraw = False
+207.9561 	EXP 	Photo: pos = array([ 0.,  0.])
+207.9561 	EXP 	Photo: image = u'frogs/ab34.jpg'
+207.9561 	EXP 	Photo: autoDraw = True
+208.3870 	EXP 	Photo: autoDraw = False
+208.5043 	DATA 	Keypress: l
+208.5067 	EXP 	New trial (rep=0, index=68): OrderedDict([('image1', u'frogs/ab6.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+208.5807 	EXP 	Photo: autoDraw = False
+208.5807 	EXP 	Photo: pos = array([ 0.,  0.])
+208.5807 	EXP 	Photo: image = u'frogs/ab6.jpg'
+208.5807 	EXP 	Photo: autoDraw = True
+209.0201 	EXP 	Photo: autoDraw = False
+209.4875 	DATA 	Keypress: l
+209.4901 	EXP 	New trial (rep=0, index=69): OrderedDict([('image1', u'frogs/ab13.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+209.5129 	EXP 	Photo: autoDraw = False
+209.5129 	EXP 	Photo: pos = array([ 0.,  0.])
+209.5129 	EXP 	Photo: image = u'frogs/ab13.jpg'
+209.5129 	EXP 	Photo: autoDraw = True
+210.0030 	EXP 	Photo: autoDraw = False
+210.2369 	DATA 	Keypress: l
+210.2394 	EXP 	New trial (rep=0, index=70): OrderedDict([('image1', u'frogs/ab35.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+210.2922 	EXP 	Photo: autoDraw = False
+210.2922 	EXP 	Photo: pos = array([ 0.,  0.])
+210.2922 	EXP 	Photo: image = u'frogs/ab35.jpg'
+210.2922 	EXP 	Photo: autoDraw = True
+210.7527 	EXP 	Photo: autoDraw = False
+211.3533 	DATA 	Keypress: l
+211.3557 	EXP 	New trial (rep=0, index=71): OrderedDict([('image1', u'frogs/ab53.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+211.3825 	EXP 	Photo: autoDraw = False
+211.3825 	EXP 	Photo: pos = array([ 0.,  0.])
+211.3825 	EXP 	Photo: image = u'frogs/ab53.jpg'
+211.3825 	EXP 	Photo: autoDraw = True
+211.8690 	EXP 	Photo: autoDraw = False
+212.3696 	DATA 	Keypress: l
+212.3722 	EXP 	New trial (rep=0, index=72): OrderedDict([('image1', u'frogs/ab21.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+212.3947 	EXP 	Photo: autoDraw = False
+212.3947 	EXP 	Photo: pos = array([ 0.,  0.])
+212.3947 	EXP 	Photo: image = u'frogs/ab21.jpg'
+212.3947 	EXP 	Photo: autoDraw = True
+212.8853 	EXP 	Photo: autoDraw = False
+213.6526 	DATA 	Keypress: l
+213.6551 	EXP 	New trial (rep=0, index=73): OrderedDict([('image1', u'logos/1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+213.9948 	EXP 	Photo: autoDraw = False
+213.9948 	EXP 	Photo: pos = array([ 0.,  0.])
+213.9948 	EXP 	Photo: image = u'logos/1.jpg'
+213.9948 	EXP 	Photo: autoDraw = True
+214.1821 	EXP 	Photo: autoDraw = False
+214.7354 	DATA 	Keypress: a
+214.7379 	EXP 	New trial (rep=0, index=74): OrderedDict([('image1', u'frogs/ab26.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+214.7608 	EXP 	Photo: autoDraw = False
+214.7608 	EXP 	Photo: pos = array([ 0.,  0.])
+214.7608 	EXP 	Photo: image = u'frogs/ab26.jpg'
+214.7608 	EXP 	Photo: autoDraw = True
+215.2507 	EXP 	Photo: autoDraw = False
+215.3517 	DATA 	Keypress: l
+215.3542 	EXP 	New trial (rep=0, index=75): OrderedDict([('image1', u'frogs/ab4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+215.3770 	EXP 	Photo: autoDraw = False
+215.3770 	EXP 	Photo: pos = array([ 0.,  0.])
+215.3770 	EXP 	Photo: image = u'frogs/ab4.jpg'
+215.3770 	EXP 	Photo: autoDraw = True
+215.8671 	EXP 	Photo: autoDraw = False
+216.5179 	DATA 	Keypress: l
+216.5203 	EXP 	New trial (rep=0, index=76): OrderedDict([('image1', u'frogs/ab2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+217.2803 	EXP 	Photo: autoDraw = False
+217.2803 	EXP 	Photo: pos = array([ 0.,  0.])
+217.2803 	EXP 	Photo: image = u'frogs/ab2.jpg'
+217.2803 	EXP 	Photo: autoDraw = True
+217.2803 	EXP 	Photo: autoDraw = False
+218.4673 	DATA 	Keypress: l
+218.4697 	EXP 	New trial (rep=0, index=77): OrderedDict([('image1', u'frogs/ab25.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+218.5222 	EXP 	Photo: autoDraw = False
+218.5222 	EXP 	Photo: pos = array([ 0.,  0.])
+218.5222 	EXP 	Photo: image = u'frogs/ab25.jpg'
+218.5222 	EXP 	Photo: autoDraw = True
+218.9833 	EXP 	Photo: autoDraw = False
+219.3006 	DATA 	Keypress: l
+219.3030 	EXP 	New trial (rep=0, index=78): OrderedDict([('image1', u'frogs/ab77.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+219.3560 	EXP 	Photo: autoDraw = False
+219.3560 	EXP 	Photo: pos = array([ 0.,  0.])
+219.3560 	EXP 	Photo: image = u'frogs/ab77.jpg'
+219.3560 	EXP 	Photo: autoDraw = True
+219.8165 	EXP 	Photo: autoDraw = False
+220.2503 	DATA 	Keypress: l
+220.2527 	EXP 	New trial (rep=0, index=79): OrderedDict([('image1', u'frogs/ab37.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+220.3058 	EXP 	Photo: autoDraw = False
+220.3058 	EXP 	Photo: pos = array([ 0.,  0.])
+220.3058 	EXP 	Photo: image = u'frogs/ab37.jpg'
+220.3058 	EXP 	Photo: autoDraw = True
+220.7660 	EXP 	Photo: autoDraw = False
+225.2154 	DATA 	Keypress: l
+225.2178 	EXP 	New trial (rep=0, index=80): OrderedDict([('image1', u'frogs/ab9.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+225.6432 	EXP 	Photo: autoDraw = False
+225.6432 	EXP 	Photo: pos = array([ 0.,  0.])
+225.6432 	EXP 	Photo: image = u'frogs/ab9.jpg'
+225.6432 	EXP 	Photo: autoDraw = True
+225.7313 	EXP 	Photo: autoDraw = False
+226.3150 	DATA 	Keypress: l
+226.3175 	EXP 	New trial (rep=0, index=81): OrderedDict([('image1', u'frogs/ab55.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+226.3729 	EXP 	Photo: autoDraw = False
+226.3729 	EXP 	Photo: pos = array([ 0.,  0.])
+226.3729 	EXP 	Photo: image = u'frogs/ab55.jpg'
+226.3729 	EXP 	Photo: autoDraw = True
+226.8307 	EXP 	Photo: autoDraw = False
+227.4978 	DATA 	Keypress: l
+227.5002 	EXP 	New trial (rep=0, index=82): OrderedDict([('image1', u'frogs/ab15.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+227.6220 	EXP 	Photo: autoDraw = False
+227.6220 	EXP 	Photo: pos = array([ 0.,  0.])
+227.6220 	EXP 	Photo: image = u'frogs/ab15.jpg'
+227.6220 	EXP 	Photo: autoDraw = True
+228.0137 	EXP 	Photo: autoDraw = False
+228.4310 	DATA 	Keypress: l
+228.4334 	EXP 	New trial (rep=0, index=83): OrderedDict([('image1', u'frogs/ab76.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+228.4567 	EXP 	Photo: autoDraw = False
+228.4567 	EXP 	Photo: pos = array([ 0.,  0.])
+228.4567 	EXP 	Photo: image = u'frogs/ab76.jpg'
+228.4567 	EXP 	Photo: autoDraw = True
+228.9466 	EXP 	Photo: autoDraw = False
+229.3473 	DATA 	Keypress: l
+229.3497 	EXP 	New trial (rep=0, index=84): OrderedDict([('image1', u'frogs/ab56.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+230.1250 	EXP 	Photo: autoDraw = False
+230.1250 	EXP 	Photo: pos = array([ 0.,  0.])
+230.1250 	EXP 	Photo: image = u'frogs/ab56.jpg'
+230.1250 	EXP 	Photo: autoDraw = True
+230.1250 	EXP 	Photo: autoDraw = False
+231.2800 	DATA 	Keypress: l
+231.2824 	EXP 	New trial (rep=0, index=85): OrderedDict([('image1', u'frogs/ab80.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+231.3061 	EXP 	Photo: autoDraw = False
+231.3061 	EXP 	Photo: pos = array([ 0.,  0.])
+231.3061 	EXP 	Photo: image = u'frogs/ab80.jpg'
+231.3061 	EXP 	Photo: autoDraw = True
+231.7957 	EXP 	Photo: autoDraw = False
+232.9294 	DATA 	Keypress: l
+232.9319 	EXP 	New trial (rep=0, index=86): OrderedDict([('image1', u'frogs/ab75.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+232.9536 	EXP 	Photo: autoDraw = False
+232.9536 	EXP 	Photo: pos = array([ 0.,  0.])
+232.9536 	EXP 	Photo: image = u'frogs/ab75.jpg'
+232.9536 	EXP 	Photo: autoDraw = True
+233.4451 	EXP 	Photo: autoDraw = False
+235.0786 	DATA 	Keypress: l
+235.0810 	EXP 	New trial (rep=0, index=87): OrderedDict([('image1', u'frogs/ab63.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+235.1044 	EXP 	Photo: autoDraw = False
+235.1044 	EXP 	Photo: pos = array([ 0.,  0.])
+235.1044 	EXP 	Photo: image = u'frogs/ab63.jpg'
+235.1044 	EXP 	Photo: autoDraw = True
+235.5946 	EXP 	Photo: autoDraw = False
+236.2449 	DATA 	Keypress: l
+236.2473 	EXP 	New trial (rep=0, index=88): OrderedDict([('image1', u'frogs/ab27.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+236.3158 	EXP 	Photo: autoDraw = False
+236.3158 	EXP 	Photo: pos = array([ 0.,  0.])
+236.3158 	EXP 	Photo: image = u'frogs/ab27.jpg'
+236.3158 	EXP 	Photo: autoDraw = True
+236.7607 	EXP 	Photo: autoDraw = False
+237.1613 	DATA 	Keypress: l
+237.1637 	EXP 	New trial (rep=0, index=89): OrderedDict([('image1', u'frogs/ab43.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+237.2373 	EXP 	Photo: autoDraw = False
+237.2373 	EXP 	Photo: pos = array([ 0.,  0.])
+237.2373 	EXP 	Photo: image = u'frogs/ab43.jpg'
+237.2373 	EXP 	Photo: autoDraw = True
+237.6770 	EXP 	Photo: autoDraw = False
+238.3276 	DATA 	Keypress: l
+238.3301 	EXP 	New trial (rep=0, index=2): OrderedDict([('pix', u'logos/2.jpg'), ('source', u'properties2.xlsx')])
+238.4361 	EXP 	Photo: autoDraw = False
+238.4361 	EXP 	image123: image = u'logos/2.jpg'
+238.4361 	EXP 	text_2: autoDraw = True
+238.4361 	EXP 	image123: autoDraw = True
+238.4361 	EXP 	text_3: autoDraw = True
+239.4605 	DATA 	Keypress: l
+241.6264 	DATA 	Keypress: space
+241.6935 	EXP 	Imported properties2.xlsx as conditions, 90 conditions, 5 params
+241.6943 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+241.6948 	EXP 	New trial (rep=0, index=0): OrderedDict([('image1', u'frogs/ab51.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+241.7324 	EXP 	text_2: autoDraw = False
+241.7324 	EXP 	image123: autoDraw = False
+241.7324 	EXP 	text_3: autoDraw = False
+241.7324 	EXP 	Photo: pos = array([ 0.,  0.])
+241.7324 	EXP 	Photo: image = u'frogs/ab51.jpg'
+241.7324 	EXP 	Photo: autoDraw = True
+242.2089 	EXP 	Photo: autoDraw = False
+242.5096 	DATA 	Keypress: l
+242.5128 	EXP 	New trial (rep=0, index=1): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+242.5588 	EXP 	Photo: autoDraw = False
+242.5588 	EXP 	Photo: pos = array([ 0.,  0.])
+242.5588 	EXP 	Photo: image = u'logos/2.jpg'
+242.5588 	EXP 	Photo: autoDraw = True
+243.0252 	EXP 	Photo: autoDraw = False
+243.3259 	DATA 	Keypress: a
+243.3283 	EXP 	New trial (rep=0, index=2): OrderedDict([('image1', u'frogs/ab28.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+243.3513 	EXP 	Photo: autoDraw = False
+243.3513 	EXP 	Photo: pos = array([ 0.,  0.])
+243.3513 	EXP 	Photo: image = u'frogs/ab28.jpg'
+243.3513 	EXP 	Photo: autoDraw = True
+243.8417 	EXP 	Photo: autoDraw = False
+244.1090 	DATA 	Keypress: l
+244.1114 	EXP 	New trial (rep=0, index=3): OrderedDict([('image1', u'frogs/ab79.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+244.1347 	EXP 	Photo: autoDraw = False
+244.1347 	EXP 	Photo: pos = array([ 0.,  0.])
+244.1347 	EXP 	Photo: image = u'frogs/ab79.jpg'
+244.1347 	EXP 	Photo: autoDraw = True
+244.6256 	EXP 	Photo: autoDraw = False
+244.9586 	DATA 	Keypress: l
+244.9611 	EXP 	New trial (rep=0, index=4): OrderedDict([('image1', u'frogs/ab34.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+245.0306 	EXP 	Photo: autoDraw = False
+245.0306 	EXP 	Photo: pos = array([ 0.,  0.])
+245.0306 	EXP 	Photo: image = u'frogs/ab34.jpg'
+245.0306 	EXP 	Photo: autoDraw = True
+245.4744 	EXP 	Photo: autoDraw = False
+245.7584 	DATA 	Keypress: l
+245.7608 	EXP 	New trial (rep=0, index=5): OrderedDict([('image1', u'frogs/ab10.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+245.7840 	EXP 	Photo: autoDraw = False
+245.7840 	EXP 	Photo: pos = array([ 0.,  0.])
+245.7840 	EXP 	Photo: image = u'frogs/ab10.jpg'
+245.7840 	EXP 	Photo: autoDraw = True
+246.2742 	EXP 	Photo: autoDraw = False
+246.6914 	DATA 	Keypress: l
+246.6938 	EXP 	New trial (rep=0, index=6): OrderedDict([('image1', u'frogs/ab62.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+246.8821 	EXP 	Photo: autoDraw = False
+246.8821 	EXP 	Photo: pos = array([ 0.,  0.])
+246.8821 	EXP 	Photo: image = u'frogs/ab62.jpg'
+246.8821 	EXP 	Photo: autoDraw = True
+247.2074 	EXP 	Photo: autoDraw = False
+247.5585 	DATA 	Keypress: l
+247.5610 	EXP 	New trial (rep=0, index=7): OrderedDict([('image1', u'frogs/ab38.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+247.5834 	EXP 	Photo: autoDraw = False
+247.5834 	EXP 	Photo: pos = array([ 0.,  0.])
+247.5834 	EXP 	Photo: image = u'frogs/ab38.jpg'
+247.5834 	EXP 	Photo: autoDraw = True
+248.0735 	EXP 	Photo: autoDraw = False
+248.9073 	DATA 	Keypress: l
+248.9097 	EXP 	New trial (rep=0, index=8): OrderedDict([('image1', u'frogs/ab15.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+249.0212 	EXP 	Photo: autoDraw = False
+249.0212 	EXP 	Photo: pos = array([ 0.,  0.])
+249.0212 	EXP 	Photo: image = u'frogs/ab15.jpg'
+249.0212 	EXP 	Photo: autoDraw = True
+249.4231 	EXP 	Photo: autoDraw = False
+249.7237 	DATA 	Keypress: l
+249.7261 	EXP 	New trial (rep=0, index=9): OrderedDict([('image1', u'frogs/ab23.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+249.7850 	EXP 	Photo: autoDraw = False
+249.7850 	EXP 	Photo: pos = array([ 0.,  0.])
+249.7850 	EXP 	Photo: image = u'frogs/ab23.jpg'
+249.7850 	EXP 	Photo: autoDraw = True
+250.2396 	EXP 	Photo: autoDraw = False
+250.4239 	DATA 	Keypress: l
+250.4263 	EXP 	New trial (rep=0, index=10): OrderedDict([('image1', u'frogs/ab61.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+250.4722 	EXP 	Photo: autoDraw = False
+250.4722 	EXP 	Photo: pos = array([ 0.,  0.])
+250.4722 	EXP 	Photo: image = u'frogs/ab61.jpg'
+250.4722 	EXP 	Photo: autoDraw = True
+250.9393 	EXP 	Photo: autoDraw = False
+251.4232 	DATA 	Keypress: l
+251.4257 	EXP 	New trial (rep=0, index=11): OrderedDict([('image1', u'frogs/ab58.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+251.7434 	EXP 	Photo: autoDraw = False
+251.7434 	EXP 	Photo: pos = array([ 0.,  0.])
+251.7434 	EXP 	Photo: image = u'frogs/ab58.jpg'
+251.7434 	EXP 	Photo: autoDraw = True
+251.9438 	EXP 	Photo: autoDraw = False
+252.3228 	DATA 	Keypress: l
+252.3252 	EXP 	New trial (rep=0, index=12): OrderedDict([('image1', u'frogs/ab44.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+252.3486 	EXP 	Photo: autoDraw = False
+252.3486 	EXP 	Photo: pos = array([ 0.,  0.])
+252.3486 	EXP 	Photo: image = u'frogs/ab44.jpg'
+252.3486 	EXP 	Photo: autoDraw = True
+252.8387 	EXP 	Photo: autoDraw = False
+253.3059 	DATA 	Keypress: l
+253.3082 	EXP 	New trial (rep=0, index=13): OrderedDict([('image1', u'frogs/ab66.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+253.3315 	EXP 	Photo: autoDraw = False
+253.3315 	EXP 	Photo: pos = array([ 0.,  0.])
+253.3315 	EXP 	Photo: image = u'frogs/ab66.jpg'
+253.3315 	EXP 	Photo: autoDraw = True
+253.8217 	EXP 	Photo: autoDraw = False
+254.3222 	DATA 	Keypress: l
+254.3247 	EXP 	New trial (rep=0, index=14): OrderedDict([('image1', u'frogs/ab25.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+254.3741 	EXP 	Photo: autoDraw = False
+254.3741 	EXP 	Photo: pos = array([ 0.,  0.])
+254.3741 	EXP 	Photo: image = u'frogs/ab25.jpg'
+254.3741 	EXP 	Photo: autoDraw = True
+254.8379 	EXP 	Photo: autoDraw = False
+255.1720 	DATA 	Keypress: l
+255.1744 	EXP 	New trial (rep=0, index=15): OrderedDict([('image1', u'frogs/ab37.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+255.2271 	EXP 	Photo: autoDraw = False
+255.2271 	EXP 	Photo: pos = array([ 0.,  0.])
+255.2271 	EXP 	Photo: image = u'frogs/ab37.jpg'
+255.2271 	EXP 	Photo: autoDraw = True
+255.6876 	EXP 	Photo: autoDraw = False
+256.0383 	DATA 	Keypress: l
+256.0407 	EXP 	New trial (rep=0, index=16): OrderedDict([('image1', u'frogs/ab35.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+256.0943 	EXP 	Photo: autoDraw = False
+256.0943 	EXP 	Photo: pos = array([ 0.,  0.])
+256.0943 	EXP 	Photo: image = u'frogs/ab35.jpg'
+256.0943 	EXP 	Photo: autoDraw = True
+256.5540 	EXP 	Photo: autoDraw = False
+256.8715 	DATA 	Keypress: l
+256.8739 	EXP 	New trial (rep=0, index=17): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+256.9177 	EXP 	Photo: autoDraw = False
+256.9177 	EXP 	Photo: pos = array([ 0.,  0.])
+256.9177 	EXP 	Photo: image = u'logos/2.jpg'
+256.9177 	EXP 	Photo: autoDraw = True
+257.3870 	EXP 	Photo: autoDraw = False
+258.4542 	DATA 	Keypress: a
+258.4566 	EXP 	New trial (rep=0, index=18): OrderedDict([('image1', u'frogs/ab21.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+258.4804 	EXP 	Photo: autoDraw = False
+258.4804 	EXP 	Photo: pos = array([ 0.,  0.])
+258.4804 	EXP 	Photo: image = u'frogs/ab21.jpg'
+258.4804 	EXP 	Photo: autoDraw = True
+258.9699 	EXP 	Photo: autoDraw = False
+259.3539 	DATA 	Keypress: l
+259.3563 	EXP 	New trial (rep=0, index=19): OrderedDict([('image1', u'frogs/ab42.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+259.4168 	EXP 	Photo: autoDraw = False
+259.4168 	EXP 	Photo: pos = array([ 0.,  0.])
+259.4168 	EXP 	Photo: image = u'frogs/ab42.jpg'
+259.4168 	EXP 	Photo: autoDraw = True
+259.8696 	EXP 	Photo: autoDraw = False
+260.3201 	DATA 	Keypress: l
+260.3226 	EXP 	New trial (rep=0, index=20): OrderedDict([('image1', u'frogs/ab56.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+261.1047 	EXP 	Photo: autoDraw = False
+261.1047 	EXP 	Photo: pos = array([ 0.,  0.])
+261.1047 	EXP 	Photo: image = u'frogs/ab56.jpg'
+261.1047 	EXP 	Photo: autoDraw = True
+261.1047 	EXP 	Photo: autoDraw = False
+262.5867 	DATA 	Keypress: l
+262.5891 	EXP 	New trial (rep=0, index=21): OrderedDict([('image1', u'frogs/ab68.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+262.6401 	EXP 	Photo: autoDraw = False
+262.6401 	EXP 	Photo: pos = array([ 0.,  0.])
+262.6401 	EXP 	Photo: image = u'frogs/ab68.jpg'
+262.6401 	EXP 	Photo: autoDraw = True
+263.1019 	EXP 	Photo: autoDraw = False
+263.5358 	DATA 	Keypress: l
+263.5382 	EXP 	New trial (rep=0, index=22): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+263.5792 	EXP 	Photo: autoDraw = False
+263.5792 	EXP 	Photo: pos = array([ 0.,  0.])
+263.5792 	EXP 	Photo: image = u'logos/2.jpg'
+263.5792 	EXP 	Photo: autoDraw = True
+264.0515 	EXP 	Photo: autoDraw = False
+264.4355 	DATA 	Keypress: a
+264.4379 	EXP 	New trial (rep=0, index=23): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+264.4795 	EXP 	Photo: autoDraw = False
+264.4795 	EXP 	Photo: pos = array([ 0.,  0.])
+264.4795 	EXP 	Photo: image = u'logos/2.jpg'
+264.4795 	EXP 	Photo: autoDraw = True
+264.9512 	EXP 	Photo: autoDraw = False
+265.3186 	DATA 	Keypress: a
+265.3210 	EXP 	New trial (rep=0, index=24): OrderedDict([('image1', u'frogs/ab11.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+265.3872 	EXP 	Photo: autoDraw = False
+265.3872 	EXP 	Photo: pos = array([ 0.,  0.])
+265.3872 	EXP 	Photo: image = u'frogs/ab11.jpg'
+265.3872 	EXP 	Photo: autoDraw = True
+265.8343 	EXP 	Photo: autoDraw = False
+266.2849 	DATA 	Keypress: l
+266.2873 	EXP 	New trial (rep=0, index=25): OrderedDict([('image1', u'frogs/ab77.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+266.3386 	EXP 	Photo: autoDraw = False
+266.3386 	EXP 	Photo: pos = array([ 0.,  0.])
+266.3386 	EXP 	Photo: image = u'frogs/ab77.jpg'
+266.3386 	EXP 	Photo: autoDraw = True
+266.8006 	EXP 	Photo: autoDraw = False
+267.1846 	DATA 	Keypress: l
+267.1871 	EXP 	New trial (rep=0, index=26): OrderedDict([('image1', u'frogs/ab63.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+267.2101 	EXP 	Photo: autoDraw = False
+267.2101 	EXP 	Photo: pos = array([ 0.,  0.])
+267.2101 	EXP 	Photo: image = u'frogs/ab63.jpg'
+267.2101 	EXP 	Photo: autoDraw = True
+267.7004 	EXP 	Photo: autoDraw = False
+268.3175 	DATA 	Keypress: l
+268.3199 	EXP 	New trial (rep=0, index=27): OrderedDict([('image1', u'frogs/ab4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+268.3421 	EXP 	Photo: autoDraw = False
+268.3421 	EXP 	Photo: pos = array([ 0.,  0.])
+268.3421 	EXP 	Photo: image = u'frogs/ab4.jpg'
+268.3421 	EXP 	Photo: autoDraw = True
+268.8333 	EXP 	Photo: autoDraw = False
+269.3505 	DATA 	Keypress: l
+269.3530 	EXP 	New trial (rep=0, index=28): OrderedDict([('image1', u'frogs/ab46.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+269.4187 	EXP 	Photo: autoDraw = False
+269.4187 	EXP 	Photo: pos = array([ 0.,  0.])
+269.4187 	EXP 	Photo: image = u'frogs/ab46.jpg'
+269.4187 	EXP 	Photo: autoDraw = True
+269.8663 	EXP 	Photo: autoDraw = False
+270.4002 	DATA 	Keypress: l
+270.4027 	EXP 	New trial (rep=0, index=29): OrderedDict([('image1', u'frogs/ab36.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+270.4583 	EXP 	Photo: autoDraw = False
+270.4583 	EXP 	Photo: pos = array([ 0.,  0.])
+270.4583 	EXP 	Photo: image = u'frogs/ab36.jpg'
+270.4583 	EXP 	Photo: autoDraw = True
+270.9159 	EXP 	Photo: autoDraw = False
+271.2999 	DATA 	Keypress: l
+271.3023 	EXP 	New trial (rep=0, index=30): OrderedDict([('image1', u'frogs/ab22.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+271.4207 	EXP 	Photo: autoDraw = False
+271.4207 	EXP 	Photo: pos = array([ 0.,  0.])
+271.4207 	EXP 	Photo: image = u'frogs/ab22.jpg'
+271.4207 	EXP 	Photo: autoDraw = True
+271.8154 	EXP 	Photo: autoDraw = False
+272.3658 	DATA 	Keypress: l
+272.3682 	EXP 	New trial (rep=0, index=31): OrderedDict([('image1', u'frogs/ab27.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+272.4370 	EXP 	Photo: autoDraw = False
+272.4370 	EXP 	Photo: pos = array([ 0.,  0.])
+272.4370 	EXP 	Photo: image = u'frogs/ab27.jpg'
+272.4370 	EXP 	Photo: autoDraw = True
+272.8814 	EXP 	Photo: autoDraw = False
+273.2488 	DATA 	Keypress: l
+273.2514 	EXP 	New trial (rep=0, index=32): OrderedDict([('image1', u'frogs/ab13.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+273.2748 	EXP 	Photo: autoDraw = False
+273.2748 	EXP 	Photo: pos = array([ 0.,  0.])
+273.2748 	EXP 	Photo: image = u'frogs/ab13.jpg'
+273.2748 	EXP 	Photo: autoDraw = True
+273.7645 	EXP 	Photo: autoDraw = False
+274.1655 	DATA 	Keypress: l
+274.1679 	EXP 	New trial (rep=0, index=33): OrderedDict([('image1', u'frogs/ab45.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+274.1895 	EXP 	Photo: autoDraw = False
+274.1895 	EXP 	Photo: pos = array([ 0.,  0.])
+274.1895 	EXP 	Photo: image = u'frogs/ab45.jpg'
+274.1895 	EXP 	Photo: autoDraw = True
+274.6809 	EXP 	Photo: autoDraw = False
+275.0317 	DATA 	Keypress: l
+275.0342 	EXP 	New trial (rep=0, index=34): OrderedDict([('image1', u'frogs/ab2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+275.6794 	EXP 	Photo: autoDraw = False
+275.6794 	EXP 	Photo: pos = array([ 0.,  0.])
+275.6794 	EXP 	Photo: image = u'frogs/ab2.jpg'
+275.6794 	EXP 	Photo: autoDraw = True
+275.6794 	EXP 	Photo: autoDraw = False
+276.0147 	DATA 	Keypress: l
+276.0171 	EXP 	New trial (rep=0, index=35): OrderedDict([('image1', u'frogs/ab19.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+276.0707 	EXP 	Photo: autoDraw = False
+276.0707 	EXP 	Photo: pos = array([ 0.,  0.])
+276.0707 	EXP 	Photo: image = u'frogs/ab19.jpg'
+276.0707 	EXP 	Photo: autoDraw = True
+276.5307 	EXP 	Photo: autoDraw = False
+276.8314 	DATA 	Keypress: l
+276.8338 	EXP 	New trial (rep=0, index=36): OrderedDict([('image1', u'frogs/ab24.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+276.8571 	EXP 	Photo: autoDraw = False
+276.8571 	EXP 	Photo: pos = array([ 0.,  0.])
+276.8571 	EXP 	Photo: image = u'frogs/ab24.jpg'
+276.8571 	EXP 	Photo: autoDraw = True
+277.3471 	EXP 	Photo: autoDraw = False
+277.5978 	DATA 	Keypress: l
+277.6002 	EXP 	New trial (rep=0, index=37): OrderedDict([('image1', u'frogs/ab16.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+277.6220 	EXP 	Photo: autoDraw = False
+277.6220 	EXP 	Photo: pos = array([ 0.,  0.])
+277.6220 	EXP 	Photo: image = u'frogs/ab16.jpg'
+277.6220 	EXP 	Photo: autoDraw = True
+278.1139 	EXP 	Photo: autoDraw = False
+278.5807 	DATA 	Keypress: l
+278.5831 	EXP 	New trial (rep=0, index=38): OrderedDict([('image1', u'frogs/ab55.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+278.6368 	EXP 	Photo: autoDraw = False
+278.6368 	EXP 	Photo: pos = array([ 0.,  0.])
+278.6368 	EXP 	Photo: image = u'frogs/ab55.jpg'
+278.6368 	EXP 	Photo: autoDraw = True
+279.0965 	EXP 	Photo: autoDraw = False
+279.3638 	DATA 	Keypress: l
+279.3663 	EXP 	New trial (rep=0, index=39): OrderedDict([('image1', u'frogs/ab7.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+279.4181 	EXP 	Photo: autoDraw = False
+279.4181 	EXP 	Photo: pos = array([ 0.,  0.])
+279.4181 	EXP 	Photo: image = u'frogs/ab7.jpg'
+279.4181 	EXP 	Photo: autoDraw = True
+279.8796 	EXP 	Photo: autoDraw = False
+280.2636 	DATA 	Keypress: l
+280.2660 	EXP 	New trial (rep=0, index=40): OrderedDict([('image1', u'frogs/ab64.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+280.2885 	EXP 	Photo: autoDraw = False
+280.2885 	EXP 	Photo: pos = array([ 0.,  0.])
+280.2885 	EXP 	Photo: image = u'frogs/ab64.jpg'
+280.2885 	EXP 	Photo: autoDraw = True
+280.7793 	EXP 	Photo: autoDraw = False
+281.4632 	DATA 	Keypress: l
+281.4656 	EXP 	New trial (rep=0, index=41): OrderedDict([('image1', u'frogs/ab18.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+281.4887 	EXP 	Photo: autoDraw = False
+281.4887 	EXP 	Photo: pos = array([ 0.,  0.])
+281.4887 	EXP 	Photo: image = u'frogs/ab18.jpg'
+281.4887 	EXP 	Photo: autoDraw = True
+281.9789 	EXP 	Photo: autoDraw = False
+282.5461 	DATA 	Keypress: l
+282.5490 	EXP 	New trial (rep=0, index=42): OrderedDict([('image1', u'frogs/ab76.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+282.5726 	EXP 	Photo: autoDraw = False
+282.5726 	EXP 	Photo: pos = array([ 0.,  0.])
+282.5726 	EXP 	Photo: image = u'frogs/ab76.jpg'
+282.5726 	EXP 	Photo: autoDraw = True
+283.0618 	EXP 	Photo: autoDraw = False
+284.6954 	DATA 	Keypress: l
+284.6979 	EXP 	New trial (rep=0, index=43): OrderedDict([('image1', u'frogs/ab67.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+284.7210 	EXP 	Photo: autoDraw = False
+284.7210 	EXP 	Photo: pos = array([ 0.,  0.])
+284.7210 	EXP 	Photo: image = u'frogs/ab67.jpg'
+284.7210 	EXP 	Photo: autoDraw = True
+285.2111 	EXP 	Photo: autoDraw = False
+287.0279 	DATA 	Keypress: l
+287.0305 	EXP 	New trial (rep=0, index=44): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+287.0755 	EXP 	Photo: autoDraw = False
+287.0755 	EXP 	Photo: pos = array([ 0.,  0.])
+287.0755 	EXP 	Photo: image = u'logos/2.jpg'
+287.0755 	EXP 	Photo: autoDraw = True
+287.5436 	EXP 	Photo: autoDraw = False
+287.9276 	DATA 	Keypress: a
+287.9300 	EXP 	New trial (rep=0, index=45): OrderedDict([('image1', u'frogs/ab32.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+287.9975 	EXP 	Photo: autoDraw = False
+287.9975 	EXP 	Photo: pos = array([ 0.,  0.])
+287.9975 	EXP 	Photo: image = u'frogs/ab32.jpg'
+287.9975 	EXP 	Photo: autoDraw = True
+288.4434 	EXP 	Photo: autoDraw = False
+288.6607 	DATA 	Keypress: l
+288.6631 	EXP 	New trial (rep=0, index=46): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+288.7071 	EXP 	Photo: autoDraw = False
+288.7071 	EXP 	Photo: pos = array([ 0.,  0.])
+288.7071 	EXP 	Photo: image = u'logos/2.jpg'
+288.7071 	EXP 	Photo: autoDraw = True
+289.1765 	EXP 	Photo: autoDraw = False
+289.4604 	DATA 	Keypress: a
+289.4628 	EXP 	New trial (rep=0, index=47): OrderedDict([('image1', u'frogs/ab72.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+289.4875 	EXP 	Photo: autoDraw = False
+289.4875 	EXP 	Photo: pos = array([ 0.,  0.])
+289.4875 	EXP 	Photo: image = u'frogs/ab72.jpg'
+289.4875 	EXP 	Photo: autoDraw = True
+289.9762 	EXP 	Photo: autoDraw = False
+290.2268 	DATA 	Keypress: l
+290.2293 	EXP 	New trial (rep=0, index=48): OrderedDict([('image1', u'frogs/ab57.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+290.3980 	EXP 	Photo: autoDraw = False
+290.3980 	EXP 	Photo: pos = array([ 0.,  0.])
+290.3980 	EXP 	Photo: image = u'frogs/ab57.jpg'
+290.3980 	EXP 	Photo: autoDraw = True
+290.7425 	EXP 	Photo: autoDraw = False
+291.0433 	DATA 	Keypress: l
+291.0457 	EXP 	New trial (rep=0, index=49): OrderedDict([('image1', u'frogs/ab52.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+291.0668 	EXP 	Photo: autoDraw = False
+291.0668 	EXP 	Photo: pos = array([ 0.,  0.])
+291.0668 	EXP 	Photo: image = u'frogs/ab52.jpg'
+291.0668 	EXP 	Photo: autoDraw = True
+291.5591 	EXP 	Photo: autoDraw = False
+291.9263 	DATA 	Keypress: l
+291.9287 	EXP 	New trial (rep=0, index=50): OrderedDict([('image1', u'frogs/ab1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+291.9515 	EXP 	Photo: autoDraw = False
+291.9515 	EXP 	Photo: pos = array([ 0.,  0.])
+291.9515 	EXP 	Photo: image = u'frogs/ab1.jpg'
+291.9515 	EXP 	Photo: autoDraw = True
+292.4421 	EXP 	Photo: autoDraw = False
+292.8426 	DATA 	Keypress: l
+292.8452 	EXP 	New trial (rep=0, index=51): OrderedDict([('image1', u'frogs/ab26.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+292.8675 	EXP 	Photo: autoDraw = False
+292.8675 	EXP 	Photo: pos = array([ 0.,  0.])
+292.8675 	EXP 	Photo: image = u'frogs/ab26.jpg'
+292.8675 	EXP 	Photo: autoDraw = True
+293.3584 	EXP 	Photo: autoDraw = False
+293.6926 	DATA 	Keypress: l
+293.6952 	EXP 	New trial (rep=0, index=52): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+293.7392 	EXP 	Photo: autoDraw = False
+293.7392 	EXP 	Photo: pos = array([ 0.,  0.])
+293.7392 	EXP 	Photo: image = u'logos/2.jpg'
+293.7392 	EXP 	Photo: autoDraw = True
+294.2081 	EXP 	Photo: autoDraw = False
+294.5922 	DATA 	Keypress: a
+294.5947 	EXP 	New trial (rep=0, index=53): OrderedDict([('image1', u'frogs/ab48.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+294.6795 	EXP 	Photo: autoDraw = False
+294.6795 	EXP 	Photo: pos = array([ 0.,  0.])
+294.6795 	EXP 	Photo: image = u'frogs/ab48.jpg'
+294.6795 	EXP 	Photo: autoDraw = True
+295.1078 	EXP 	Photo: autoDraw = False
+295.3418 	DATA 	Keypress: l
+295.3442 	EXP 	New trial (rep=0, index=54): OrderedDict([('image1', u'frogs/ab47.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+296.3452 	EXP 	Photo: autoDraw = False
+296.3452 	EXP 	Photo: pos = array([ 0.,  0.])
+296.3452 	EXP 	Photo: image = u'frogs/ab47.jpg'
+296.3452 	EXP 	Photo: autoDraw = True
+296.3452 	EXP 	Photo: autoDraw = False
+296.6583 	DATA 	Keypress: l
+296.6610 	EXP 	New trial (rep=0, index=55): OrderedDict([('image1', u'frogs/ab73.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+296.6857 	EXP 	Photo: autoDraw = False
+296.6857 	EXP 	Photo: pos = array([ 0.,  0.])
+296.6857 	EXP 	Photo: image = u'frogs/ab73.jpg'
+296.6857 	EXP 	Photo: autoDraw = True
+297.1738 	EXP 	Photo: autoDraw = False
+297.4910 	DATA 	Keypress: l
+297.4935 	EXP 	New trial (rep=0, index=56): OrderedDict([('image1', u'frogs/ab70.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+297.5168 	EXP 	Photo: autoDraw = False
+297.5168 	EXP 	Photo: pos = array([ 0.,  0.])
+297.5168 	EXP 	Photo: image = u'frogs/ab70.jpg'
+297.5168 	EXP 	Photo: autoDraw = True
+298.0069 	EXP 	Photo: autoDraw = False
+298.6908 	DATA 	Keypress: l
+298.6932 	EXP 	New trial (rep=0, index=57): OrderedDict([('image1', u'frogs/ab81.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+298.7148 	EXP 	Photo: autoDraw = False
+298.7148 	EXP 	Photo: pos = array([ 0.,  0.])
+298.7148 	EXP 	Photo: image = u'frogs/ab81.jpg'
+298.7148 	EXP 	Photo: autoDraw = True
+299.2065 	EXP 	Photo: autoDraw = False
+299.6737 	DATA 	Keypress: l
+299.6761 	EXP 	New trial (rep=0, index=58): OrderedDict([('image1', u'frogs/ab41.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+299.6991 	EXP 	Photo: autoDraw = False
+299.6991 	EXP 	Photo: pos = array([ 0.,  0.])
+299.6991 	EXP 	Photo: image = u'frogs/ab41.jpg'
+299.6991 	EXP 	Photo: autoDraw = True
+300.1894 	EXP 	Photo: autoDraw = False
+300.4902 	DATA 	Keypress: l
+300.4927 	EXP 	New trial (rep=0, index=59): OrderedDict([('image1', u'frogs/ab14.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+300.5437 	EXP 	Photo: autoDraw = False
+300.5437 	EXP 	Photo: pos = array([ 0.,  0.])
+300.5437 	EXP 	Photo: image = u'frogs/ab14.jpg'
+300.5437 	EXP 	Photo: autoDraw = True
+301.0058 	EXP 	Photo: autoDraw = False
+301.4897 	DATA 	Keypress: l
+301.4921 	EXP 	New trial (rep=0, index=60): OrderedDict([('image1', u'frogs/ab71.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+301.5155 	EXP 	Photo: autoDraw = False
+301.5155 	EXP 	Photo: pos = array([ 0.,  0.])
+301.5155 	EXP 	Photo: image = u'frogs/ab71.jpg'
+301.5155 	EXP 	Photo: autoDraw = True
+302.0055 	EXP 	Photo: autoDraw = False
+302.8893 	DATA 	Keypress: l
+302.8918 	EXP 	New trial (rep=0, index=61): OrderedDict([('image1', u'frogs/ab80.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+302.9149 	EXP 	Photo: autoDraw = False
+302.9149 	EXP 	Photo: pos = array([ 0.,  0.])
+302.9149 	EXP 	Photo: image = u'frogs/ab80.jpg'
+302.9149 	EXP 	Photo: autoDraw = True
+303.4049 	EXP 	Photo: autoDraw = False
+303.9056 	DATA 	Keypress: l
+303.9080 	EXP 	New trial (rep=0, index=62): OrderedDict([('image1', u'frogs/ab5.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+303.9338 	EXP 	Photo: autoDraw = False
+303.9338 	EXP 	Photo: pos = array([ 0.,  0.])
+303.9338 	EXP 	Photo: image = u'frogs/ab5.jpg'
+303.9338 	EXP 	Photo: autoDraw = True
+304.4215 	EXP 	Photo: autoDraw = False
+305.0886 	DATA 	Keypress: l
+305.0910 	EXP 	New trial (rep=0, index=63): OrderedDict([('image1', u'frogs/ab69.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+305.1142 	EXP 	Photo: autoDraw = False
+305.1142 	EXP 	Photo: pos = array([ 0.,  0.])
+305.1142 	EXP 	Photo: image = u'frogs/ab69.jpg'
+305.1142 	EXP 	Photo: autoDraw = True
+305.6043 	EXP 	Photo: autoDraw = False
+305.9883 	DATA 	Keypress: l
+305.9907 	EXP 	New trial (rep=0, index=64): OrderedDict([('image1', u'frogs/ab29.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+306.0203 	EXP 	Photo: autoDraw = False
+306.0203 	EXP 	Photo: pos = array([ 0.,  0.])
+306.0203 	EXP 	Photo: image = u'frogs/ab29.jpg'
+306.0203 	EXP 	Photo: autoDraw = True
+306.5040 	EXP 	Photo: autoDraw = False
+306.8546 	DATA 	Keypress: l
+306.8571 	EXP 	New trial (rep=0, index=65): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+306.8983 	EXP 	Photo: autoDraw = False
+306.8983 	EXP 	Photo: pos = array([ 0.,  0.])
+306.8983 	EXP 	Photo: image = u'logos/2.jpg'
+306.8983 	EXP 	Photo: autoDraw = True
+307.3703 	EXP 	Photo: autoDraw = False
+307.5211 	DATA 	Keypress: a
+307.5235 	EXP 	New trial (rep=0, index=66): OrderedDict([('image1', u'frogs/ab65.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+307.6019 	EXP 	Photo: autoDraw = False
+307.6019 	EXP 	Photo: pos = array([ 0.,  0.])
+307.6019 	EXP 	Photo: image = u'frogs/ab65.jpg'
+307.6019 	EXP 	Photo: autoDraw = True
+308.0368 	EXP 	Photo: autoDraw = False
+308.1713 	DATA 	Keypress: l
+308.1737 	EXP 	New trial (rep=0, index=67): OrderedDict([('image1', u'frogs/ab6.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+308.2423 	EXP 	Photo: autoDraw = False
+308.2423 	EXP 	Photo: pos = array([ 0.,  0.])
+308.2423 	EXP 	Photo: image = u'frogs/ab6.jpg'
+308.2423 	EXP 	Photo: autoDraw = True
+308.6866 	EXP 	Photo: autoDraw = False
+308.9373 	DATA 	Keypress: l
+308.9397 	EXP 	New trial (rep=0, index=68): OrderedDict([('image1', u'frogs/ab31.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+309.0724 	EXP 	Photo: autoDraw = False
+309.0724 	EXP 	Photo: pos = array([ 0.,  0.])
+309.0724 	EXP 	Photo: image = u'frogs/ab31.jpg'
+309.0724 	EXP 	Photo: autoDraw = True
+309.4530 	EXP 	Photo: autoDraw = False
+309.7703 	DATA 	Keypress: l
+309.7727 	EXP 	New trial (rep=0, index=69): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+309.8159 	EXP 	Photo: autoDraw = False
+309.8159 	EXP 	Photo: pos = array([ 0.,  0.])
+309.8159 	EXP 	Photo: image = u'logos/2.jpg'
+309.8159 	EXP 	Photo: autoDraw = True
+310.2860 	EXP 	Photo: autoDraw = False
+310.9866 	DATA 	Keypress: a
+310.9890 	EXP 	New trial (rep=0, index=70): OrderedDict([('image1', u'frogs/ab75.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+311.0104 	EXP 	Photo: autoDraw = False
+311.0104 	EXP 	Photo: pos = array([ 0.,  0.])
+311.0104 	EXP 	Photo: image = u'frogs/ab75.jpg'
+311.0104 	EXP 	Photo: autoDraw = True
+311.5025 	EXP 	Photo: autoDraw = False
+311.5032 	DATA 	Keypress: l
+312.1362 	DATA 	Keypress: l
+312.1387 	EXP 	New trial (rep=0, index=71): OrderedDict([('image1', u'frogs/ab40.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+312.1675 	EXP 	Photo: autoDraw = False
+312.1675 	EXP 	Photo: pos = array([ 0.,  0.])
+312.1675 	EXP 	Photo: image = u'frogs/ab40.jpg'
+312.1675 	EXP 	Photo: autoDraw = True
+312.6519 	EXP 	Photo: autoDraw = False
+312.9027 	DATA 	Keypress: l
+312.9051 	EXP 	New trial (rep=0, index=72): OrderedDict([('image1', u'frogs/ab78.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+312.9609 	EXP 	Photo: autoDraw = False
+312.9609 	EXP 	Photo: pos = array([ 0.,  0.])
+312.9609 	EXP 	Photo: image = u'frogs/ab78.jpg'
+312.9609 	EXP 	Photo: autoDraw = True
+313.4184 	EXP 	Photo: autoDraw = False
+313.7191 	DATA 	Keypress: l
+313.7219 	EXP 	New trial (rep=0, index=73): OrderedDict([('image1', u'frogs/ab20.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+313.7474 	EXP 	Photo: autoDraw = False
+313.7474 	EXP 	Photo: pos = array([ 0.,  0.])
+313.7474 	EXP 	Photo: image = u'frogs/ab20.jpg'
+313.7474 	EXP 	Photo: autoDraw = True
+314.2347 	EXP 	Photo: autoDraw = False
+314.9685 	DATA 	Keypress: l
+314.9710 	EXP 	New trial (rep=0, index=74): OrderedDict([('image1', u'frogs/ab49.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+314.9931 	EXP 	Photo: autoDraw = False
+314.9931 	EXP 	Photo: pos = array([ 0.,  0.])
+314.9931 	EXP 	Photo: image = u'frogs/ab49.jpg'
+314.9931 	EXP 	Photo: autoDraw = True
+315.4843 	EXP 	Photo: autoDraw = False
+316.1181 	DATA 	Keypress: l
+316.1205 	EXP 	New trial (rep=0, index=75): OrderedDict([('image1', u'logos/2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+316.1644 	EXP 	Photo: autoDraw = False
+316.1644 	EXP 	Photo: pos = array([ 0.,  0.])
+316.1644 	EXP 	Photo: image = u'logos/2.jpg'
+316.1644 	EXP 	Photo: autoDraw = True
+316.6505 	EXP 	Photo: autoDraw = False
+316.6852 	DATA 	Keypress: a
+316.6876 	EXP 	New trial (rep=0, index=76): OrderedDict([('image1', u'frogs/ab60.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+316.7105 	EXP 	Photo: autoDraw = False
+316.7105 	EXP 	Photo: pos = array([ 0.,  0.])
+316.7105 	EXP 	Photo: image = u'frogs/ab60.jpg'
+316.7105 	EXP 	Photo: autoDraw = True
+317.1347 	DATA 	Keypress: l
+317.2005 	EXP 	Photo: autoDraw = False
+318.1675 	DATA 	Keypress: l
+318.1699 	EXP 	New trial (rep=0, index=77): OrderedDict([('image1', u'frogs/ab53.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+318.1973 	EXP 	Photo: autoDraw = False
+318.1973 	EXP 	Photo: pos = array([ 0.,  0.])
+318.1973 	EXP 	Photo: image = u'frogs/ab53.jpg'
+318.1973 	EXP 	Photo: autoDraw = True
+318.6837 	EXP 	Photo: autoDraw = False
+318.7840 	DATA 	Keypress: l
+318.7864 	EXP 	New trial (rep=0, index=78): OrderedDict([('image1', u'frogs/ab3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+318.8436 	EXP 	Photo: autoDraw = False
+318.8436 	EXP 	Photo: pos = array([ 0.,  0.])
+318.8436 	EXP 	Photo: image = u'frogs/ab3.jpg'
+318.8436 	EXP 	Photo: autoDraw = True
+319.2997 	EXP 	Photo: autoDraw = False
+319.3504 	DATA 	Keypress: l
+319.3529 	EXP 	New trial (rep=0, index=79): OrderedDict([('image1', u'frogs/ab8.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+319.3761 	EXP 	Photo: autoDraw = False
+319.3761 	EXP 	Photo: pos = array([ 0.,  0.])
+319.3761 	EXP 	Photo: image = u'frogs/ab8.jpg'
+319.3761 	EXP 	Photo: autoDraw = True
+319.8662 	EXP 	Photo: autoDraw = False
+320.0334 	DATA 	Keypress: l
+320.0359 	EXP 	New trial (rep=0, index=80): OrderedDict([('image1', u'frogs/ab17.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+320.0591 	EXP 	Photo: autoDraw = False
+320.0591 	EXP 	Photo: pos = array([ 0.,  0.])
+320.0591 	EXP 	Photo: image = u'frogs/ab17.jpg'
+320.0591 	EXP 	Photo: autoDraw = True
+320.5493 	EXP 	Photo: autoDraw = False
+320.6670 	DATA 	Keypress: l
+320.6856 	EXP 	New trial (rep=0, index=81): OrderedDict([('image1', u'frogs/ab39.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+320.7328 	EXP 	Photo: autoDraw = False
+320.7328 	EXP 	Photo: pos = array([ 0.,  0.])
+320.7328 	EXP 	Photo: image = u'frogs/ab39.jpg'
+320.7328 	EXP 	Photo: autoDraw = True
+321.1992 	EXP 	Photo: autoDraw = False
+321.3997 	DATA 	Keypress: l
+321.4023 	EXP 	New trial (rep=0, index=82): OrderedDict([('image1', u'frogs/ab74.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+321.4694 	EXP 	Photo: autoDraw = False
+321.4694 	EXP 	Photo: pos = array([ 0.,  0.])
+321.4694 	EXP 	Photo: image = u'frogs/ab74.jpg'
+321.4694 	EXP 	Photo: autoDraw = True
+321.9148 	EXP 	Photo: autoDraw = False
+322.1157 	DATA 	Keypress: l
+322.1181 	EXP 	New trial (rep=0, index=83): OrderedDict([('image1', u'frogs/ab43.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+322.1808 	EXP 	Photo: autoDraw = False
+322.1808 	EXP 	Photo: pos = array([ 0.,  0.])
+322.1808 	EXP 	Photo: image = u'frogs/ab43.jpg'
+322.1808 	EXP 	Photo: autoDraw = True
+322.6314 	EXP 	Photo: autoDraw = False
+322.9492 	DATA 	Keypress: l
+322.9516 	EXP 	New trial (rep=0, index=84): OrderedDict([('image1', u'frogs/ab54.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+322.9854 	EXP 	Photo: autoDraw = False
+322.9854 	EXP 	Photo: pos = array([ 0.,  0.])
+322.9854 	EXP 	Photo: image = u'frogs/ab54.jpg'
+322.9854 	EXP 	Photo: autoDraw = True
+323.4643 	EXP 	Photo: autoDraw = False
+323.7487 	DATA 	Keypress: l
+323.7511 	EXP 	New trial (rep=0, index=85): OrderedDict([('image1', u'frogs/ab9.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+324.2233 	EXP 	Photo: autoDraw = False
+324.2233 	EXP 	Photo: pos = array([ 0.,  0.])
+324.2233 	EXP 	Photo: image = u'frogs/ab9.jpg'
+324.2233 	EXP 	Photo: autoDraw = True
+324.2619 	EXP 	Photo: autoDraw = False
+324.7653 	DATA 	Keypress: l
+324.7677 	EXP 	New trial (rep=0, index=86): OrderedDict([('image1', u'frogs/ab30.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+324.7908 	EXP 	Photo: autoDraw = False
+324.7908 	EXP 	Photo: pos = array([ 0.,  0.])
+324.7908 	EXP 	Photo: image = u'frogs/ab30.jpg'
+324.7908 	EXP 	Photo: autoDraw = True
+325.2811 	EXP 	Photo: autoDraw = False
+325.8816 	DATA 	Keypress: l
+325.8841 	EXP 	New trial (rep=0, index=87): OrderedDict([('image1', u'frogs/ab12.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+325.9066 	EXP 	Photo: autoDraw = False
+325.9066 	EXP 	Photo: pos = array([ 0.,  0.])
+325.9066 	EXP 	Photo: image = u'frogs/ab12.jpg'
+325.9066 	EXP 	Photo: autoDraw = True
+326.4136 	EXP 	Photo: autoDraw = False
+326.7820 	DATA 	Keypress: l
+326.7859 	EXP 	New trial (rep=0, index=88): OrderedDict([('image1', u'frogs/ab33.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+327.0569 	EXP 	Photo: autoDraw = False
+327.0569 	EXP 	Photo: pos = array([ 0.,  0.])
+327.0569 	EXP 	Photo: image = u'frogs/ab33.jpg'
+327.0569 	EXP 	Photo: autoDraw = True
+327.2970 	EXP 	Photo: autoDraw = False
+327.6983 	DATA 	Keypress: l
+327.7007 	EXP 	New trial (rep=0, index=89): OrderedDict([('image1', u'frogs/ab50.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+327.7770 	EXP 	Photo: autoDraw = False
+327.7770 	EXP 	Photo: pos = array([ 0.,  0.])
+327.7770 	EXP 	Photo: image = u'frogs/ab50.jpg'
+327.7770 	EXP 	Photo: autoDraw = True
+328.2134 	EXP 	Photo: autoDraw = False
+328.9640 	DATA 	Keypress: l
+328.9665 	EXP 	New trial (rep=0, index=3): OrderedDict([('pix', u'logos/3.jpg'), ('source', u'properties3.xlsx')])
+329.0251 	EXP 	Photo: autoDraw = False
+329.0251 	EXP 	image123: image = u'logos/3.jpg'
+329.0251 	EXP 	text_2: autoDraw = True
+329.0251 	EXP 	image123: autoDraw = True
+329.0251 	EXP 	text_3: autoDraw = True
+331.3985 	DATA 	Keypress: space
+331.4798 	EXP 	Imported properties3.xlsx as conditions, 90 conditions, 5 params
+331.4821 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+331.4835 	EXP 	New trial (rep=0, index=0): OrderedDict([('image1', u'frogs/ab33.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+331.6152 	EXP 	text_2: autoDraw = False
+331.6152 	EXP 	image123: autoDraw = False
+331.6152 	EXP 	text_3: autoDraw = False
+331.6152 	EXP 	Photo: pos = array([ 0.,  0.])
+331.6152 	EXP 	Photo: image = u'frogs/ab33.jpg'
+331.6152 	EXP 	Photo: autoDraw = True
+331.9947 	EXP 	Photo: autoDraw = False
+332.1791 	DATA 	Keypress: l
+332.1824 	EXP 	New trial (rep=0, index=1): OrderedDict([('image1', u'frogs/ab72.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+332.2053 	EXP 	Photo: autoDraw = False
+332.2053 	EXP 	Photo: pos = array([ 0.,  0.])
+332.2053 	EXP 	Photo: image = u'frogs/ab72.jpg'
+332.2053 	EXP 	Photo: autoDraw = True
+332.6947 	EXP 	Photo: autoDraw = False
+332.8455 	DATA 	Keypress: l
+332.8479 	EXP 	New trial (rep=0, index=2): OrderedDict([('image1', u'frogs/ab69.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+332.8708 	EXP 	Photo: autoDraw = False
+332.8708 	EXP 	Photo: pos = array([ 0.,  0.])
+332.8708 	EXP 	Photo: image = u'frogs/ab69.jpg'
+332.8708 	EXP 	Photo: autoDraw = True
+333.3609 	EXP 	Photo: autoDraw = False
+333.5954 	DATA 	Keypress: l
+333.5979 	EXP 	New trial (rep=0, index=3): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+333.6471 	EXP 	Photo: autoDraw = False
+333.6471 	EXP 	Photo: pos = array([ 0.,  0.])
+333.6471 	EXP 	Photo: image = u'logos/3.jpg'
+333.6471 	EXP 	Photo: autoDraw = True
+334.1107 	EXP 	Photo: autoDraw = False
+334.2283 	DATA 	Keypress: a
+334.2307 	EXP 	New trial (rep=0, index=4): OrderedDict([('image1', u'frogs/ab49.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+334.2539 	EXP 	Photo: autoDraw = False
+334.2539 	EXP 	Photo: pos = array([ 0.,  0.])
+334.2539 	EXP 	Photo: image = u'frogs/ab49.jpg'
+334.2539 	EXP 	Photo: autoDraw = True
+334.7440 	EXP 	Photo: autoDraw = False
+334.9114 	DATA 	Keypress: l
+334.9139 	EXP 	New trial (rep=0, index=5): OrderedDict([('image1', u'frogs/ab31.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+335.0262 	EXP 	Photo: autoDraw = False
+335.0262 	EXP 	Photo: pos = array([ 0.,  0.])
+335.0262 	EXP 	Photo: image = u'frogs/ab31.jpg'
+335.0262 	EXP 	Photo: autoDraw = True
+335.4271 	EXP 	Photo: autoDraw = False
+335.8781 	DATA 	Keypress: l
+335.8806 	EXP 	New trial (rep=0, index=6): OrderedDict([('image1', u'frogs/ab56.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+336.6431 	EXP 	Photo: autoDraw = False
+336.6431 	EXP 	Photo: pos = array([ 0.,  0.])
+336.6431 	EXP 	Photo: image = u'frogs/ab56.jpg'
+336.6431 	EXP 	Photo: autoDraw = True
+336.6431 	EXP 	Photo: autoDraw = False
+338.3941 	DATA 	Keypress: l
+338.3965 	EXP 	New trial (rep=0, index=7): OrderedDict([('image1', u'frogs/ab78.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+338.4567 	EXP 	Photo: autoDraw = False
+338.4567 	EXP 	Photo: pos = array([ 0.,  0.])
+338.4567 	EXP 	Photo: image = u'frogs/ab78.jpg'
+338.4567 	EXP 	Photo: autoDraw = True
+338.8942 	DATA 	Keypress: l
+338.9097 	EXP 	Photo: autoDraw = False
+339.8935 	DATA 	Keypress: l
+339.8960 	EXP 	New trial (rep=0, index=8): OrderedDict([('image1', u'frogs/ab47.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+340.9183 	EXP 	Photo: autoDraw = False
+340.9183 	EXP 	Photo: pos = array([ 0.,  0.])
+340.9183 	EXP 	Photo: image = u'frogs/ab47.jpg'
+340.9183 	EXP 	Photo: autoDraw = True
+340.9183 	EXP 	Photo: autoDraw = False
+341.6765 	DATA 	Keypress: l
+341.6792 	EXP 	New trial (rep=0, index=9): OrderedDict([('image1', u'frogs/ab30.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+341.7034 	EXP 	Photo: autoDraw = False
+341.7034 	EXP 	Photo: pos = array([ 0.,  0.])
+341.7034 	EXP 	Photo: image = u'frogs/ab30.jpg'
+341.7034 	EXP 	Photo: autoDraw = True
+342.1921 	EXP 	Photo: autoDraw = False
+342.7425 	DATA 	Keypress: l
+342.7450 	EXP 	New trial (rep=0, index=10): OrderedDict([('image1', u'frogs/ab61.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+342.8010 	EXP 	Photo: autoDraw = False
+342.8010 	EXP 	Photo: pos = array([ 0.,  0.])
+342.8010 	EXP 	Photo: image = u'frogs/ab61.jpg'
+342.8010 	EXP 	Photo: autoDraw = True
+343.2583 	EXP 	Photo: autoDraw = False
+343.7091 	DATA 	Keypress: l
+343.7116 	EXP 	New trial (rep=0, index=11): OrderedDict([('image1', u'frogs/ab24.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+343.7356 	EXP 	Photo: autoDraw = False
+343.7356 	EXP 	Photo: pos = array([ 0.,  0.])
+343.7356 	EXP 	Photo: image = u'frogs/ab24.jpg'
+343.7356 	EXP 	Photo: autoDraw = True
+344.2248 	EXP 	Photo: autoDraw = False
+344.6253 	DATA 	Keypress: l
+344.6276 	EXP 	New trial (rep=0, index=12): OrderedDict([('image1', u'frogs/ab18.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+344.6506 	EXP 	Photo: autoDraw = False
+344.6506 	EXP 	Photo: pos = array([ 0.,  0.])
+344.6506 	EXP 	Photo: image = u'frogs/ab18.jpg'
+344.6506 	EXP 	Photo: autoDraw = True
+345.1412 	EXP 	Photo: autoDraw = False
+345.6083 	DATA 	Keypress: l
+345.6108 	EXP 	New trial (rep=0, index=13): OrderedDict([('image1', u'frogs/ab63.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+345.6342 	EXP 	Photo: autoDraw = False
+345.6342 	EXP 	Photo: pos = array([ 0.,  0.])
+345.6342 	EXP 	Photo: image = u'frogs/ab63.jpg'
+345.6342 	EXP 	Photo: autoDraw = True
+346.1241 	EXP 	Photo: autoDraw = False
+346.5916 	DATA 	Keypress: l
+346.5940 	EXP 	New trial (rep=0, index=14): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+346.6267 	EXP 	Photo: autoDraw = False
+346.6267 	EXP 	Photo: pos = array([ 0.,  0.])
+346.6267 	EXP 	Photo: image = u'logos/3.jpg'
+346.6267 	EXP 	Photo: autoDraw = True
+347.1070 	EXP 	Photo: autoDraw = False
+347.6410 	DATA 	Keypress: a
+347.6433 	EXP 	New trial (rep=0, index=15): OrderedDict([('image1', u'frogs/ab73.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+347.6666 	EXP 	Photo: autoDraw = False
+347.6666 	EXP 	Photo: pos = array([ 0.,  0.])
+347.6666 	EXP 	Photo: image = u'frogs/ab73.jpg'
+347.6666 	EXP 	Photo: autoDraw = True
+348.1567 	EXP 	Photo: autoDraw = False
+348.4574 	DATA 	Keypress: l
+348.4598 	EXP 	New trial (rep=0, index=16): OrderedDict([('image1', u'frogs/ab54.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+348.4938 	EXP 	Photo: autoDraw = False
+348.4938 	EXP 	Photo: pos = array([ 0.,  0.])
+348.4938 	EXP 	Photo: image = u'frogs/ab54.jpg'
+348.4938 	EXP 	Photo: autoDraw = True
+348.9731 	EXP 	Photo: autoDraw = False
+349.4074 	DATA 	Keypress: l
+349.4099 	EXP 	New trial (rep=0, index=17): OrderedDict([('image1', u'frogs/ab77.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+349.4647 	EXP 	Photo: autoDraw = False
+349.4647 	EXP 	Photo: pos = array([ 0.,  0.])
+349.4647 	EXP 	Photo: image = u'frogs/ab77.jpg'
+349.4647 	EXP 	Photo: autoDraw = True
+349.9228 	EXP 	Photo: autoDraw = False
+350.4401 	DATA 	Keypress: l
+350.4427 	EXP 	New trial (rep=0, index=18): OrderedDict([('image1', u'frogs/ab12.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+350.4659 	EXP 	Photo: autoDraw = False
+350.4659 	EXP 	Photo: pos = array([ 0.,  0.])
+350.4659 	EXP 	Photo: image = u'frogs/ab12.jpg'
+350.4659 	EXP 	Photo: autoDraw = True
+350.9559 	EXP 	Photo: autoDraw = False
+351.5729 	DATA 	Keypress: l
+351.5756 	EXP 	New trial (rep=0, index=19): OrderedDict([('image1', u'frogs/ab6.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+351.6489 	EXP 	Photo: autoDraw = False
+351.6489 	EXP 	Photo: pos = array([ 0.,  0.])
+351.6489 	EXP 	Photo: image = u'frogs/ab6.jpg'
+351.6489 	EXP 	Photo: autoDraw = True
+352.0888 	EXP 	Photo: autoDraw = False
+354.1391 	DATA 	Keypress: l
+354.1415 	EXP 	New trial (rep=0, index=20): OrderedDict([('image1', u'frogs/ab79.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+354.1645 	EXP 	Photo: autoDraw = False
+354.1645 	EXP 	Photo: pos = array([ 0.,  0.])
+354.1645 	EXP 	Photo: image = u'frogs/ab79.jpg'
+354.1645 	EXP 	Photo: autoDraw = True
+354.6545 	EXP 	Photo: autoDraw = False
+355.0884 	DATA 	Keypress: l
+355.0909 	EXP 	New trial (rep=0, index=21): OrderedDict([('image1', u'frogs/ab23.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+355.1472 	EXP 	Photo: autoDraw = False
+355.1472 	EXP 	Photo: pos = array([ 0.,  0.])
+355.1472 	EXP 	Photo: image = u'frogs/ab23.jpg'
+355.1472 	EXP 	Photo: autoDraw = True
+355.6043 	EXP 	Photo: autoDraw = False
+355.9215 	DATA 	Keypress: l
+355.9239 	EXP 	New trial (rep=0, index=22): OrderedDict([('image1', u'frogs/ab19.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+355.9851 	EXP 	Photo: autoDraw = False
+355.9851 	EXP 	Photo: pos = array([ 0.,  0.])
+355.9851 	EXP 	Photo: image = u'frogs/ab19.jpg'
+355.9851 	EXP 	Photo: autoDraw = True
+356.4373 	EXP 	Photo: autoDraw = False
+356.7212 	DATA 	Keypress: l
+356.7236 	EXP 	New trial (rep=0, index=23): OrderedDict([('image1', u'frogs/ab58.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+357.0722 	EXP 	Photo: autoDraw = False
+357.0722 	EXP 	Photo: pos = array([ 0.,  0.])
+357.0722 	EXP 	Photo: image = u'frogs/ab58.jpg'
+357.0722 	EXP 	Photo: autoDraw = True
+357.2508 	EXP 	Photo: autoDraw = False
+357.6044 	DATA 	Keypress: l
+357.6068 	EXP 	New trial (rep=0, index=24): OrderedDict([('image1', u'frogs/ab4.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+357.6297 	EXP 	Photo: autoDraw = False
+357.6297 	EXP 	Photo: pos = array([ 0.,  0.])
+357.6297 	EXP 	Photo: image = u'frogs/ab4.jpg'
+357.6297 	EXP 	Photo: autoDraw = True
+358.1200 	EXP 	Photo: autoDraw = False
+358.6373 	DATA 	Keypress: l
+358.6397 	EXP 	New trial (rep=0, index=25): OrderedDict([('image1', u'frogs/ab40.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+358.6695 	EXP 	Photo: autoDraw = False
+358.6695 	EXP 	Photo: pos = array([ 0.,  0.])
+358.6695 	EXP 	Photo: image = u'frogs/ab40.jpg'
+358.6695 	EXP 	Photo: autoDraw = True
+359.1530 	EXP 	Photo: autoDraw = False
+359.5703 	DATA 	Keypress: l
+359.5727 	EXP 	New trial (rep=0, index=26): OrderedDict([('image1', u'frogs/ab66.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+359.5960 	EXP 	Photo: autoDraw = False
+359.5960 	EXP 	Photo: pos = array([ 0.,  0.])
+359.5960 	EXP 	Photo: image = u'frogs/ab66.jpg'
+359.5960 	EXP 	Photo: autoDraw = True
+360.0860 	EXP 	Photo: autoDraw = False
+361.1698 	DATA 	Keypress: l
+361.1722 	EXP 	New trial (rep=0, index=27): OrderedDict([('image1', u'frogs/ab32.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+361.2324 	EXP 	Photo: autoDraw = False
+361.2324 	EXP 	Photo: pos = array([ 0.,  0.])
+361.2324 	EXP 	Photo: image = u'frogs/ab32.jpg'
+361.2324 	EXP 	Photo: autoDraw = True
+361.6855 	EXP 	Photo: autoDraw = False
+362.1027 	DATA 	Keypress: l
+362.1051 	EXP 	New trial (rep=0, index=28): OrderedDict([('image1', u'frogs/ab15.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+362.1960 	EXP 	Photo: autoDraw = False
+362.1960 	EXP 	Photo: pos = array([ 0.,  0.])
+362.1960 	EXP 	Photo: image = u'frogs/ab15.jpg'
+362.1960 	EXP 	Photo: autoDraw = True
+362.6178 	EXP 	Photo: autoDraw = False
+362.9689 	DATA 	Keypress: l
+362.9714 	EXP 	New trial (rep=0, index=29): OrderedDict([('image1', u'frogs/ab68.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+363.0224 	EXP 	Photo: autoDraw = False
+363.0224 	EXP 	Photo: pos = array([ 0.,  0.])
+363.0224 	EXP 	Photo: image = u'frogs/ab68.jpg'
+363.0224 	EXP 	Photo: autoDraw = True
+363.4844 	EXP 	Photo: autoDraw = False
+364.3351 	DATA 	Keypress: l
+364.3376 	EXP 	New trial (rep=0, index=30): OrderedDict([('image1', u'frogs/ab60.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+364.3612 	EXP 	Photo: autoDraw = False
+364.3612 	EXP 	Photo: pos = array([ 0.,  0.])
+364.3612 	EXP 	Photo: image = u'frogs/ab60.jpg'
+364.3612 	EXP 	Photo: autoDraw = True
+364.8508 	EXP 	Photo: autoDraw = False
+365.3347 	DATA 	Keypress: l
+365.3371 	EXP 	New trial (rep=0, index=31): OrderedDict([('image1', u'frogs/ab50.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+365.4144 	EXP 	Photo: autoDraw = False
+365.4144 	EXP 	Photo: pos = array([ 0.,  0.])
+365.4144 	EXP 	Photo: image = u'frogs/ab50.jpg'
+365.4144 	EXP 	Photo: autoDraw = True
+365.8508 	EXP 	Photo: autoDraw = False
+366.3181 	DATA 	Keypress: l
+366.3205 	EXP 	New trial (rep=0, index=32): OrderedDict([('image1', u'frogs/ab57.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+366.4963 	EXP 	Photo: autoDraw = False
+366.4963 	EXP 	Photo: pos = array([ 0.,  0.])
+366.4963 	EXP 	Photo: image = u'frogs/ab57.jpg'
+366.4963 	EXP 	Photo: autoDraw = True
+366.8336 	EXP 	Photo: autoDraw = False
+367.2515 	DATA 	Keypress: l
+367.2539 	EXP 	New trial (rep=0, index=33): OrderedDict([('image1', u'frogs/ab13.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+367.2757 	EXP 	Photo: autoDraw = False
+367.2757 	EXP 	Photo: pos = array([ 0.,  0.])
+367.2757 	EXP 	Photo: image = u'frogs/ab13.jpg'
+367.2757 	EXP 	Photo: autoDraw = True
+367.7664 	EXP 	Photo: autoDraw = False
+369.7001 	DATA 	Keypress: l
+369.7026 	EXP 	New trial (rep=0, index=34): OrderedDict([('image1', u'frogs/ab16.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+369.7242 	EXP 	Photo: autoDraw = False
+369.7242 	EXP 	Photo: pos = array([ 0.,  0.])
+369.7242 	EXP 	Photo: image = u'frogs/ab16.jpg'
+369.7242 	EXP 	Photo: autoDraw = True
+370.2156 	EXP 	Photo: autoDraw = False
+370.6830 	DATA 	Keypress: l
+370.6854 	EXP 	New trial (rep=0, index=35): OrderedDict([('image1', u'frogs/ab48.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+370.7754 	EXP 	Photo: autoDraw = False
+370.7754 	EXP 	Photo: pos = array([ 0.,  0.])
+370.7754 	EXP 	Photo: image = u'frogs/ab48.jpg'
+370.7754 	EXP 	Photo: autoDraw = True
+371.1990 	EXP 	Photo: autoDraw = False
+371.5829 	DATA 	Keypress: l
+371.5853 	EXP 	New trial (rep=0, index=36): OrderedDict([('image1', u'frogs/ab9.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+372.0209 	EXP 	Photo: autoDraw = False
+372.0209 	EXP 	Photo: pos = array([ 0.,  0.])
+372.0209 	EXP 	Photo: image = u'frogs/ab9.jpg'
+372.0209 	EXP 	Photo: autoDraw = True
+372.0990 	EXP 	Photo: autoDraw = False
+372.6492 	DATA 	Keypress: l
+372.6516 	EXP 	New trial (rep=0, index=37): OrderedDict([('image1', u'frogs/ab2.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+373.2505 	EXP 	Photo: autoDraw = False
+373.2505 	EXP 	Photo: pos = array([ 0.,  0.])
+373.2505 	EXP 	Photo: image = u'frogs/ab2.jpg'
+373.2505 	EXP 	Photo: autoDraw = True
+373.2505 	EXP 	Photo: autoDraw = False
+374.2822 	DATA 	Keypress: l
+374.2846 	EXP 	New trial (rep=0, index=38): OrderedDict([('image1', u'frogs/ab3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+374.3428 	EXP 	Photo: autoDraw = False
+374.3428 	EXP 	Photo: pos = array([ 0.,  0.])
+374.3428 	EXP 	Photo: image = u'frogs/ab3.jpg'
+374.3428 	EXP 	Photo: autoDraw = True
+374.7978 	EXP 	Photo: autoDraw = False
+375.1318 	DATA 	Keypress: l
+375.1342 	EXP 	New trial (rep=0, index=39): OrderedDict([('image1', u'frogs/ab42.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+375.1934 	EXP 	Photo: autoDraw = False
+375.1934 	EXP 	Photo: pos = array([ 0.,  0.])
+375.1934 	EXP 	Photo: image = u'frogs/ab42.jpg'
+375.1934 	EXP 	Photo: autoDraw = True
+375.6474 	EXP 	Photo: autoDraw = False
+376.1314 	DATA 	Keypress: l
+376.1338 	EXP 	New trial (rep=0, index=40): OrderedDict([('image1', u'frogs/ab29.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+376.1639 	EXP 	Photo: autoDraw = False
+376.1639 	EXP 	Photo: pos = array([ 0.,  0.])
+376.1639 	EXP 	Photo: image = u'frogs/ab29.jpg'
+376.1639 	EXP 	Photo: autoDraw = True
+376.6472 	EXP 	Photo: autoDraw = False
+377.1810 	DATA 	Keypress: l
+377.1835 	EXP 	New trial (rep=0, index=41): OrderedDict([('image1', u'frogs/ab25.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+377.2467 	EXP 	Photo: autoDraw = False
+377.2467 	EXP 	Photo: pos = array([ 0.,  0.])
+377.2467 	EXP 	Photo: image = u'frogs/ab25.jpg'
+377.2467 	EXP 	Photo: autoDraw = True
+377.6969 	EXP 	Photo: autoDraw = False
+378.0975 	DATA 	Keypress: l
+378.0999 	EXP 	New trial (rep=0, index=42): OrderedDict([('image1', u'frogs/ab36.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+378.1577 	EXP 	Photo: autoDraw = False
+378.1577 	EXP 	Photo: pos = array([ 0.,  0.])
+378.1577 	EXP 	Photo: image = u'frogs/ab36.jpg'
+378.1577 	EXP 	Photo: autoDraw = True
+378.6131 	EXP 	Photo: autoDraw = False
+378.9472 	DATA 	Keypress: l
+378.9496 	EXP 	New trial (rep=0, index=43): OrderedDict([('image1', u'frogs/ab1.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+378.9727 	EXP 	Photo: autoDraw = False
+378.9727 	EXP 	Photo: pos = array([ 0.,  0.])
+378.9727 	EXP 	Photo: image = u'frogs/ab1.jpg'
+378.9727 	EXP 	Photo: autoDraw = True
+379.4633 	EXP 	Photo: autoDraw = False
+379.8469 	DATA 	Keypress: l
+379.8493 	EXP 	New trial (rep=0, index=44): OrderedDict([('image1', u'frogs/ab62.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+380.0244 	EXP 	Photo: autoDraw = False
+380.0244 	EXP 	Photo: pos = array([ 0.,  0.])
+380.0244 	EXP 	Photo: image = u'frogs/ab62.jpg'
+380.0244 	EXP 	Photo: autoDraw = True
+380.3620 	EXP 	Photo: autoDraw = False
+380.6795 	DATA 	Keypress: l
+380.6819 	EXP 	New trial (rep=0, index=45): OrderedDict([('image1', u'frogs/ab22.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+380.7987 	EXP 	Photo: autoDraw = False
+380.7987 	EXP 	Photo: pos = array([ 0.,  0.])
+380.7987 	EXP 	Photo: image = u'frogs/ab22.jpg'
+380.7987 	EXP 	Photo: autoDraw = True
+381.1956 	EXP 	Photo: autoDraw = False
+381.5129 	DATA 	Keypress: l
+381.5154 	EXP 	New trial (rep=0, index=46): OrderedDict([('image1', u'frogs/ab34.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+381.5998 	EXP 	Photo: autoDraw = False
+381.5998 	EXP 	Photo: pos = array([ 0.,  0.])
+381.5998 	EXP 	Photo: image = u'frogs/ab34.jpg'
+381.5998 	EXP 	Photo: autoDraw = True
+382.0286 	EXP 	Photo: autoDraw = False
+382.4459 	DATA 	Keypress: l
+382.4483 	EXP 	New trial (rep=0, index=47): OrderedDict([('image1', u'frogs/ab41.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+382.4717 	EXP 	Photo: autoDraw = False
+382.4717 	EXP 	Photo: pos = array([ 0.,  0.])
+382.4717 	EXP 	Photo: image = u'frogs/ab41.jpg'
+382.4717 	EXP 	Photo: autoDraw = True
+382.9617 	EXP 	Photo: autoDraw = False
+383.3956 	DATA 	Keypress: l
+383.3980 	EXP 	New trial (rep=0, index=48): OrderedDict([('image1', u'frogs/ab67.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+383.4208 	EXP 	Photo: autoDraw = False
+383.4208 	EXP 	Photo: pos = array([ 0.,  0.])
+383.4208 	EXP 	Photo: image = u'frogs/ab67.jpg'
+383.4208 	EXP 	Photo: autoDraw = True
+383.9114 	EXP 	Photo: autoDraw = False
+384.3786 	DATA 	Keypress: l
+384.3810 	EXP 	New trial (rep=0, index=49): OrderedDict([('image1', u'frogs/ab38.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+384.4038 	EXP 	Photo: autoDraw = False
+384.4038 	EXP 	Photo: pos = array([ 0.,  0.])
+384.4038 	EXP 	Photo: image = u'frogs/ab38.jpg'
+384.4038 	EXP 	Photo: autoDraw = True
+384.8944 	EXP 	Photo: autoDraw = False
+385.2950 	DATA 	Keypress: l
+385.2974 	EXP 	New trial (rep=0, index=50): OrderedDict([('image1', u'frogs/ab80.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+385.3205 	EXP 	Photo: autoDraw = False
+385.3205 	EXP 	Photo: pos = array([ 0.,  0.])
+385.3205 	EXP 	Photo: image = u'frogs/ab80.jpg'
+385.3205 	EXP 	Photo: autoDraw = True
+385.8107 	EXP 	Photo: autoDraw = False
+386.2953 	DATA 	Keypress: l
+386.3130 	EXP 	New trial (rep=0, index=51): OrderedDict([('image1', u'frogs/ab65.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+386.3788 	EXP 	Photo: autoDraw = False
+386.3788 	EXP 	Photo: pos = array([ 0.,  0.])
+386.3788 	EXP 	Photo: image = u'frogs/ab65.jpg'
+386.3788 	EXP 	Photo: autoDraw = True
+386.8276 	EXP 	Photo: autoDraw = False
+387.3443 	DATA 	Keypress: l
+387.3470 	EXP 	New trial (rep=0, index=52): OrderedDict([('image1', u'frogs/ab74.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+387.4102 	EXP 	Photo: autoDraw = False
+387.4102 	EXP 	Photo: pos = array([ 0.,  0.])
+387.4102 	EXP 	Photo: image = u'frogs/ab74.jpg'
+387.4102 	EXP 	Photo: autoDraw = True
+387.8601 	EXP 	Photo: autoDraw = False
+388.1274 	DATA 	Keypress: l
+388.1299 	EXP 	New trial (rep=0, index=53): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+388.1786 	EXP 	Photo: autoDraw = False
+388.1786 	EXP 	Photo: pos = array([ 0.,  0.])
+388.1786 	EXP 	Photo: image = u'logos/3.jpg'
+388.1786 	EXP 	Photo: autoDraw = True
+388.6431 	EXP 	Photo: autoDraw = False
+389.0437 	DATA 	Keypress: a
+389.0462 	EXP 	New trial (rep=0, index=54): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+389.0939 	EXP 	Photo: autoDraw = False
+389.0939 	EXP 	Photo: pos = array([ 0.,  0.])
+389.0939 	EXP 	Photo: image = u'logos/3.jpg'
+389.0939 	EXP 	Photo: autoDraw = True
+389.5594 	EXP 	Photo: autoDraw = False
+389.8434 	DATA 	Keypress: a
+389.8458 	EXP 	New trial (rep=0, index=55): OrderedDict([('image1', u'frogs/ab10.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+389.8693 	EXP 	Photo: autoDraw = False
+389.8693 	EXP 	Photo: pos = array([ 0.,  0.])
+389.8693 	EXP 	Photo: image = u'frogs/ab10.jpg'
+389.8693 	EXP 	Photo: autoDraw = True
+390.3593 	EXP 	Photo: autoDraw = False
+390.4601 	DATA 	Keypress: l
+390.4630 	EXP 	New trial (rep=0, index=56): OrderedDict([('image1', u'frogs/ab14.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+390.5146 	EXP 	Photo: autoDraw = False
+390.5146 	EXP 	Photo: pos = array([ 0.,  0.])
+390.5146 	EXP 	Photo: image = u'frogs/ab14.jpg'
+390.5146 	EXP 	Photo: autoDraw = True
+390.9757 	EXP 	Photo: autoDraw = False
+391.2263 	DATA 	Keypress: l
+391.2288 	EXP 	New trial (rep=0, index=57): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+391.2771 	EXP 	Photo: autoDraw = False
+391.2771 	EXP 	Photo: pos = array([ 0.,  0.])
+391.2771 	EXP 	Photo: image = u'logos/3.jpg'
+391.2771 	EXP 	Photo: autoDraw = True
+391.7420 	EXP 	Photo: autoDraw = False
+392.0761 	DATA 	Keypress: a
+392.0785 	EXP 	New trial (rep=0, index=58): OrderedDict([('image1', u'frogs/ab45.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+392.0995 	EXP 	Photo: autoDraw = False
+392.0995 	EXP 	Photo: pos = array([ 0.,  0.])
+392.0995 	EXP 	Photo: image = u'frogs/ab45.jpg'
+392.0995 	EXP 	Photo: autoDraw = True
+392.5918 	EXP 	Photo: autoDraw = False
+392.7591 	DATA 	Keypress: l
+392.7617 	EXP 	New trial (rep=0, index=59): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+392.8105 	EXP 	Photo: autoDraw = False
+392.8105 	EXP 	Photo: pos = array([ 0.,  0.])
+392.8105 	EXP 	Photo: image = u'logos/3.jpg'
+392.8105 	EXP 	Photo: autoDraw = True
+393.2749 	EXP 	Photo: autoDraw = False
+393.3090 	DATA 	Keypress: a
+393.3114 	EXP 	New trial (rep=0, index=60): OrderedDict([('image1', u'frogs/ab55.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+393.3608 	EXP 	Photo: autoDraw = False
+393.3608 	EXP 	Photo: pos = array([ 0.,  0.])
+393.3608 	EXP 	Photo: image = u'frogs/ab55.jpg'
+393.3608 	EXP 	Photo: autoDraw = True
+393.8096 	DATA 	Keypress: l
+393.8247 	EXP 	Photo: autoDraw = False
+394.7084 	DATA 	Keypress: l
+394.7109 	EXP 	New trial (rep=0, index=61): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+394.7596 	EXP 	Photo: autoDraw = False
+394.7596 	EXP 	Photo: pos = array([ 0.,  0.])
+394.7596 	EXP 	Photo: image = u'logos/3.jpg'
+394.7596 	EXP 	Photo: autoDraw = True
+395.2242 	EXP 	Photo: autoDraw = False
+395.3085 	DATA 	Keypress: a
+395.3109 	EXP 	New trial (rep=0, index=62): OrderedDict([('image1', u'frogs/ab64.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+395.3341 	EXP 	Photo: autoDraw = False
+395.3341 	EXP 	Photo: pos = array([ 0.,  0.])
+395.3341 	EXP 	Photo: image = u'frogs/ab64.jpg'
+395.3341 	EXP 	Photo: autoDraw = True
+395.8240 	EXP 	Photo: autoDraw = False
+395.8248 	DATA 	Keypress: l
+396.6245 	DATA 	Keypress: l
+396.6269 	EXP 	New trial (rep=0, index=63): OrderedDict([('image1', u'frogs/ab21.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+396.6502 	EXP 	Photo: autoDraw = False
+396.6502 	EXP 	Photo: pos = array([ 0.,  0.])
+396.6502 	EXP 	Photo: image = u'frogs/ab21.jpg'
+396.6502 	EXP 	Photo: autoDraw = True
+397.1403 	EXP 	Photo: autoDraw = False
+397.2910 	DATA 	Keypress: l
+397.2933 	EXP 	New trial (rep=0, index=64): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+397.3415 	EXP 	Photo: autoDraw = False
+397.3415 	EXP 	Photo: pos = array([ 0.,  0.])
+397.3415 	EXP 	Photo: image = u'logos/3.jpg'
+397.3415 	EXP 	Photo: autoDraw = True
+397.8071 	EXP 	Photo: autoDraw = False
+397.8240 	DATA 	Keypress: a
+397.8265 	EXP 	New trial (rep=0, index=65): OrderedDict([('image1', u'frogs/ab17.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+397.8497 	EXP 	Photo: autoDraw = False
+397.8497 	EXP 	Photo: pos = array([ 0.,  0.])
+397.8497 	EXP 	Photo: image = u'frogs/ab17.jpg'
+397.8497 	EXP 	Photo: autoDraw = True
+398.3399 	EXP 	Photo: autoDraw = False
+398.3573 	DATA 	Keypress: l
+398.3598 	EXP 	New trial (rep=0, index=66): OrderedDict([('image1', u'frogs/ab76.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+398.3830 	EXP 	Photo: autoDraw = False
+398.3830 	EXP 	Photo: pos = array([ 0.,  0.])
+398.3830 	EXP 	Photo: image = u'frogs/ab76.jpg'
+398.3830 	EXP 	Photo: autoDraw = True
+398.8730 	EXP 	Photo: autoDraw = False
+399.0403 	DATA 	Keypress: l
+399.0428 	EXP 	New trial (rep=0, index=67): OrderedDict([('image1', u'frogs/ab20.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+399.0657 	EXP 	Photo: autoDraw = False
+399.0657 	EXP 	Photo: pos = array([ 0.,  0.])
+399.0657 	EXP 	Photo: image = u'frogs/ab20.jpg'
+399.0657 	EXP 	Photo: autoDraw = True
+399.5561 	EXP 	Photo: autoDraw = False
+399.5901 	DATA 	Keypress: l
+399.5925 	EXP 	New trial (rep=0, index=68): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+399.6407 	EXP 	Photo: autoDraw = False
+399.6407 	EXP 	Photo: pos = array([ 0.,  0.])
+399.6407 	EXP 	Photo: image = u'logos/3.jpg'
+399.6407 	EXP 	Photo: autoDraw = True
+400.1059 	EXP 	Photo: autoDraw = False
+400.1568 	DATA 	Keypress: a
+400.1592 	EXP 	New trial (rep=0, index=69): OrderedDict([('image1', u'frogs/ab70.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+400.1822 	EXP 	Photo: autoDraw = False
+400.1822 	EXP 	Photo: pos = array([ 0.,  0.])
+400.1822 	EXP 	Photo: image = u'frogs/ab70.jpg'
+400.1822 	EXP 	Photo: autoDraw = True
+400.5901 	DATA 	Keypress: l
+400.6724 	EXP 	Photo: autoDraw = False
+402.3560 	DATA 	Keypress: l
+402.3584 	EXP 	New trial (rep=0, index=70): OrderedDict([('image1', u'frogs/ab8.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+402.3817 	EXP 	Photo: autoDraw = False
+402.3817 	EXP 	Photo: pos = array([ 0.,  0.])
+402.3817 	EXP 	Photo: image = u'frogs/ab8.jpg'
+402.3817 	EXP 	Photo: autoDraw = True
+402.8717 	EXP 	Photo: autoDraw = False
+403.1058 	DATA 	Keypress: l
+403.1082 	EXP 	New trial (rep=0, index=71): OrderedDict([('image1', u'frogs/ab35.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+403.1608 	EXP 	Photo: autoDraw = False
+403.1608 	EXP 	Photo: pos = array([ 0.,  0.])
+403.1608 	EXP 	Photo: image = u'frogs/ab35.jpg'
+403.1608 	EXP 	Photo: autoDraw = True
+403.6214 	EXP 	Photo: autoDraw = False
+403.8720 	DATA 	Keypress: l
+403.8745 	EXP 	New trial (rep=0, index=72): OrderedDict([('image1', u'frogs/ab81.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+403.8963 	EXP 	Photo: autoDraw = False
+403.8963 	EXP 	Photo: pos = array([ 0.,  0.])
+403.8963 	EXP 	Photo: image = u'frogs/ab81.jpg'
+403.8963 	EXP 	Photo: autoDraw = True
+404.3879 	EXP 	Photo: autoDraw = False
+405.0716 	DATA 	Keypress: l
+405.0742 	EXP 	New trial (rep=0, index=73): OrderedDict([('image1', u'frogs/ab27.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+405.1378 	EXP 	Photo: autoDraw = False
+405.1378 	EXP 	Photo: pos = array([ 0.,  0.])
+405.1378 	EXP 	Photo: image = u'frogs/ab27.jpg'
+405.1378 	EXP 	Photo: autoDraw = True
+405.5874 	EXP 	Photo: autoDraw = False
+405.9048 	DATA 	Keypress: l
+405.9072 	EXP 	New trial (rep=0, index=74): OrderedDict([('image1', u'frogs/ab28.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+405.9298 	EXP 	Photo: autoDraw = False
+405.9298 	EXP 	Photo: pos = array([ 0.,  0.])
+405.9298 	EXP 	Photo: image = u'frogs/ab28.jpg'
+405.9298 	EXP 	Photo: autoDraw = True
+406.4205 	EXP 	Photo: autoDraw = False
+407.3042 	DATA 	Keypress: l
+407.3067 	EXP 	New trial (rep=0, index=75): OrderedDict([('image1', u'frogs/ab26.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+407.3291 	EXP 	Photo: autoDraw = False
+407.3291 	EXP 	Photo: pos = array([ 0.,  0.])
+407.3291 	EXP 	Photo: image = u'frogs/ab26.jpg'
+407.3291 	EXP 	Photo: autoDraw = True
+407.8205 	EXP 	Photo: autoDraw = False
+409.2702 	DATA 	Keypress: l
+409.2728 	EXP 	New trial (rep=0, index=76): OrderedDict([('image1', u'frogs/ab39.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+409.3220 	EXP 	Photo: autoDraw = False
+409.3220 	EXP 	Photo: pos = array([ 0.,  0.])
+409.3220 	EXP 	Photo: image = u'frogs/ab39.jpg'
+409.3220 	EXP 	Photo: autoDraw = True
+409.7861 	EXP 	Photo: autoDraw = False
+410.1700 	DATA 	Keypress: l
+410.1724 	EXP 	New trial (rep=0, index=77): OrderedDict([('image1', u'frogs/ab43.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+410.2279 	EXP 	Photo: autoDraw = False
+410.2279 	EXP 	Photo: pos = array([ 0.,  0.])
+410.2279 	EXP 	Photo: image = u'frogs/ab43.jpg'
+410.2279 	EXP 	Photo: autoDraw = True
+410.6857 	EXP 	Photo: autoDraw = False
+411.4696 	DATA 	Keypress: l
+411.4720 	EXP 	New trial (rep=0, index=78): OrderedDict([('image1', u'frogs/ab51.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+411.5521 	EXP 	Photo: autoDraw = False
+411.5521 	EXP 	Photo: pos = array([ 0.,  0.])
+411.5521 	EXP 	Photo: image = u'frogs/ab51.jpg'
+411.5521 	EXP 	Photo: autoDraw = True
+411.9853 	EXP 	Photo: autoDraw = False
+412.3859 	DATA 	Keypress: l
+412.3883 	EXP 	New trial (rep=0, index=79): OrderedDict([('image1', u'logos/3.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'a')])
+412.4367 	EXP 	Photo: autoDraw = False
+412.4367 	EXP 	Photo: pos = array([ 0.,  0.])
+412.4367 	EXP 	Photo: image = u'logos/3.jpg'
+412.4367 	EXP 	Photo: autoDraw = True
+412.9016 	EXP 	Photo: autoDraw = False
+413.2856 	DATA 	Keypress: a
+413.2880 	EXP 	New trial (rep=0, index=80): OrderedDict([('image1', u'frogs/ab37.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+413.3419 	EXP 	Photo: autoDraw = False
+413.3419 	EXP 	Photo: pos = array([ 0.,  0.])
+413.3419 	EXP 	Photo: image = u'frogs/ab37.jpg'
+413.3419 	EXP 	Photo: autoDraw = True
+413.8014 	EXP 	Photo: autoDraw = False
+414.0686 	DATA 	Keypress: l
+414.0711 	EXP 	New trial (rep=0, index=81): OrderedDict([('image1', u'frogs/ab75.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+414.0925 	EXP 	Photo: autoDraw = False
+414.0925 	EXP 	Photo: pos = array([ 0.,  0.])
+414.0925 	EXP 	Photo: image = u'frogs/ab75.jpg'
+414.0925 	EXP 	Photo: autoDraw = True
+414.5845 	EXP 	Photo: autoDraw = False
+415.1183 	DATA 	Keypress: l
+415.1207 	EXP 	New trial (rep=0, index=82): OrderedDict([('image1', u'frogs/ab71.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+415.1442 	EXP 	Photo: autoDraw = False
+415.1442 	EXP 	Photo: pos = array([ 0.,  0.])
+415.1442 	EXP 	Photo: image = u'frogs/ab71.jpg'
+415.1442 	EXP 	Photo: autoDraw = True
+415.6341 	EXP 	Photo: autoDraw = False
+416.2513 	DATA 	Keypress: l
+416.2537 	EXP 	New trial (rep=0, index=83): OrderedDict([('image1', u'frogs/ab7.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+416.3064 	EXP 	Photo: autoDraw = False
+416.3064 	EXP 	Photo: pos = array([ 0.,  0.])
+416.3064 	EXP 	Photo: image = u'frogs/ab7.jpg'
+416.3064 	EXP 	Photo: autoDraw = True
+416.7670 	EXP 	Photo: autoDraw = False
+417.5341 	DATA 	Keypress: l
+417.5365 	EXP 	New trial (rep=0, index=84): OrderedDict([('image1', u'frogs/ab44.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+417.5597 	EXP 	Photo: autoDraw = False
+417.5597 	EXP 	Photo: pos = array([ 0.,  0.])
+417.5597 	EXP 	Photo: image = u'frogs/ab44.jpg'
+417.5597 	EXP 	Photo: autoDraw = True
+418.0499 	EXP 	Photo: autoDraw = False
+419.8835 	DATA 	Keypress: l
+419.8859 	EXP 	New trial (rep=0, index=85): OrderedDict([('image1', u'frogs/ab46.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+419.9591 	EXP 	Photo: autoDraw = False
+419.9591 	EXP 	Photo: pos = array([ 0.,  0.])
+419.9591 	EXP 	Photo: image = u'frogs/ab46.jpg'
+419.9591 	EXP 	Photo: autoDraw = True
+420.3992 	EXP 	Photo: autoDraw = False
+421.7495 	DATA 	Keypress: l
+421.7520 	EXP 	New trial (rep=0, index=86): OrderedDict([('image1', u'frogs/ab11.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+421.8117 	EXP 	Photo: autoDraw = False
+421.8117 	EXP 	Photo: pos = array([ 0.,  0.])
+421.8117 	EXP 	Photo: image = u'frogs/ab11.jpg'
+421.8117 	EXP 	Photo: autoDraw = True
+422.2652 	EXP 	Photo: autoDraw = False
+422.6158 	DATA 	Keypress: l
+422.6183 	EXP 	New trial (rep=0, index=87): OrderedDict([('image1', u'frogs/ab52.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+422.6396 	EXP 	Photo: autoDraw = False
+422.6396 	EXP 	Photo: pos = array([ 0.,  0.])
+422.6396 	EXP 	Photo: image = u'frogs/ab52.jpg'
+422.6396 	EXP 	Photo: autoDraw = True
+423.1316 	EXP 	Photo: autoDraw = False
+423.6988 	DATA 	Keypress: l
+423.7012 	EXP 	New trial (rep=0, index=88): OrderedDict([('image1', u'frogs/ab5.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+423.7248 	EXP 	Photo: autoDraw = False
+423.7248 	EXP 	Photo: pos = array([ 0.,  0.])
+423.7248 	EXP 	Photo: image = u'frogs/ab5.jpg'
+423.7248 	EXP 	Photo: autoDraw = True
+424.2282 	EXP 	Photo: autoDraw = False
+424.5818 	DATA 	Keypress: l
+424.5841 	EXP 	New trial (rep=0, index=89): OrderedDict([('image1', u'frogs/ab53.jpg'), ('x', 0), ('y', 0), ('size', 400), ('answer', u'l')])
+424.6106 	EXP 	Photo: autoDraw = False
+424.6106 	EXP 	Photo: pos = array([ 0.,  0.])
+424.6106 	EXP 	Photo: image = u'frogs/ab53.jpg'
+424.6106 	EXP 	Photo: autoDraw = True
+425.0980 	EXP 	Photo: autoDraw = False
+426.3157 	DATA 	Keypress: l
+426.3363 	EXP 	Photo: autoDraw = False
+426.3363 	EXP 	text: autoDraw = True
+428.0474 	DATA 	Keypress: l
+432.0940 	EXP 	window1: mouseVisible = True

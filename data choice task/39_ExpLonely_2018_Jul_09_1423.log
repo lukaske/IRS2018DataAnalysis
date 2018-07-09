@@ -1,0 +1,751 @@
+6.3671 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x113f07410>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.3671 	EXP 	window1: recordFrameIntervals = False
+6.5332 	EXP 	window1: recordFrameIntervals = True
+6.7167 	EXP 	window1: recordFrameIntervals = False
+6.8015 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+6.8032 	EXP 	Created Leftimg = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Leftimg', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 400.,  400.]), texRes=128, units='pix', win=Window(...))
+6.8043 	EXP 	Created Rightimg = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rightimg', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 400.,  400.]), texRes=128, units='pix', win=Window(...))
+6.8139 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'to proceed press the space bar.', units=u'norm', win=Window(...), wrapWidth=1)
+6.8231 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+6.8278 	EXP 	window1: blendMode = 'avg'
+6.8319 	EXP 	text_2: autoDraw = True
+6.8344 	EXP 	window1: blendMode = 'avg'
+6.8506 	EXP 	window1: blendMode = 'avg'
+6.8674 	EXP 	window1: blendMode = 'avg'
+6.8850 	EXP 	window1: blendMode = 'avg'
+6.9009 	EXP 	window1: blendMode = 'avg'
+6.9177 	EXP 	window1: blendMode = 'avg'
+6.9339 	EXP 	window1: blendMode = 'avg'
+6.9507 	EXP 	window1: blendMode = 'avg'
+6.9674 	EXP 	window1: blendMode = 'avg'
+6.9840 	EXP 	window1: blendMode = 'avg'
+7.0008 	EXP 	window1: blendMode = 'avg'
+7.0173 	EXP 	window1: blendMode = 'avg'
+7.0341 	EXP 	window1: blendMode = 'avg'
+7.0507 	EXP 	window1: blendMode = 'avg'
+7.0674 	EXP 	window1: blendMode = 'avg'
+7.0839 	EXP 	window1: blendMode = 'avg'
+7.1007 	EXP 	window1: blendMode = 'avg'
+7.1174 	EXP 	window1: blendMode = 'avg'
+7.1340 	EXP 	window1: blendMode = 'avg'
+7.1507 	EXP 	window1: blendMode = 'avg'
+7.1674 	EXP 	window1: blendMode = 'avg'
+7.1841 	EXP 	window1: blendMode = 'avg'
+7.2006 	EXP 	window1: blendMode = 'avg'
+7.2174 	EXP 	window1: blendMode = 'avg'
+7.2341 	EXP 	window1: blendMode = 'avg'
+7.2508 	EXP 	window1: blendMode = 'avg'
+7.2674 	EXP 	window1: blendMode = 'avg'
+7.2839 	EXP 	window1: blendMode = 'avg'
+7.3006 	EXP 	window1: blendMode = 'avg'
+7.3174 	EXP 	window1: blendMode = 'avg'
+7.3339 	EXP 	window1: blendMode = 'avg'
+7.3507 	EXP 	window1: blendMode = 'avg'
+7.3674 	EXP 	window1: blendMode = 'avg'
+7.3840 	EXP 	window1: blendMode = 'avg'
+7.4007 	EXP 	window1: blendMode = 'avg'
+7.4173 	EXP 	window1: blendMode = 'avg'
+7.4341 	EXP 	window1: blendMode = 'avg'
+7.4506 	EXP 	window1: blendMode = 'avg'
+7.4673 	EXP 	window1: blendMode = 'avg'
+7.4840 	EXP 	window1: blendMode = 'avg'
+7.5007 	EXP 	window1: blendMode = 'avg'
+7.5173 	EXP 	window1: blendMode = 'avg'
+7.5340 	EXP 	window1: blendMode = 'avg'
+7.5506 	EXP 	window1: blendMode = 'avg'
+7.5674 	EXP 	window1: blendMode = 'avg'
+7.5839 	EXP 	window1: blendMode = 'avg'
+7.6006 	EXP 	window1: blendMode = 'avg'
+7.6174 	EXP 	window1: blendMode = 'avg'
+7.6339 	EXP 	window1: blendMode = 'avg'
+7.6506 	EXP 	window1: blendMode = 'avg'
+7.6674 	EXP 	window1: blendMode = 'avg'
+7.6840 	EXP 	window1: blendMode = 'avg'
+7.7007 	EXP 	window1: blendMode = 'avg'
+7.7173 	EXP 	window1: blendMode = 'avg'
+7.7340 	EXP 	window1: blendMode = 'avg'
+7.7508 	EXP 	window1: blendMode = 'avg'
+7.7673 	EXP 	window1: blendMode = 'avg'
+7.7840 	EXP 	window1: blendMode = 'avg'
+7.8008 	EXP 	window1: blendMode = 'avg'
+7.8173 	EXP 	window1: blendMode = 'avg'
+7.8341 	EXP 	window1: blendMode = 'avg'
+7.8507 	EXP 	window1: blendMode = 'avg'
+7.8673 	EXP 	window1: blendMode = 'avg'
+7.8841 	EXP 	window1: blendMode = 'avg'
+7.9006 	EXP 	window1: blendMode = 'avg'
+7.9175 	EXP 	window1: blendMode = 'avg'
+7.9340 	EXP 	window1: blendMode = 'avg'
+7.9508 	EXP 	window1: blendMode = 'avg'
+7.9673 	EXP 	window1: blendMode = 'avg'
+7.9841 	EXP 	window1: blendMode = 'avg'
+8.0006 	EXP 	window1: blendMode = 'avg'
+8.0174 	EXP 	window1: blendMode = 'avg'
+8.0341 	EXP 	window1: blendMode = 'avg'
+8.0505 	EXP 	window1: blendMode = 'avg'
+8.0702 	DATA 	Keypress: space
+8.0808 	EXP 	Imported Book.xlsx as conditions, 44 conditions, 7 params
+8.0814 	EXP 	Created sequence: random, trialTypes=44, nReps=1, seed=None
+8.0818 	EXP 	New trial (rep=0, index=0): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab65.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab25.jpg'}
+8.1826 	EXP 	text_2: autoDraw = False
+8.1826 	EXP 	Leftimg: pos = array([-300.,    0.])
+8.1826 	EXP 	Leftimg: image = u'frogs/ab25.jpg'
+8.1826 	EXP 	Rightimg: pos = array([ 300.,    0.])
+8.1826 	EXP 	Rightimg: image = u'frogs/ab65.jpg'
+8.1826 	EXP 	Leftimg: autoDraw = True
+8.1826 	EXP 	Rightimg: autoDraw = True
+8.5998 	EXP 	Leftimg: autoDraw = False
+8.5998 	EXP 	Rightimg: autoDraw = False
+9.0186 	DATA 	Keypress: right
+9.0199 	EXP 	New trial (rep=0, index=1): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab67.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab27.jpg'}
+9.0664 	EXP 	Leftimg: autoDraw = False
+9.0664 	EXP 	Rightimg: autoDraw = False
+9.0664 	EXP 	text: autoDraw = False
+9.0664 	EXP 	Leftimg: pos = array([-300.,    0.])
+9.0664 	EXP 	Leftimg: image = u'frogs/ab27.jpg'
+9.0664 	EXP 	Rightimg: pos = array([ 300.,    0.])
+9.0664 	EXP 	Rightimg: image = u'frogs/ab67.jpg'
+9.0664 	EXP 	Leftimg: autoDraw = True
+9.0664 	EXP 	Rightimg: autoDraw = True
+9.5329 	EXP 	Leftimg: autoDraw = False
+9.5329 	EXP 	Rightimg: autoDraw = False
+9.9010 	DATA 	Keypress: left
+9.9020 	EXP 	New trial (rep=0, index=2): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab59.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab19.jpg'}
+9.9495 	EXP 	Leftimg: autoDraw = False
+9.9495 	EXP 	Rightimg: autoDraw = False
+9.9495 	EXP 	text: autoDraw = False
+9.9495 	EXP 	Leftimg: pos = array([-300.,    0.])
+9.9495 	EXP 	Leftimg: image = u'frogs/ab19.jpg'
+9.9495 	EXP 	Rightimg: pos = array([ 300.,    0.])
+9.9495 	EXP 	Rightimg: image = u'frogs/ab59.jpg'
+9.9495 	EXP 	Leftimg: autoDraw = True
+9.9495 	EXP 	Rightimg: autoDraw = True
+10.4157 	EXP 	Leftimg: autoDraw = False
+10.4157 	EXP 	Rightimg: autoDraw = False
+10.9672 	DATA 	Keypress: left
+10.9682 	EXP 	New trial (rep=0, index=3): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab73.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab33.jpg'}
+11.0653 	EXP 	Leftimg: autoDraw = False
+11.0653 	EXP 	Rightimg: autoDraw = False
+11.0653 	EXP 	text: autoDraw = False
+11.0653 	EXP 	Leftimg: pos = array([-300.,    0.])
+11.0653 	EXP 	Leftimg: image = u'frogs/ab33.jpg'
+11.0653 	EXP 	Rightimg: pos = array([ 300.,    0.])
+11.0653 	EXP 	Rightimg: image = u'frogs/ab73.jpg'
+11.0653 	EXP 	Leftimg: autoDraw = True
+11.0653 	EXP 	Rightimg: autoDraw = True
+11.4832 	EXP 	Leftimg: autoDraw = False
+11.4832 	EXP 	Rightimg: autoDraw = False
+11.9008 	DATA 	Keypress: left
+11.9020 	EXP 	New trial (rep=0, index=4): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab63.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab23.jpg'}
+11.9497 	EXP 	Leftimg: autoDraw = False
+11.9497 	EXP 	Rightimg: autoDraw = False
+11.9497 	EXP 	text: autoDraw = False
+11.9497 	EXP 	Leftimg: pos = array([-300.,    0.])
+11.9497 	EXP 	Leftimg: image = u'frogs/ab23.jpg'
+11.9497 	EXP 	Rightimg: pos = array([ 300.,    0.])
+11.9497 	EXP 	Rightimg: image = u'frogs/ab63.jpg'
+11.9497 	EXP 	Leftimg: autoDraw = True
+11.9497 	EXP 	Rightimg: autoDraw = True
+12.4162 	EXP 	Leftimg: autoDraw = False
+12.4162 	EXP 	Rightimg: autoDraw = False
+12.7844 	DATA 	Keypress: left
+12.7859 	EXP 	New trial (rep=0, index=5): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab43.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab3.jpg'}
+12.8320 	EXP 	Leftimg: autoDraw = False
+12.8320 	EXP 	Rightimg: autoDraw = False
+12.8320 	EXP 	text: autoDraw = False
+12.8320 	EXP 	Leftimg: pos = array([-300.,    0.])
+12.8320 	EXP 	Leftimg: image = u'frogs/ab3.jpg'
+12.8320 	EXP 	Rightimg: pos = array([ 300.,    0.])
+12.8320 	EXP 	Rightimg: image = u'frogs/ab43.jpg'
+12.8320 	EXP 	Leftimg: autoDraw = True
+12.8320 	EXP 	Rightimg: autoDraw = True
+13.2996 	EXP 	Leftimg: autoDraw = False
+13.2996 	EXP 	Rightimg: autoDraw = False
+13.8671 	DATA 	Keypress: right
+13.8682 	EXP 	New trial (rep=0, index=6): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab62.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab22.jpg'}
+14.0494 	EXP 	Leftimg: autoDraw = False
+14.0494 	EXP 	Rightimg: autoDraw = False
+14.0494 	EXP 	text: autoDraw = False
+14.0494 	EXP 	Leftimg: pos = array([-300.,    0.])
+14.0494 	EXP 	Leftimg: image = u'frogs/ab22.jpg'
+14.0494 	EXP 	Rightimg: pos = array([ 300.,    0.])
+14.0494 	EXP 	Rightimg: image = u'frogs/ab62.jpg'
+14.0494 	EXP 	Leftimg: autoDraw = True
+14.0494 	EXP 	Rightimg: autoDraw = True
+14.3829 	EXP 	Leftimg: autoDraw = False
+14.3829 	EXP 	Rightimg: autoDraw = False
+14.8181 	DATA 	Keypress: right
+14.8193 	EXP 	New trial (rep=0, index=7): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab70.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab30.jpg'}
+14.8490 	EXP 	Leftimg: autoDraw = False
+14.8490 	EXP 	Rightimg: autoDraw = False
+14.8490 	EXP 	text: autoDraw = False
+14.8490 	EXP 	Leftimg: pos = array([-300.,    0.])
+14.8490 	EXP 	Leftimg: image = u'frogs/ab30.jpg'
+14.8490 	EXP 	Rightimg: pos = array([ 300.,    0.])
+14.8490 	EXP 	Rightimg: image = u'frogs/ab70.jpg'
+14.8490 	EXP 	Leftimg: autoDraw = True
+14.8490 	EXP 	Rightimg: autoDraw = True
+15.3330 	EXP 	Leftimg: autoDraw = False
+15.3330 	EXP 	Rightimg: autoDraw = False
+15.7008 	DATA 	Keypress: right
+15.7017 	EXP 	New trial (rep=0, index=8): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab66.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab26.jpg'}
+15.7159 	EXP 	Leftimg: autoDraw = False
+15.7159 	EXP 	Rightimg: autoDraw = False
+15.7159 	EXP 	text: autoDraw = False
+15.7159 	EXP 	Leftimg: pos = array([-300.,    0.])
+15.7159 	EXP 	Leftimg: image = u'frogs/ab26.jpg'
+15.7159 	EXP 	Rightimg: pos = array([ 300.,    0.])
+15.7159 	EXP 	Rightimg: image = u'frogs/ab66.jpg'
+15.7159 	EXP 	Leftimg: autoDraw = True
+15.7159 	EXP 	Rightimg: autoDraw = True
+16.2162 	EXP 	Leftimg: autoDraw = False
+16.2162 	EXP 	Rightimg: autoDraw = False
+16.9517 	DATA 	Keypress: right
+16.9529 	EXP 	New trial (rep=0, index=9): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab64.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab24.jpg'}
+16.9661 	EXP 	Leftimg: autoDraw = False
+16.9661 	EXP 	Rightimg: autoDraw = False
+16.9661 	EXP 	text: autoDraw = False
+16.9661 	EXP 	Leftimg: pos = array([-300.,    0.])
+16.9661 	EXP 	Leftimg: image = u'frogs/ab24.jpg'
+16.9661 	EXP 	Rightimg: pos = array([ 300.,    0.])
+16.9661 	EXP 	Rightimg: image = u'frogs/ab64.jpg'
+16.9661 	EXP 	Leftimg: autoDraw = True
+16.9661 	EXP 	Rightimg: autoDraw = True
+17.4662 	EXP 	Leftimg: autoDraw = False
+17.4662 	EXP 	Rightimg: autoDraw = False
+17.9009 	DATA 	Keypress: left
+17.9020 	EXP 	New trial (rep=0, index=10): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab54.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab14.jpg'}
+17.9320 	EXP 	Leftimg: autoDraw = False
+17.9320 	EXP 	Rightimg: autoDraw = False
+17.9320 	EXP 	text: autoDraw = False
+17.9320 	EXP 	Leftimg: pos = array([-300.,    0.])
+17.9320 	EXP 	Leftimg: image = u'frogs/ab14.jpg'
+17.9320 	EXP 	Rightimg: pos = array([ 300.,    0.])
+17.9320 	EXP 	Rightimg: image = u'frogs/ab54.jpg'
+17.9320 	EXP 	Leftimg: autoDraw = True
+17.9320 	EXP 	Rightimg: autoDraw = True
+18.4164 	EXP 	Leftimg: autoDraw = False
+18.4164 	EXP 	Rightimg: autoDraw = False
+18.9179 	DATA 	Keypress: left
+18.9191 	EXP 	New trial (rep=0, index=11): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab57.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab17.jpg'}
+19.0159 	EXP 	Leftimg: autoDraw = False
+19.0159 	EXP 	Rightimg: autoDraw = False
+19.0159 	EXP 	text: autoDraw = False
+19.0159 	EXP 	Leftimg: pos = array([-300.,    0.])
+19.0159 	EXP 	Leftimg: image = u'frogs/ab17.jpg'
+19.0159 	EXP 	Rightimg: pos = array([ 300.,    0.])
+19.0159 	EXP 	Rightimg: image = u'frogs/ab57.jpg'
+19.0159 	EXP 	Leftimg: autoDraw = True
+19.0159 	EXP 	Rightimg: autoDraw = True
+19.4328 	EXP 	Leftimg: autoDraw = False
+19.4328 	EXP 	Rightimg: autoDraw = False
+19.9677 	DATA 	Keypress: right
+19.9686 	EXP 	New trial (rep=0, index=12): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab50.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab10.jpg'}
+20.0329 	EXP 	Leftimg: autoDraw = False
+20.0329 	EXP 	Rightimg: autoDraw = False
+20.0329 	EXP 	text: autoDraw = False
+20.0329 	EXP 	Leftimg: pos = array([-300.,    0.])
+20.0329 	EXP 	Leftimg: image = u'frogs/ab10.jpg'
+20.0329 	EXP 	Rightimg: pos = array([ 300.,    0.])
+20.0329 	EXP 	Rightimg: image = u'frogs/ab50.jpg'
+20.0329 	EXP 	Leftimg: autoDraw = True
+20.0329 	EXP 	Rightimg: autoDraw = True
+20.4831 	EXP 	Leftimg: autoDraw = False
+20.4831 	EXP 	Rightimg: autoDraw = False
+20.9198 	DATA 	Keypress: left
+20.9340 	EXP 	New trial (rep=0, index=13): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab48.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab8.jpg'}
+20.9823 	EXP 	Leftimg: autoDraw = False
+20.9823 	EXP 	Rightimg: autoDraw = False
+20.9823 	EXP 	text: autoDraw = False
+20.9823 	EXP 	Leftimg: pos = array([-300.,    0.])
+20.9823 	EXP 	Leftimg: image = u'frogs/ab8.jpg'
+20.9823 	EXP 	Rightimg: pos = array([ 300.,    0.])
+20.9823 	EXP 	Rightimg: image = u'frogs/ab48.jpg'
+20.9823 	EXP 	Leftimg: autoDraw = True
+20.9823 	EXP 	Rightimg: autoDraw = True
+21.4497 	EXP 	Leftimg: autoDraw = False
+21.4497 	EXP 	Rightimg: autoDraw = False
+21.8509 	DATA 	Keypress: right
+21.8520 	EXP 	New trial (rep=0, index=14): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab69.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab29.jpg'}
+21.8824 	EXP 	Leftimg: autoDraw = False
+21.8824 	EXP 	Rightimg: autoDraw = False
+21.8824 	EXP 	text: autoDraw = False
+21.8824 	EXP 	Leftimg: pos = array([-300.,    0.])
+21.8824 	EXP 	Leftimg: image = u'frogs/ab29.jpg'
+21.8824 	EXP 	Rightimg: pos = array([ 300.,    0.])
+21.8824 	EXP 	Rightimg: image = u'frogs/ab69.jpg'
+21.8824 	EXP 	Leftimg: autoDraw = True
+21.8824 	EXP 	Rightimg: autoDraw = True
+22.3661 	EXP 	Leftimg: autoDraw = False
+22.3661 	EXP 	Rightimg: autoDraw = False
+22.7678 	DATA 	Keypress: left
+22.7689 	EXP 	New trial (rep=0, index=15): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab68.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab28.jpg'}
+22.7988 	EXP 	Leftimg: autoDraw = False
+22.7988 	EXP 	Rightimg: autoDraw = False
+22.7988 	EXP 	text: autoDraw = False
+22.7988 	EXP 	Leftimg: pos = array([-300.,    0.])
+22.7988 	EXP 	Leftimg: image = u'frogs/ab28.jpg'
+22.7988 	EXP 	Rightimg: pos = array([ 300.,    0.])
+22.7988 	EXP 	Rightimg: image = u'frogs/ab68.jpg'
+22.7988 	EXP 	Leftimg: autoDraw = True
+22.7988 	EXP 	Rightimg: autoDraw = True
+23.2830 	EXP 	Leftimg: autoDraw = False
+23.2830 	EXP 	Rightimg: autoDraw = False
+23.6177 	DATA 	Keypress: right
+23.6187 	EXP 	New trial (rep=0, index=16): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab77.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab37.jpg'}
+23.6657 	EXP 	Leftimg: autoDraw = False
+23.6657 	EXP 	Rightimg: autoDraw = False
+23.6657 	EXP 	text: autoDraw = False
+23.6657 	EXP 	Leftimg: pos = array([-300.,    0.])
+23.6657 	EXP 	Leftimg: image = u'frogs/ab37.jpg'
+23.6657 	EXP 	Rightimg: pos = array([ 300.,    0.])
+23.6657 	EXP 	Rightimg: image = u'frogs/ab77.jpg'
+23.6657 	EXP 	Leftimg: autoDraw = True
+23.6657 	EXP 	Rightimg: autoDraw = True
+24.1328 	EXP 	Leftimg: autoDraw = False
+24.1328 	EXP 	Rightimg: autoDraw = False
+24.7178 	DATA 	Keypress: left
+24.7189 	EXP 	New trial (rep=0, index=17): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab71.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab31.jpg'}
+24.7986 	EXP 	Leftimg: autoDraw = False
+24.7986 	EXP 	Rightimg: autoDraw = False
+24.7986 	EXP 	text: autoDraw = False
+24.7986 	EXP 	Leftimg: pos = array([-300.,    0.])
+24.7986 	EXP 	Leftimg: image = u'frogs/ab31.jpg'
+24.7986 	EXP 	Rightimg: pos = array([ 300.,    0.])
+24.7986 	EXP 	Rightimg: image = u'frogs/ab71.jpg'
+24.7986 	EXP 	Leftimg: autoDraw = True
+24.7986 	EXP 	Rightimg: autoDraw = True
+25.2329 	EXP 	Leftimg: autoDraw = False
+25.2329 	EXP 	Rightimg: autoDraw = False
+25.6189 	DATA 	Keypress: left
+25.6339 	EXP 	New trial (rep=0, index=18): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab41.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab1.jpg'}
+25.6487 	EXP 	Leftimg: autoDraw = False
+25.6487 	EXP 	Rightimg: autoDraw = False
+25.6487 	EXP 	text: autoDraw = False
+25.6487 	EXP 	Leftimg: pos = array([-300.,    0.])
+25.6487 	EXP 	Leftimg: image = u'frogs/ab1.jpg'
+25.6487 	EXP 	Rightimg: pos = array([ 300.,    0.])
+25.6487 	EXP 	Rightimg: image = u'frogs/ab41.jpg'
+25.6487 	EXP 	Leftimg: autoDraw = True
+25.6487 	EXP 	Rightimg: autoDraw = True
+26.1494 	EXP 	Leftimg: autoDraw = False
+26.1494 	EXP 	Rightimg: autoDraw = False
+27.0674 	DATA 	Keypress: right
+27.0684 	EXP 	New trial (rep=0, index=19): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab47.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab7.jpg'}
+27.4185 	EXP 	Leftimg: autoDraw = False
+27.4185 	EXP 	Rightimg: autoDraw = False
+27.4185 	EXP 	text: autoDraw = False
+27.4185 	EXP 	Leftimg: pos = array([-300.,    0.])
+27.4185 	EXP 	Leftimg: image = u'frogs/ab7.jpg'
+27.4185 	EXP 	Rightimg: pos = array([ 300.,    0.])
+27.4185 	EXP 	Rightimg: image = u'frogs/ab47.jpg'
+27.4185 	EXP 	Leftimg: autoDraw = True
+27.4185 	EXP 	Rightimg: autoDraw = True
+27.5826 	EXP 	Leftimg: autoDraw = False
+27.5826 	EXP 	Rightimg: autoDraw = False
+28.0687 	DATA 	Keypress: left
+28.0840 	EXP 	New trial (rep=0, index=20): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab74.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab34.jpg'}
+28.1829 	EXP 	Leftimg: autoDraw = False
+28.1829 	EXP 	Rightimg: autoDraw = False
+28.1829 	EXP 	text: autoDraw = False
+28.1829 	EXP 	Leftimg: pos = array([-300.,    0.])
+28.1829 	EXP 	Leftimg: image = u'frogs/ab34.jpg'
+28.1829 	EXP 	Rightimg: pos = array([ 300.,    0.])
+28.1829 	EXP 	Rightimg: image = u'frogs/ab74.jpg'
+28.1829 	EXP 	Leftimg: autoDraw = True
+28.1829 	EXP 	Rightimg: autoDraw = True
+28.5993 	EXP 	Leftimg: autoDraw = False
+28.5993 	EXP 	Rightimg: autoDraw = False
+29.3176 	DATA 	Keypress: left
+29.3187 	EXP 	New trial (rep=0, index=21): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab56.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab16.jpg'}
+29.5653 	EXP 	Leftimg: autoDraw = False
+29.5653 	EXP 	Rightimg: autoDraw = False
+29.5653 	EXP 	text: autoDraw = False
+29.5653 	EXP 	Leftimg: pos = array([-300.,    0.])
+29.5653 	EXP 	Leftimg: image = u'frogs/ab16.jpg'
+29.5653 	EXP 	Rightimg: pos = array([ 300.,    0.])
+29.5653 	EXP 	Rightimg: image = u'frogs/ab56.jpg'
+29.5653 	EXP 	Leftimg: autoDraw = True
+29.5653 	EXP 	Rightimg: autoDraw = True
+29.8327 	EXP 	Leftimg: autoDraw = False
+29.8327 	EXP 	Rightimg: autoDraw = False
+30.3676 	DATA 	Keypress: right
+30.3687 	EXP 	New trial (rep=0, index=22): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab53.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab13.jpg'}
+30.3991 	EXP 	Leftimg: autoDraw = False
+30.3991 	EXP 	Rightimg: autoDraw = False
+30.3991 	EXP 	text: autoDraw = False
+30.3991 	EXP 	Leftimg: pos = array([-300.,    0.])
+30.3991 	EXP 	Leftimg: image = u'frogs/ab13.jpg'
+30.3991 	EXP 	Rightimg: pos = array([ 300.,    0.])
+30.3991 	EXP 	Rightimg: image = u'frogs/ab53.jpg'
+30.3991 	EXP 	Leftimg: autoDraw = True
+30.3991 	EXP 	Rightimg: autoDraw = True
+30.8826 	EXP 	Leftimg: autoDraw = False
+30.8826 	EXP 	Rightimg: autoDraw = False
+31.3505 	DATA 	Keypress: left
+31.3516 	EXP 	New trial (rep=0, index=23): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'2.jpg', 'YRightPos': 0, 'leftimg': u'4.jpg'}
+31.3819 	EXP 	Leftimg: autoDraw = False
+31.3819 	EXP 	Rightimg: autoDraw = False
+31.3819 	EXP 	text: autoDraw = False
+31.3819 	EXP 	Leftimg: pos = array([-300.,    0.])
+31.3819 	EXP 	Leftimg: image = u'4.jpg'
+31.3819 	EXP 	Rightimg: pos = array([ 300.,    0.])
+31.3819 	EXP 	Rightimg: image = u'2.jpg'
+31.3819 	EXP 	Leftimg: autoDraw = True
+31.3819 	EXP 	Rightimg: autoDraw = True
+31.8658 	EXP 	Leftimg: autoDraw = False
+31.8658 	EXP 	Rightimg: autoDraw = False
+32.8007 	DATA 	Keypress: left
+32.8018 	EXP 	New trial (rep=0, index=24): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab46.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab6.jpg'}
+32.8659 	EXP 	Leftimg: autoDraw = False
+32.8659 	EXP 	Rightimg: autoDraw = False
+32.8659 	EXP 	text: autoDraw = False
+32.8659 	EXP 	Leftimg: pos = array([-300.,    0.])
+32.8659 	EXP 	Leftimg: image = u'frogs/ab6.jpg'
+32.8659 	EXP 	Rightimg: pos = array([ 300.,    0.])
+32.8659 	EXP 	Rightimg: image = u'frogs/ab46.jpg'
+32.8659 	EXP 	Leftimg: autoDraw = True
+32.8659 	EXP 	Rightimg: autoDraw = True
+33.3160 	EXP 	Leftimg: autoDraw = False
+33.3160 	EXP 	Rightimg: autoDraw = False
+33.8176 	DATA 	Keypress: left
+33.8187 	EXP 	New trial (rep=0, index=25): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab72.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab32.jpg'}
+33.8665 	EXP 	Leftimg: autoDraw = False
+33.8665 	EXP 	Rightimg: autoDraw = False
+33.8665 	EXP 	text: autoDraw = False
+33.8665 	EXP 	Leftimg: pos = array([-300.,    0.])
+33.8665 	EXP 	Leftimg: image = u'frogs/ab32.jpg'
+33.8665 	EXP 	Rightimg: pos = array([ 300.,    0.])
+33.8665 	EXP 	Rightimg: image = u'frogs/ab72.jpg'
+33.8665 	EXP 	Leftimg: autoDraw = True
+33.8665 	EXP 	Rightimg: autoDraw = True
+34.3325 	EXP 	Leftimg: autoDraw = False
+34.3325 	EXP 	Rightimg: autoDraw = False
+34.7171 	DATA 	Keypress: left
+34.7181 	EXP 	New trial (rep=0, index=26): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'4.jpg', 'YRightPos': 0, 'leftimg': u'2.jpg'}
+34.7497 	EXP 	Leftimg: autoDraw = False
+34.7497 	EXP 	Rightimg: autoDraw = False
+34.7497 	EXP 	text: autoDraw = False
+34.7497 	EXP 	Leftimg: pos = array([-300.,    0.])
+34.7497 	EXP 	Leftimg: image = u'2.jpg'
+34.7497 	EXP 	Rightimg: pos = array([ 300.,    0.])
+34.7497 	EXP 	Rightimg: image = u'4.jpg'
+34.7497 	EXP 	Leftimg: autoDraw = True
+34.7497 	EXP 	Rightimg: autoDraw = True
+35.2324 	EXP 	Leftimg: autoDraw = False
+35.2324 	EXP 	Rightimg: autoDraw = False
+35.9345 	DATA 	Keypress: right
+35.9354 	EXP 	New trial (rep=0, index=27): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'3.jpg', 'YRightPos': 0, 'leftimg': u'1.jpg'}
+35.9826 	EXP 	Leftimg: autoDraw = False
+35.9826 	EXP 	Rightimg: autoDraw = False
+35.9826 	EXP 	text: autoDraw = False
+35.9826 	EXP 	Leftimg: pos = array([-300.,    0.])
+35.9826 	EXP 	Leftimg: image = u'1.jpg'
+35.9826 	EXP 	Rightimg: pos = array([ 300.,    0.])
+35.9826 	EXP 	Rightimg: image = u'3.jpg'
+35.9826 	EXP 	Leftimg: autoDraw = True
+35.9826 	EXP 	Rightimg: autoDraw = True
+36.4487 	EXP 	Leftimg: autoDraw = False
+36.4487 	EXP 	Rightimg: autoDraw = False
+36.8176 	DATA 	Keypress: left
+36.8187 	EXP 	New trial (rep=0, index=28): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab42.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab2.jpg'}
+37.1319 	EXP 	Leftimg: autoDraw = False
+37.1319 	EXP 	Rightimg: autoDraw = False
+37.1319 	EXP 	text: autoDraw = False
+37.1319 	EXP 	Leftimg: pos = array([-300.,    0.])
+37.1319 	EXP 	Leftimg: image = u'frogs/ab2.jpg'
+37.1319 	EXP 	Rightimg: pos = array([ 300.,    0.])
+37.1319 	EXP 	Rightimg: image = u'frogs/ab42.jpg'
+37.1319 	EXP 	Leftimg: autoDraw = True
+37.1319 	EXP 	Rightimg: autoDraw = True
+37.3320 	EXP 	Leftimg: autoDraw = False
+37.3320 	EXP 	Rightimg: autoDraw = False
+37.9673 	DATA 	Keypress: right
+37.9683 	EXP 	New trial (rep=0, index=29): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab52.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab12.jpg'}
+37.9986 	EXP 	Leftimg: autoDraw = False
+37.9986 	EXP 	Rightimg: autoDraw = False
+37.9986 	EXP 	text: autoDraw = False
+37.9986 	EXP 	Leftimg: pos = array([-300.,    0.])
+37.9986 	EXP 	Leftimg: image = u'frogs/ab12.jpg'
+37.9986 	EXP 	Rightimg: pos = array([ 300.,    0.])
+37.9986 	EXP 	Rightimg: image = u'frogs/ab52.jpg'
+37.9986 	EXP 	Leftimg: autoDraw = True
+37.9986 	EXP 	Rightimg: autoDraw = True
+38.4826 	EXP 	Leftimg: autoDraw = False
+38.4826 	EXP 	Rightimg: autoDraw = False
+39.3509 	DATA 	Keypress: right
+39.3521 	EXP 	New trial (rep=0, index=30): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab60.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab20.jpg'}
+39.3657 	EXP 	Leftimg: autoDraw = False
+39.3657 	EXP 	Rightimg: autoDraw = False
+39.3657 	EXP 	text: autoDraw = False
+39.3657 	EXP 	Leftimg: pos = array([-300.,    0.])
+39.3657 	EXP 	Leftimg: image = u'frogs/ab20.jpg'
+39.3657 	EXP 	Rightimg: pos = array([ 300.,    0.])
+39.3657 	EXP 	Rightimg: image = u'frogs/ab60.jpg'
+39.3657 	EXP 	Leftimg: autoDraw = True
+39.3657 	EXP 	Rightimg: autoDraw = True
+39.8652 	EXP 	Leftimg: autoDraw = False
+39.8652 	EXP 	Rightimg: autoDraw = False
+40.2346 	DATA 	Keypress: left
+40.2501 	EXP 	New trial (rep=0, index=31): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab44.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab4.jpg'}
+40.2658 	EXP 	Leftimg: autoDraw = False
+40.2658 	EXP 	Rightimg: autoDraw = False
+40.2658 	EXP 	text: autoDraw = False
+40.2658 	EXP 	Leftimg: pos = array([-300.,    0.])
+40.2658 	EXP 	Leftimg: image = u'frogs/ab4.jpg'
+40.2658 	EXP 	Rightimg: pos = array([ 300.,    0.])
+40.2658 	EXP 	Rightimg: image = u'frogs/ab44.jpg'
+40.2658 	EXP 	Leftimg: autoDraw = True
+40.2658 	EXP 	Rightimg: autoDraw = True
+40.7659 	EXP 	Leftimg: autoDraw = False
+40.7659 	EXP 	Rightimg: autoDraw = False
+41.3504 	DATA 	Keypress: right
+41.3515 	EXP 	New trial (rep=0, index=32): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab61.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab21.jpg'}
+41.3817 	EXP 	Leftimg: autoDraw = False
+41.3817 	EXP 	Rightimg: autoDraw = False
+41.3817 	EXP 	text: autoDraw = False
+41.3817 	EXP 	Leftimg: pos = array([-300.,    0.])
+41.3817 	EXP 	Leftimg: image = u'frogs/ab21.jpg'
+41.3817 	EXP 	Rightimg: pos = array([ 300.,    0.])
+41.3817 	EXP 	Rightimg: image = u'frogs/ab61.jpg'
+41.3817 	EXP 	Leftimg: autoDraw = True
+41.3817 	EXP 	Rightimg: autoDraw = True
+41.8659 	EXP 	Leftimg: autoDraw = False
+41.8659 	EXP 	Rightimg: autoDraw = False
+42.5173 	DATA 	Keypress: right
+42.5184 	EXP 	New trial (rep=0, index=33): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'1.jpg', 'YRightPos': 0, 'leftimg': u'3.jpg'}
+42.5659 	EXP 	Leftimg: autoDraw = False
+42.5659 	EXP 	Rightimg: autoDraw = False
+42.5659 	EXP 	text: autoDraw = False
+42.5659 	EXP 	Leftimg: pos = array([-300.,    0.])
+42.5659 	EXP 	Leftimg: image = u'3.jpg'
+42.5659 	EXP 	Rightimg: pos = array([ 300.,    0.])
+42.5659 	EXP 	Rightimg: image = u'1.jpg'
+42.5659 	EXP 	Leftimg: autoDraw = True
+42.5659 	EXP 	Rightimg: autoDraw = True
+43.0325 	EXP 	Leftimg: autoDraw = False
+43.0325 	EXP 	Rightimg: autoDraw = False
+43.9008 	DATA 	Keypress: right
+43.9019 	EXP 	New trial (rep=0, index=34): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab75.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab35.jpg'}
+43.9325 	EXP 	Leftimg: autoDraw = False
+43.9325 	EXP 	Rightimg: autoDraw = False
+43.9325 	EXP 	text: autoDraw = False
+43.9325 	EXP 	Leftimg: pos = array([-300.,    0.])
+43.9325 	EXP 	Leftimg: image = u'frogs/ab35.jpg'
+43.9325 	EXP 	Rightimg: pos = array([ 300.,    0.])
+43.9325 	EXP 	Rightimg: image = u'frogs/ab75.jpg'
+43.9325 	EXP 	Leftimg: autoDraw = True
+43.9325 	EXP 	Rightimg: autoDraw = True
+44.4164 	EXP 	Leftimg: autoDraw = False
+44.4164 	EXP 	Rightimg: autoDraw = False
+44.9168 	DATA 	Keypress: right
+44.9181 	EXP 	New trial (rep=0, index=35): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab45.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab5.jpg'}
+44.9487 	EXP 	Leftimg: autoDraw = False
+44.9487 	EXP 	Rightimg: autoDraw = False
+44.9487 	EXP 	text: autoDraw = False
+44.9487 	EXP 	Leftimg: pos = array([-300.,    0.])
+44.9487 	EXP 	Leftimg: image = u'frogs/ab5.jpg'
+44.9487 	EXP 	Rightimg: pos = array([ 300.,    0.])
+44.9487 	EXP 	Rightimg: image = u'frogs/ab45.jpg'
+44.9487 	EXP 	Leftimg: autoDraw = True
+44.9487 	EXP 	Rightimg: autoDraw = True
+45.4325 	EXP 	Leftimg: autoDraw = False
+45.4325 	EXP 	Rightimg: autoDraw = False
+45.5836 	DATA 	Keypress: left
+45.5845 	EXP 	New trial (rep=0, index=36): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab49.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab9.jpg'}
+45.7828 	EXP 	Leftimg: autoDraw = False
+45.7828 	EXP 	Rightimg: autoDraw = False
+45.7828 	EXP 	text: autoDraw = False
+45.7828 	EXP 	Leftimg: pos = array([-300.,    0.])
+45.7828 	EXP 	Leftimg: image = u'frogs/ab9.jpg'
+45.7828 	EXP 	Rightimg: pos = array([ 300.,    0.])
+45.7828 	EXP 	Rightimg: image = u'frogs/ab49.jpg'
+45.7828 	EXP 	Leftimg: autoDraw = True
+45.7828 	EXP 	Rightimg: autoDraw = True
+46.0991 	EXP 	Leftimg: autoDraw = False
+46.0991 	EXP 	Rightimg: autoDraw = False
+46.5844 	DATA 	Keypress: left
+46.5856 	EXP 	New trial (rep=0, index=37): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab58.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab18.jpg'}
+46.7319 	EXP 	Leftimg: autoDraw = False
+46.7319 	EXP 	Rightimg: autoDraw = False
+46.7319 	EXP 	text: autoDraw = False
+46.7319 	EXP 	Leftimg: pos = array([-300.,    0.])
+46.7319 	EXP 	Leftimg: image = u'frogs/ab18.jpg'
+46.7319 	EXP 	Rightimg: pos = array([ 300.,    0.])
+46.7319 	EXP 	Rightimg: image = u'frogs/ab58.jpg'
+46.7319 	EXP 	Leftimg: autoDraw = True
+46.7319 	EXP 	Rightimg: autoDraw = True
+47.0991 	EXP 	Leftimg: autoDraw = False
+47.0991 	EXP 	Rightimg: autoDraw = False
+47.4671 	DATA 	Keypress: right
+47.4681 	EXP 	New trial (rep=0, index=38): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab51.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab11.jpg'}
+47.5317 	EXP 	Leftimg: autoDraw = False
+47.5317 	EXP 	Rightimg: autoDraw = False
+47.5317 	EXP 	text: autoDraw = False
+47.5317 	EXP 	Leftimg: pos = array([-300.,    0.])
+47.5317 	EXP 	Leftimg: image = u'frogs/ab11.jpg'
+47.5317 	EXP 	Rightimg: pos = array([ 300.,    0.])
+47.5317 	EXP 	Rightimg: image = u'frogs/ab51.jpg'
+47.5317 	EXP 	Leftimg: autoDraw = True
+47.5317 	EXP 	Rightimg: autoDraw = True
+47.9824 	EXP 	Leftimg: autoDraw = False
+47.9824 	EXP 	Rightimg: autoDraw = False
+48.1663 	DATA 	Keypress: left
+48.1674 	EXP 	New trial (rep=0, index=39): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab78.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab38.jpg'}
+48.1981 	EXP 	Leftimg: autoDraw = False
+48.1981 	EXP 	Rightimg: autoDraw = False
+48.1981 	EXP 	text: autoDraw = False
+48.1981 	EXP 	Leftimg: pos = array([-300.,    0.])
+48.1981 	EXP 	Leftimg: image = u'frogs/ab38.jpg'
+48.1981 	EXP 	Rightimg: pos = array([ 300.,    0.])
+48.1981 	EXP 	Rightimg: image = u'frogs/ab78.jpg'
+48.1981 	EXP 	Leftimg: autoDraw = True
+48.1981 	EXP 	Rightimg: autoDraw = True
+48.6824 	EXP 	Leftimg: autoDraw = False
+48.6824 	EXP 	Rightimg: autoDraw = False
+48.9009 	DATA 	Keypress: left
+48.9020 	EXP 	New trial (rep=0, index=40): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab79.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab39.jpg'}
+48.9316 	EXP 	Leftimg: autoDraw = False
+48.9316 	EXP 	Rightimg: autoDraw = False
+48.9316 	EXP 	text: autoDraw = False
+48.9316 	EXP 	Leftimg: pos = array([-300.,    0.])
+48.9316 	EXP 	Leftimg: image = u'frogs/ab39.jpg'
+48.9316 	EXP 	Rightimg: pos = array([ 300.,    0.])
+48.9316 	EXP 	Rightimg: image = u'frogs/ab79.jpg'
+48.9316 	EXP 	Leftimg: autoDraw = True
+48.9316 	EXP 	Rightimg: autoDraw = True
+49.4157 	EXP 	Leftimg: autoDraw = False
+49.4157 	EXP 	Rightimg: autoDraw = False
+49.5503 	DATA 	Keypress: left
+49.5514 	EXP 	New trial (rep=0, index=41): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab80.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab40.jpg'}
+49.5824 	EXP 	Leftimg: autoDraw = False
+49.5824 	EXP 	Rightimg: autoDraw = False
+49.5824 	EXP 	text: autoDraw = False
+49.5824 	EXP 	Leftimg: pos = array([-300.,    0.])
+49.5824 	EXP 	Leftimg: image = u'frogs/ab40.jpg'
+49.5824 	EXP 	Rightimg: pos = array([ 300.,    0.])
+49.5824 	EXP 	Rightimg: image = u'frogs/ab80.jpg'
+49.5824 	EXP 	Leftimg: autoDraw = True
+49.5824 	EXP 	Rightimg: autoDraw = True
+50.0655 	EXP 	Leftimg: autoDraw = False
+50.0655 	EXP 	Rightimg: autoDraw = False
+51.4849 	DATA 	Keypress: right
+51.5003 	EXP 	New trial (rep=0, index=42): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab76.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab36.jpg'}
+51.5492 	EXP 	Leftimg: autoDraw = False
+51.5492 	EXP 	Rightimg: autoDraw = False
+51.5492 	EXP 	text: autoDraw = False
+51.5492 	EXP 	Leftimg: pos = array([-300.,    0.])
+51.5492 	EXP 	Leftimg: image = u'frogs/ab36.jpg'
+51.5492 	EXP 	Rightimg: pos = array([ 300.,    0.])
+51.5492 	EXP 	Rightimg: image = u'frogs/ab76.jpg'
+51.5492 	EXP 	Leftimg: autoDraw = True
+51.5492 	EXP 	Rightimg: autoDraw = True
+52.0157 	EXP 	Leftimg: autoDraw = False
+52.0157 	EXP 	Rightimg: autoDraw = False
+52.3509 	DATA 	Keypress: left
+52.3520 	EXP 	New trial (rep=0, index=43): {'YLeftPos': 0, 'time_presentation': 0.5, 'XLeftPos': -300, 'XRightPos': 300, 'rightimg': u'frogs/ab55.jpg', 'YRightPos': 0, 'leftimg': u'frogs/ab15.jpg'}
+52.4314 	EXP 	Leftimg: autoDraw = False
+52.4314 	EXP 	Rightimg: autoDraw = False
+52.4314 	EXP 	text: autoDraw = False
+52.4314 	EXP 	Leftimg: pos = array([-300.,    0.])
+52.4314 	EXP 	Leftimg: image = u'frogs/ab15.jpg'
+52.4314 	EXP 	Rightimg: pos = array([ 300.,    0.])
+52.4314 	EXP 	Rightimg: image = u'frogs/ab55.jpg'
+52.4314 	EXP 	Leftimg: autoDraw = True
+52.4314 	EXP 	Rightimg: autoDraw = True
+52.8657 	EXP 	Leftimg: autoDraw = False
+52.8657 	EXP 	Rightimg: autoDraw = False
+53.1834 	DATA 	Keypress: left
+53.2427 	EXP 	window1: blendMode = 'avg'
+53.2484 	EXP 	Leftimg: autoDraw = False
+53.2484 	EXP 	Rightimg: autoDraw = False
+53.2484 	EXP 	text: autoDraw = False
+53.2484 	EXP 	text_3: autoDraw = True
+53.2493 	EXP 	window1: blendMode = 'avg'
+53.2674 	EXP 	window1: blendMode = 'avg'
+53.2834 	EXP 	window1: blendMode = 'avg'
+53.3000 	EXP 	window1: blendMode = 'avg'
+53.3166 	EXP 	window1: blendMode = 'avg'
+53.3334 	EXP 	window1: blendMode = 'avg'
+53.3500 	EXP 	window1: blendMode = 'avg'
+53.3668 	EXP 	window1: blendMode = 'avg'
+53.3834 	EXP 	window1: blendMode = 'avg'
+53.4003 	EXP 	window1: blendMode = 'avg'
+53.4165 	EXP 	window1: blendMode = 'avg'
+53.4334 	EXP 	window1: blendMode = 'avg'
+53.4501 	EXP 	window1: blendMode = 'avg'
+53.4667 	EXP 	window1: blendMode = 'avg'
+53.4834 	EXP 	window1: blendMode = 'avg'
+53.5001 	EXP 	window1: blendMode = 'avg'
+53.5168 	EXP 	window1: blendMode = 'avg'
+53.5333 	EXP 	window1: blendMode = 'avg'
+53.5496 	EXP 	window1: blendMode = 'avg'
+53.5665 	EXP 	window1: blendMode = 'avg'
+53.5833 	EXP 	window1: blendMode = 'avg'
+53.6001 	EXP 	window1: blendMode = 'avg'
+53.6170 	EXP 	window1: blendMode = 'avg'
+53.6332 	EXP 	window1: blendMode = 'avg'
+53.6500 	EXP 	window1: blendMode = 'avg'
+53.6668 	EXP 	window1: blendMode = 'avg'
+53.6833 	EXP 	window1: blendMode = 'avg'
+53.6995 	EXP 	window1: blendMode = 'avg'
+53.7152 	EXP 	window1: blendMode = 'avg'
+53.7333 	EXP 	window1: blendMode = 'avg'
+53.7501 	EXP 	window1: blendMode = 'avg'
+53.7662 	EXP 	window1: blendMode = 'avg'
+53.7832 	EXP 	window1: blendMode = 'avg'
+53.8000 	EXP 	window1: blendMode = 'avg'
+53.8168 	EXP 	window1: blendMode = 'avg'
+53.8334 	EXP 	window1: blendMode = 'avg'
+53.8501 	EXP 	window1: blendMode = 'avg'
+53.8667 	EXP 	window1: blendMode = 'avg'
+53.8834 	EXP 	window1: blendMode = 'avg'
+53.9001 	EXP 	window1: blendMode = 'avg'
+53.9157 	EXP 	window1: blendMode = 'avg'
+53.9335 	EXP 	window1: blendMode = 'avg'
+53.9500 	EXP 	window1: blendMode = 'avg'
+53.9668 	EXP 	window1: blendMode = 'avg'
+53.9833 	EXP 	window1: blendMode = 'avg'
+54.0001 	EXP 	window1: blendMode = 'avg'
+54.0167 	EXP 	window1: blendMode = 'avg'
+54.0335 	EXP 	window1: blendMode = 'avg'
+54.0500 	EXP 	window1: blendMode = 'avg'
+54.0668 	EXP 	window1: blendMode = 'avg'
+54.0834 	EXP 	window1: blendMode = 'avg'
+54.1001 	EXP 	window1: blendMode = 'avg'
+54.1167 	EXP 	window1: blendMode = 'avg'
+54.1335 	EXP 	window1: blendMode = 'avg'
+54.1502 	EXP 	window1: blendMode = 'avg'
+54.1663 	EXP 	window1: blendMode = 'avg'
+54.1835 	EXP 	window1: blendMode = 'avg'
+54.1998 	EXP 	window1: blendMode = 'avg'
+54.2165 	EXP 	window1: blendMode = 'avg'
+54.2332 	EXP 	window1: blendMode = 'avg'
+54.2501 	EXP 	window1: blendMode = 'avg'
+54.2668 	EXP 	window1: blendMode = 'avg'
+54.2835 	EXP 	window1: blendMode = 'avg'
+54.3000 	EXP 	window1: blendMode = 'avg'
+54.3161 	EXP 	window1: blendMode = 'avg'
+54.3330 	EXP 	window1: blendMode = 'avg'
+54.3499 	EXP 	window1: blendMode = 'avg'
+54.3668 	EXP 	window1: blendMode = 'avg'
+54.3833 	EXP 	window1: blendMode = 'avg'
+54.4000 	EXP 	window1: blendMode = 'avg'
+54.4167 	EXP 	window1: blendMode = 'avg'
+54.4332 	EXP 	window1: blendMode = 'avg'
+54.4501 	EXP 	window1: blendMode = 'avg'
+54.4666 	EXP 	window1: blendMode = 'avg'
+54.4834 	EXP 	window1: blendMode = 'avg'
+54.5001 	EXP 	window1: blendMode = 'avg'
+54.5166 	EXP 	window1: blendMode = 'avg'
+54.5334 	EXP 	window1: blendMode = 'avg'
+54.5500 	EXP 	window1: blendMode = 'avg'
+54.5668 	EXP 	window1: blendMode = 'avg'
+54.5834 	EXP 	window1: blendMode = 'avg'
+54.6001 	EXP 	window1: blendMode = 'avg'
+54.6165 	EXP 	window1: blendMode = 'avg'
+54.6332 	EXP 	window1: blendMode = 'avg'
+54.6501 	EXP 	window1: blendMode = 'avg'
+54.6666 	EXP 	window1: blendMode = 'avg'
+54.6840 	DATA 	Keypress: escape
+54.7769 	EXP 	window1: mouseVisible = True

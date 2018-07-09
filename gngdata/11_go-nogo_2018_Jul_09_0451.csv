@@ -1,0 +1,5 @@
+pix,source,image1,x,y,size,answer,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_3.keys,key_resp_3.rt,key_resp_2.keys,key_resp_2.corr,key_resp_2.rt,date,frameRate,expName,session,participant,
+logos/3.jpg,properties3.xlsx,frogs/ab40.jpg,0,0,400,l,0,0,0,2,0,0,0,39,space,19.9901147081,['l'],0,[3.083357839801465],2018_Jul_09_0451,60.0168997165,go-nogo,001,11,
+logos/3.jpg,properties3.xlsx,frogs/ab3.jpg,0,0,400,l,0,0,0,2,0,1,1,2,,,['l'],0,[61.63057470085187],2018_Jul_09_0451,60.0168997165,go-nogo,001,11,
+logos/3.jpg,properties3.xlsx,frogs/ab21.jpg,0,0,400,l,0,0,0,2,0,2,2,20,,,['l'],0,[6.065535129775526],2018_Jul_09_0451,60.0168997165,go-nogo,001,11,
+logos/3.jpg,properties3.xlsx,frogs/ab12.jpg,0,0,400,l,0,0,0,2,0,3,3,11,,,['a'],0,[0.4511695051769493],2018_Jul_09_0451,60.0168997165,go-nogo,001,11,
