@@ -32,11 +32,7 @@ def correct_answer(csv, x):
         results[l]["correct_ans"] += 1
     else:
         results[l]["wrong_ans"] += 1
-
     results[l]["key_response"] += float(csv["key_resp_2.rt"][x][1:17])
-
-
-
 
 
 for filename in os.listdir(directory):
@@ -50,10 +46,10 @@ for filename in os.listdir(directory):
             if s[x] in logos:
                 correct_answer(csv,x)
 
-    else:
-        pass
+
 for l in logos:
     results[l]["key_response"] /= (num_files*40)
+
 
 with open('result.json', 'w') as fp:
     json.dump(results, fp)
